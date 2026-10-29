@@ -5,8 +5,16 @@
       "url": "downloads/BoralancesOS-V1-VirtualBox-Kit.zip",
       "ready": true,
       "id": "virtualbox",
-      "bytes": 5319,
-      "sha256": "bc42cc413debc1af38040d139d43ad042848beb41c9a738bc2dc7db772036c59"
+      "bytes": 5371,
+      "sha256": "78bd2129e512d1c19e9712bbb7d010f9bf2f8b4bd43019de553b3f7cf0fea472",
+      "parts": [
+        {
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-VirtualBox-Kit.zip",
+          "bytes": 5371,
+          "name": "BoralancesOS-V1-VirtualBox-Kit.zip",
+          "sha256": "78bd2129e512d1c19e9712bbb7d010f9bf2f8b4bd43019de553b3f7cf0fea472"
+        }
+      ]
     }
   ],
   "published": false,

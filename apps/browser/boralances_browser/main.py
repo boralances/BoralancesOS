@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 import sys
-import re
+import json
 import shutil
 import ipaddress
 from .tor_policy import chromium_flags, TOR_HOST, TOR_PORT
@@ -39,13 +39,15 @@ WINDOWS = []
 
 
 class TorRequestPolicy(QWebEngineUrlRequestInterceptor):
+    ready = False
+
     def interceptRequest(self, info):
         url=info.requestUrl()
         if url.scheme() in ('http','https'):
             host=url.host().lower()
             try: local=not ipaddress.ip_address(host).is_global
             except ValueError: local=host=='localhost' or host.endswith(('.localhost','.local'))
-            if local: info.block(True)
+            if local or not self.ready: info.block(True)
 
 
 class Page(QWebEnginePage):
@@ -182,10 +184,13 @@ class Browser(QMainWindow):
             self.tor_badge=QLabel('Tor · Connecting…')
             self.tor_badge.setStyleSheet('color:#d2b9ff;padding:3px 10px;')
             self.statusBar().addPermanentWidget(self.tor_badge)
+            self.tor_retry=QToolButton(); self.tor_retry.setText('Reconnect Tor')
+            self.tor_retry.clicked.connect(self.reconnect_tor)
+            self.statusBar().addPermanentWidget(self.tor_retry)
             self.address.setEnabled(False)
             self.tor_process=QProcess(self)
             self.tor_process.finished.connect(self.tor_service_started)
-            self.tor_process.errorOccurred.connect(lambda _error:self.tor_badge.setText('Tor unavailable · network blocked'))
+            self.tor_process.errorOccurred.connect(lambda _error:self.tor_badge.setText('Tor unavailable · use Reconnect Tor'))
             self.tor_poll=QProcess(self); self.tor_poll.finished.connect(self.tor_progress)
             self.tor_timer=QTimer(self); self.tor_timer.timeout.connect(self.poll_tor)
             self.tor_process.start('systemctl',['--user','start','boralances-tor.service'])
@@ -252,6 +257,9 @@ class Browser(QMainWindow):
     def go(self):
         url = navigate(self.address.text())
         if url:
+            if TOR_MODE and not self.tor_ready:
+                self.tor_pending=url
+                return
             self.view().setUrl(QUrl(url))
             self.view().setFocus()
 
@@ -266,22 +274,35 @@ class Browser(QMainWindow):
 
     def tor_service_started(self,code,_status):
         if code:
-            self.tor_badge.setText('Tor unavailable · network blocked')
+            self.tor_badge.setText('Tor unavailable · use Reconnect Tor')
             return
         self.tor_timer.start(1800); self.poll_tor()
 
+    def reconnect_tor(self):
+        if self.tor_process.state()!=QProcess.ProcessState.NotRunning: return
+        self.tor_ready=False; self.tor_policy.ready=False; self.address.setEnabled(False)
+        for index in range(self.tabs.count()):self.tabs.widget(index).stop()
+        self.tor_badge.setText('Tor · Reconnecting…')
+        self.tor_process.start('systemctl',['--user','restart','boralances-tor.service'])
+
     def poll_tor(self):
         if self.tor_poll.state()!=QProcess.ProcessState.NotRunning: return
-        self.tor_poll.start('journalctl',['--user','-b','-u','boralances-tor.service','-n','80','-o','cat','--no-pager'])
+        self.tor_poll.start(sys.executable,['-m','boralances_browser.tor_status'])
 
     def tor_progress(self,code,_status):
         text=bytes(self.tor_poll.readAllStandardOutput()).decode(errors='replace')
-        progress=re.findall(r'Bootstrapped (\d+)%',text)
-        percent=int(progress[-1]) if progress else 0
-        self.tor_badge.setText(f'Tor · Connecting {percent}%' if percent<100 else 'Tor · Connected')
-        if code==0 and percent==100:
-            self.tor_ready=True; self.tor_timer.stop(); self.address.setEnabled(True)
-            self.view().setUrl(QUrl(navigate(self.tor_pending or 'https://check.torproject.org/')))
+        try:report=json.loads(text)
+        except ValueError:report={}
+        was_ready=self.tor_ready
+        self.tor_ready=code==0 and report.get('ready') is True
+        self.tor_policy.ready=self.tor_ready; self.address.setEnabled(self.tor_ready)
+        self.tor_badge.setText('Tor · '+str(report.get('message','Not connected · use Reconnect Tor')))
+        self.tor_timer.setInterval(8000 if self.tor_ready else 2000)
+        if self.tor_ready and not was_ready:
+            current=self.view().url()
+            target=self.tor_pending or (current.toString() if current.scheme() in ('https','http') else 'https://check.torproject.org/')
+            self.tor_pending=None
+            self.view().setUrl(QUrl(navigate(target)))
 
     def bookmark(self):
         if self.private:

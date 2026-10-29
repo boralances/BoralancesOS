@@ -21,7 +21,7 @@ $registered=$true
 try {
   $machine=Join-Path $build $name;$disk=Join-Path $machine 'BoralancesOS-V1-Blank.vdi'
   [void](Invoke-VBox -Arguments @('createmedium','disk','--filename',$disk,'--size','40960','--format','VDI','--variant','Standard'))
-  [void](Invoke-VBox -Arguments @('modifyvm',$name,'--memory','4096','--cpus','2','--firmware','efi','--paravirt-provider','kvm','--hpet','off','--graphicscontroller','vmsvga','--vram','128','--accelerate-3d','on','--boot1','disk','--boot2','dvd','--boot3','none','--boot4','none','--audio-enabled','on','--audio-driver','default','--audio-controller','hda','--audio-out','on','--audio-in','off','--nic1','nat','--clipboard-mode','bidirectional','--drag-and-drop','disabled','--description','BoralancesOS V1 install kit. Blank 40 GiB disk. Attach the V1 ISO and choose your own account during installation.'))
+  [void](Invoke-VBox -Arguments @('modifyvm',$name,'--memory','4096','--cpus','2','--firmware','efi','--paravirt-provider','kvm','--hpet','off','--graphicscontroller','vmsvga','--vram','128','--accelerate-3d','on','--boot1','disk','--boot2','dvd','--boot3','none','--boot4','none','--audio-enabled','on','--audio-driver','default','--audio-controller','hda','--audio-out','on','--audio-in','on','--usb-xhci','on','--nic1','nat','--clipboard-mode','bidirectional','--drag-and-drop','disabled','--description','BoralancesOS V1 install kit. Blank 40 GiB disk. Attach the V1 ISO and choose your own account during installation.'))
   [void](Invoke-VBox -Arguments @('setextradata',$name,'VBoxInternal2/EfiGraphicsResolution','1280x800'))
   [void](Invoke-VBox -Arguments @('setextradata',$name,'GUI/LastGuestSizeHint','1280,800'))
   [void](Invoke-VBox -Arguments @('setextradata',$name,'GUI/AutoresizeGuest','false'))

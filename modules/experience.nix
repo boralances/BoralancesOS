@@ -39,7 +39,9 @@
       directory="''${XDG_STATE_HOME:-$HOME/.local/state}/boralances-tor"
       mkdir -p "$directory"
       chmod 700 "$directory"
-      exec tor --DataDirectory "$directory" --SocksPort 127.0.0.1:9050 --ClientOnly 1 --Log "notice stdout"
+      exec tor --DataDirectory "$directory" --SocksPort 127.0.0.1:9050 --ClientOnly 1 \
+        --ControlSocket "$directory/control" --CookieAuthentication 1 \
+        --CookieAuthFile "$directory/control.authcookie" --Log "notice stdout"
     '';
   };
 in {

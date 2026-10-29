@@ -220,6 +220,10 @@ class SettingsPages:
         self.row(page, 'Accent color', 'Window borders and active workspace indicators.', self.combo('accent', [('Ocean blue', 'blue'), ('Lilac', 'purple'), ('Mint', 'mint'), ('Apricot', 'orange')], 'blue'))
         self.row(page, 'Wallpaper', 'Original BoralancesOS artwork. No animated background process.', self.combo('wallpaper', [('Coast', 'coast'), ('Dusk', 'dusk'), ('Graphite', 'graphite'), ('Aurora', 'aurora')], 'coast'))
         self.row(page, 'Desktop effects', 'Fluid animates windows without expensive background blur.', self.combo('profile', [('Fluid (recommended for VM)', 'fluid'), ('Performance', 'performance'), ('Balanced', 'balanced'), ('Liquid Glass', 'glass'), ('Reduce motion', 'reduced-motion')], 'fluid'))
+        self.row(page,'Glass surface opacity','Controls translucent Boralances panels in Liquid Glass mode.',self.combo('glass-opacity',[(f'{n}%',str(n)) for n in (45,55,68,75,85,95)],'68'))
+        self.row(page,'App window opacity','Applies to app windows in Liquid Glass mode. Choose 100% for solid app content.',self.combo('window-opacity',[(f'{n}%',str(n)) for n in (85,90,94,97,100)],'94'))
+        self.row(page,'Corner radius','Window and shell corner shape.',self.combo('corner-radius',[(f'{n} px',str(n)) for n in (8,12,16,20,24,28)],'24'))
+        self.row(page,'Motion strength','Animation style for Liquid Glass. Optimization and Reduce Motion disable it.',self.combo('motion-intensity',[('Subtle','subtle'),('Smooth','normal'),('Expressive','expressive')],'normal'))
         page.addStretch()
 
     def dock_page(self):
@@ -227,6 +231,7 @@ class SettingsPages:
         self.row(page, 'Automatically hide the dock', 'Off by default so navigation stays visible.', self.switch('dock-autohide'))
         self.row(page, 'Position on screen', 'A permanent dock reserves space for your windows.', self.combo('dock-position', [('Bottom', 'bottom'), ('Left', 'left'), ('Right', 'right')], 'bottom'))
         self.row(page, 'Icon size', 'Choose comfortable targets for your screen.', self.combo('dock-size', [(f'{n} px', str(n)) for n in (32, 40, 48, 56, 64)], '48'))
+        self.row(page,'Dock magnification','Icons lift and grow around the pointer in Liquid Glass mode.',self.switch('dock-magnification',True))
         self.row(page, 'Show resource meters', 'Keep the menu bar calm, or show CPU and RAM.', self.switch('menu-details'))
         self.row(page, 'Menu bar size', 'A compact strip or larger click targets.', self.combo('menu-size',[('Compact','compact'),('Normal','normal'),('Large','large')],'normal'))
         self.row(page, 'Clock', 'Date and time in the menu bar.', self.combo('clock-format', [('24-hour', '24h'), ('12-hour', '12h')], '24h'))
@@ -270,7 +275,7 @@ class SettingsPages:
 
     def performance_page(self):
         page = self.page('Gaming & Performance', 'Use fewer effects when responsiveness matters most.', 'boralances-launcher')
-        self.row(page,'Startup mode','Optimization starts with fewer effects. Choose a richer desktop or remember your last mode.',self.combo('startup-profile',[('Optimization','performance'),('Fluid','fluid'),('Balanced','balanced'),('Liquid Glass','glass'),('Remember last mode','last-used')],'performance'))
+        self.row(page,'Startup mode','Remember your selected theme, or explicitly choose a fixed startup mode.',self.combo('startup-profile',[('Remember last mode','last-used'),('Optimization','performance'),('Fluid','fluid'),('Balanced','balanced'),('Liquid Glass','glass')],'last-used'))
         self.stats = self.label('Reading system memory…', layout=page)
         self.row(page, 'Desktop profile', 'Fluid keeps window animations light in VirtualBox.', self.combo('profile', [('Fluid (recommended for VM)', 'fluid'), ('Performance', 'performance'), ('Balanced', 'balanced'), ('Liquid Glass', 'glass'), ('Reduce motion', 'reduced-motion')], 'fluid'))
         self.row(page, 'Activity monitor', 'Processes, CPU, memory and storage activity.', self.action('Open monitor', 'boralances-terminal', '-e', 'btop'))

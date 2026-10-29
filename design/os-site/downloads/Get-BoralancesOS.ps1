@@ -39,7 +39,7 @@ function Get-BytesHash([byte[]]$Bytes) {
 try {
   if(!$ManifestUri){
     $local=Join-Path $PSScriptRoot 'boralancesos-v1.json'
-    $ManifestUri=if(Test-Path -LiteralPath $local){$local}else{'https://github.com/boralances/web1/releases/download/boralancesos-v1/boralancesos-v1.json'}
+    $ManifestUri=if(Test-Path -LiteralPath $local){$local}else{'https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/boralancesos-v1.json'}
   }
   $base=$null
   if($ManifestUri -match '^https?://'){$manifestText=[Text.Encoding]::UTF8.GetString((Read-Remote $ManifestUri 2000000))}

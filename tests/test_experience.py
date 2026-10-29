@@ -24,7 +24,7 @@ class TorPolicyTests(unittest.TestCase):
         self.assertIn('--proxy-server=socks5://127.0.0.1:9050',flags)
         self.assertNotIn('--no-proxy-server',flags)
         self.assertNotIn('--proxy-bypass-list=*',flags)
-        self.assertIn('--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE localhost',flags)
+        self.assertIn('--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE 127.0.0.1',flags)
         self.assertIn('--force-webrtc-ip-handling-policy=disable_non_proxied_udp',flags)
         self.assertNotIn('--no-sandbox',flags)
 

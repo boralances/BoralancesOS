@@ -47,6 +47,7 @@
       brightnessctl wireplumber wl-clipboard grim slurp swappy util-linux glib
       systemd nwg-dock-hyprland waybar swaybg dunst hypridle ];
     text = ''
+      export PYTHONPATH=${../apps/companions}:"''${PYTHONPATH:-}"
       export GSETTINGS_SCHEMA_DIR="${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}/glib-2.0/schemas"
       exec python3 ${../scripts/control.py} "$@"
     '';

@@ -7,7 +7,7 @@ import subprocess
 
 from account_setup import validate_account
 from disk_setup import list_blank_disks
-from PySide6.QtCore import Qt, QProcess, QSize, QTimer
+from PySide6.QtCore import Qt, QProcess, QSize, QTimer, QFileSystemWatcher
 from PySide6.QtGui import QIcon, QPixmap
 from PySide6.QtWidgets import (QCheckBox, QComboBox, QFrame, QGridLayout, QHBoxLayout,
     QLabel, QLineEdit, QMainWindow, QMessageBox, QProgressBar, QPushButton,
@@ -118,6 +118,20 @@ class GlassWindow(QMainWindow):
         # Qt interprets eight-digit hex as ARGB, while our design tokens are RGBA.
         style = re.sub(r'#([0-9a-fA-F]{8})\b', lambda m: 'rgba(' + ','.join(str(int(m[1][i:i+2],16)) for i in (0,2,4,6)) + ')', style)
         self.setStyleSheet(style)
+        self._surface_override=''
+        self.surface_watcher=QFileSystemWatcher(self)
+        if CONFIG.exists():self.surface_watcher.addPath(str(CONFIG))
+        self.surface_watcher.directoryChanged.connect(self.refresh_surface)
+        self.refresh_surface()
+
+    def refresh_surface(self,*_):
+        from appearance import surface
+        try:state=json.loads((CONFIG/'state.json').read_text())
+        except (OSError,ValueError):state={}
+        tokens=surface(state)
+        override=f'QFrame#surface{{background:rgba({tokens["rgb"]},{tokens["alpha"]});border-radius:{tokens["radius"]}px;}}'
+        current=self.styleSheet().replace(self._surface_override,'') if self._surface_override else self.styleSheet()
+        self._surface_override=override;self.setStyleSheet(current+override)
 
     def label(self, text, kind='muted', layout=None):
         label = QLabel(text)

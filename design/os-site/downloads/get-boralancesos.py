@@ -11,7 +11,7 @@ import sys
 import urllib.parse
 import urllib.request
 
-DEFAULT_MANIFEST='https://github.com/boralances/web1/releases/download/boralancesos-v1/boralancesos-v1.json'
+DEFAULT_MANIFEST='https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/boralancesos-v1.json'
 MAX_PART=25_000_000
 
 def filename(value):

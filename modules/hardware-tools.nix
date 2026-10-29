@@ -1,4 +1,6 @@
 { pkgs, ... }: let
+  # nvtop uses NVML headers; the complete CUDA SDK is unnecessary for monitoring.
+  gpuMonitor = pkgs.nvtopPackages.full.override { cudatoolkit = pkgs.cudaPackages.cuda_nvml_dev; };
   disks = pkgs.writeShellScriptBin "boralances-disks" ''
     if [ "$(${pkgs.systemd}/bin/systemd-detect-virt)" = oracle ]; then
       export GSK_RENDERER="''${GSK_RENDERER:-cairo}"
@@ -9,11 +11,11 @@
     if [ "$(${pkgs.systemd}/bin/systemd-detect-virt)" = oracle ]; then
       exec /run/current-system/sw/bin/boralances-task-manager "$@"
     fi
-    exec /run/current-system/sw/bin/boralances-terminal -e ${pkgs.nvtopPackages.full}/bin/nvtop "$@"
+    exec /run/current-system/sw/bin/boralances-terminal -e ${gpuMonitor}/bin/nvtop "$@"
   '';
 in {
   services.udisks2.enable = true;
-  environment.systemPackages = [ disks monitor pkgs.nvtopPackages.full pkgs.vulkan-tools pkgs.mesa-demos ]
+  environment.systemPackages = [ disks monitor gpuMonitor pkgs.vulkan-tools pkgs.mesa-demos ]
     ++ (map (item: pkgs.makeDesktopItem {
       name = "boralances-" + item.name; desktopName = item.title;
       exec = "boralances-" + item.name; icon = "boralances-" + item.icon;

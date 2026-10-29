@@ -1,5 +1,6 @@
 """Desktop-entry discovery and pin persistence, without parsing shell commands."""
 import configparser
+import json
 import os
 from pathlib import Path
 import tempfile
@@ -19,12 +20,27 @@ def applications(directories=None):
                 entry.read(path,encoding='utf-8'); item=entry['Desktop Entry']
                 if item.get('Type')!='Application' or item.get('NoDisplay','false').lower()=='true' or item.get('Hidden','false').lower()=='true': continue
                 if not item.get('Name') or not item.get('Exec'): continue
-                result.append({'id':identifier,'name':item['Name'],'icon':item.get('Icon','application-x-executable'),'path':str(path),'comment':item.get('Comment','')})
+                result.append({'id':identifier,'name':item['Name'],'icon':item.get('Icon','application-x-executable'),'path':str(path),'comment':item.get('Comment',''),'categories':[value for value in item.get('Categories','').split(';') if value]})
             except (OSError,UnicodeError,configparser.Error,KeyError): continue
     return sorted(result,key=lambda item:item['name'].casefold())
 
 
 def pin_file(): return Path(os.environ.get('XDG_CACHE_HOME',Path.home()/'.cache'))/'nwg-dock-pinned'
+
+def recent_file():return Path(os.environ.get('XDG_STATE_HOME',Path.home()/'.local/state'))/'boralances/recent-apps.json'
+
+def recent():
+    try:
+        value=json.loads(recent_file().read_text(encoding='utf-8'))
+        return [item for item in value if isinstance(item,str)][:8] if isinstance(value,list) else []
+    except (OSError,ValueError):return []
+
+def record_launch(identifier):
+    path=recent_file();path.parent.mkdir(parents=True,exist_ok=True)
+    values=[identifier]+[value for value in recent() if value!=identifier]
+    with tempfile.NamedTemporaryFile('w',encoding='utf-8',dir=path.parent,delete=False) as stream:
+        json.dump(values[:8],stream);temporary=stream.name
+    os.replace(temporary,path)
 
 
 def switcher_clients(clients):

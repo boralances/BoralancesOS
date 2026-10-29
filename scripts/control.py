@@ -12,6 +12,10 @@ import html
 import time
 from datetime import datetime
 
+_companions=Path(__file__).resolve().parents[1]/'apps/companions'
+if _companions.exists():sys.path.insert(0,str(_companions))
+from appearance import surface,number
+
 CONFIG = Path(os.environ.get('XDG_CONFIG_HOME', Path.home() / '.config'))
 STATE = CONFIG / 'boralances/state.json'
 SYSTEM_BAR_CONFIG = Path('/etc/xdg/waybar/config.jsonc')
@@ -36,6 +40,12 @@ PREFERENCES = {
     'menu-size': ('compact','normal','large'),
     'desktop-click-minimize': ('true','false'),
     'startup-profile': ('performance','fluid','balanced','glass','reduced-motion','last-used'),
+    'glass-opacity': ('45','55','68','75','85','95'),
+    'window-opacity': ('85','90','94','97','100'),
+    'corner-radius': ('8','12','16','20','24','28'),
+    'motion-intensity': ('subtle','normal','expressive'),
+    'dock-magnification': ('true','false'),
+    'widget-opacity': ('45','60','72','85','95'),
 }
 ACCENTS = {'blue': 'a9ccff', 'purple': 'c9b1ff', 'mint': '8cdec9', 'orange': 'ffc49a'}
 for _widget in ('date','calendar','cpu','memory','disk','network','battery','media','volume','uptime','system','downloads','trash','bookmarks','quicklaunch','notes','todo','timer','stopwatch','focus','load','swap','world-clock','connections','desktops','session'):
@@ -87,14 +97,29 @@ def lua(value):
 
 
 def apply_profile(profile):
+    state=read_state()
+    if profile=='glass':
+        changed=False
+        for key in ('widget-app-groups','widget-phone'):
+            if key not in state:state[key]='true';changed=True
+        if changed:save_state(state)
+    tokens=surface(state)
     blur, animation, size, passes = PROFILES[profile]
     settings = {'decoration': {'blur': {'enabled': blur, 'size': size, 'passes': passes},
-                               'shadow': {'enabled': profile != 'performance'}},
+                               'shadow': {'enabled': profile != 'performance'},
+                               'rounding':tokens['radius'],
+                               'active_opacity':number(state,'window-opacity',94,85,100)/100 if profile=='glass' else 1.0,
+                               'inactive_opacity':max(.8,number(state,'window-opacity',94,85,100)/100-.04) if profile=='glass' else 1.0},
                 'animations': {'enabled': animation}}
     run('hyprctl', 'eval', 'hl.config(' + lua(settings) + ')')
     subprocess.run(['gsettings', 'set', 'org.gnome.desktop.interface', 'enable-animations',
                     'true' if animation else 'false'], capture_output=True)
-    subprocess.run(['systemctl','--user','try-restart','boralances-dock.service'],capture_output=True)
+    if animation:
+        strength=state.get('motion-intensity','normal')
+        amount={'subtle':97,'normal':93,'expressive':88}.get(strength,93) if profile=='glass' else 98
+        run('hyprctl','eval','hl.animation('+lua({'leaf':'windows','enabled':True,'speed':3.0,'spring':'glass','style':f'popin {amount}%'})+')')
+    apply_theme(state.get('theme','dark'))
+    subprocess.run(['systemctl','--user','try-restart','boralances-widgets.service'],capture_output=True)
 
 
 def apply_theme(theme):
@@ -107,6 +132,8 @@ def apply_theme(theme):
     css = '@import url("/etc/xdg/waybar/style.css");\n'
     if theme == 'light':
         css += 'window#waybar { background: rgba(238,242,252,0.94); color:#18243c; }\n#window,#custom-brand,#workspaces button { color:#344968; }\n'
+    tokens=surface(read_state())
+    if tokens['glass']:css+=f'window#waybar {{background:rgba({tokens["rgb"]},{tokens["opacity"]});border-bottom:1px solid rgba(230,245,255,0.28);}}\n'
     accent = ACCENTS.get(read_state().get('accent', 'blue'), ACCENTS['blue'])
     css += f'#workspaces button.active {{ color:#{accent}; }}\n'
     folder = CONFIG / 'waybar'
@@ -175,7 +202,9 @@ def apply_lock(state):
 
 
 def apply_preference(key, state):
-    if key=='desktop-click-minimize':
+    if key in ('glass-opacity','window-opacity','corner-radius','motion-intensity'):
+        apply_profile(state.get('profile','performance'))
+    elif key=='desktop-click-minimize':
         run('hyprctl','eval','boralances_desktop_minimize('+lua(state[key]=='true')+')')
     elif key.startswith('widget-'):
         run('systemctl','--user','restart','boralances-widgets.service')
@@ -305,6 +334,22 @@ def display_set(output,mode,scale):
     block='-- BEGIN BORALANCES DISPLAY\n'+code+'\n-- END BORALANCES DISPLAY'
     content=re.sub(r'-- BEGIN BORALANCES DISPLAY\n.*?-- END BORALANCES DISPLAY\n?', '',content,flags=re.S)
     write_config(local,content.rstrip()+'\n'+block+'\n')
+    # A DPI change can leave old floating-window positions outside the new
+    # logical work area. Keep their content and bring their controls back onscreen.
+    current=next((m for m in json.loads(run('hyprctl','-j','monitors').stdout) if m['name']==output),None)
+    if current:
+        left,top,right,bottom=current['reserved']
+        width=round(current['width']/current['scale'])-left-right
+        height=round(current['height']/current['scale'])-top-bottom
+        for window in clients():
+            if not window.get('floating') or window.get('monitor')!=current['id']:continue
+            target=selector(window)
+            w,h=window['size'];w=min(w,max(300,width-24));h=min(h,max(240,height-24))
+            dispatch('window.resize',{'window':target,'x':w,'y':h})
+            x=max(current['x']+left+12,min(window['at'][0],current['x']+left+width-w-12))
+            y=max(current['y']+top+12,min(window['at'][1],current['y']+top+height-h-12))
+            dispatch('window.move',{'window':target,'x':x,'y':y})
+    subprocess.run(['systemctl','--user','try-restart','boralances-wallpaper.service','boralances-widgets.service','boralances-desktop-icons.service'],capture_output=True)
 
 
 def island_status(state):
@@ -336,7 +381,9 @@ def main():
     state = read_state()
     RUNTIME.mkdir(parents=True, exist_ok=True, mode=0o700)
     if action == 'restore':
-        startup=state.get('startup-profile','performance')
+        # A first installation already has an Optimization default. Subsequent
+        # sessions preserve the user's choice unless they explicitly pin a mode.
+        startup=state.get('startup-profile','last-used')
         if startup in PROFILES:
             state['profile']=startup
             save_state(state)
@@ -470,6 +517,8 @@ def main():
         if value not in allowed:
             raise ValueError('Unknown ' + action)
         state[action] = value
+        if action == 'profile':
+            state['startup-profile'] = 'last-used'
         save_state(state)
         apply_profile(value) if action == 'profile' else apply_theme(value)
     elif action == 'settings':
@@ -481,6 +530,7 @@ def main():
         themes = {'Dark appearance': 'dark', 'Light appearance': 'light', 'Follow system appearance': 'system'}
         if selected in profiles:
             state['profile'] = profiles[selected]
+            state['startup-profile'] = 'last-used'
             save_state(state)
             apply_profile(state['profile'])
         elif selected in themes:

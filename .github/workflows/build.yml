@@ -16,36 +16,62 @@ jobs:
   validate:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - uses: cachix/install-nix-action@v31
         with:
           extra_nix_config: |
             experimental-features = nix-command flakes
-      - name: Generate initial lock if missing
-        run: test -f flake.lock || nix flake lock
+      - name: Require the reviewed dependency lock
+        run: test -s flake.lock
       - run: python3 scripts/validate.py
+      - run: python3 scripts/check-public-source.py
       - run: bash -n scripts/build.sh scripts/install.sh scripts/persistence-volume.sh scripts/measure.sh scripts/session.sh
-      - run: nix flake check --no-update-lock-file
-      - uses: actions/upload-artifact@v4
+      - name: Run lightweight Nix checks
+        run: nix build --no-link --no-update-lock-file .#checks.x86_64-linux.browser-tests
+      - uses: actions/upload-artifact@v6
         with:
           name: evaluated-flake-lock
           path: flake.lock
+  evaluate:
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [installer, live, persistent, portable, virtualbox]
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Evaluate one OS configuration without building its closure
+        env:
+          CONFIGURATION: ${{ matrix.configuration }}
+        run: nix eval --raw --no-update-lock-file ".#nixosConfigurations.${CONFIGURATION}.config.system.build.toplevel.drvPath"
   images:
     if: github.event_name == 'workflow_dispatch'
-    needs: validate
+    needs: [validate, evaluate]
     # ISO closures with gaming + Java need a large builder. Do not fill a hosted 14 GB runner.
     runs-on: [self-hosted, linux, x64, nix-builder]
     timeout-minutes: 180
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v7
         with:
           name: evaluated-flake-lock
       - name: Build requested format
         env:
           BUILD_TARGET: ${{ inputs.target }}
         run: bash scripts/build.sh "$BUILD_TARGET"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: BoralancesOS-${{ inputs.target }}
           path: out/

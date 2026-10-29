@@ -24,7 +24,7 @@ if not errorlevel 1 (
 )
 "%VBOX%" import "%~dp0BoralancesOS-V1-VirtualBox.ova" --options importtovdi --vsys 0 --vmname "%VM_NAME%"
 if errorlevel 1 goto failed
-"%VBOX%" modifyvm "%VM_NAME%" --memory 4096 --cpus 2 --paravirt-provider kvm --hpet off --graphicscontroller vmsvga --vram 128 --accelerate-3d on
+"%VBOX%" modifyvm "%VM_NAME%" --memory 4096 --cpus 2 --paravirt-provider kvm --hpet off --graphicscontroller vmsvga --vram 128 --accelerate-3d on --usb-xhci on --audio-in on
 if errorlevel 1 goto failed
 "%VBOX%" storageattach "%VM_NAME%" --storagectl SATA --port 1 --device 0 --type dvddrive --medium "%ISO_FILE%"
 if errorlevel 1 goto failed

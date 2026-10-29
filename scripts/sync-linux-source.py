@@ -9,15 +9,17 @@ destination = Path(sys.argv[1]).resolve()
 if destination == source.resolve() or str(destination) in ('/', '/root', '/home'):
     raise SystemExit('Choose a dedicated build source directory.')
 directories = {'.github', 'apps', 'assets', 'config', 'design', 'docs', 'hosts', 'integrations', 'modules', 'packages', 'scripts', 'tests', 'vendor'}
-files = {'.gitattributes', '.gitignore', 'flake.nix', 'flake.lock', 'installer-preferences.nix', 'README.md', 'THIRD-PARTY.md'}
+files = {'.gitattributes', '.gitignore', 'flake.nix', 'flake.lock', 'installer-preferences.nix', 'README.md', 'THIRD-PARTY.md', 'LICENSE', 'CONTRIBUTING.md'}
 count = 0
 for root, dirs, names in os.walk(source):
     rel = Path(root).relative_to(source)
     if rel == Path('.'):
         dirs[:] = [name for name in dirs if name in directories]
     else:
-        dirs[:] = [name for name in dirs if name not in {'__pycache__', '.cache', 'test-output'}]
+        dirs[:] = [name for name in dirs if name not in {'__pycache__', '.cache', 'test-output', 'node_modules', '.venv'}]
     for name in names:
+        if name in {'hardware-configuration.local.nix','drivers.local.nix','account.json','.env'} or (name.startswith('.env.') and name!='.env.example'):
+            continue
         if rel == Path('.') and name not in files:
             continue
         src = Path(root) / name

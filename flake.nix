@@ -9,8 +9,9 @@
     distributionSource = lib.cleanSourceWith {
       src = ./.;
       filter = path: type: let name = baseNameOf path; in
-        !(builtins.elem name [ ".git" ".cache" ".codex" "out" "test-output" "__pycache__"
+        !(builtins.elem name [ ".git" ".cache" ".codex" "out" "test-output" "__pycache__" "node_modules" ".venv" ".env"
           "hardware-configuration.local.nix" "installer-preferences.nix" "drivers.local.nix" "account.json" ]
+          || (lib.hasPrefix ".env." name && name != ".env.example")
           || name == "result" || lib.hasPrefix "result-" name || lib.hasSuffix ".pyc" name);
     };
     make = host: lib.nixosSystem {
@@ -62,7 +63,9 @@
         touch $out
       '';
       configurations = pkgs.runCommand "boralances-configurations" { } ''
-        printf '%s\n' ${lib.escapeShellArgs (map (c: c.config.system.build.toplevel.drvPath) [ installer live persistent portable vbox ])} > $out
+        # These are evaluation results, not build dependencies. Keeping the
+        # derivation string context would pull every complete OS into CI.
+        printf '%s\n' ${lib.escapeShellArgs (map (c: builtins.unsafeDiscardStringContext c.config.system.build.toplevel.drvPath) [ installer live persistent portable vbox ])} > $out
       '';
     };
     devShells.${system}.default = pkgs.mkShell {

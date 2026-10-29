@@ -16,10 +16,12 @@ if hl.plugin.hyprbars ~= nil then
   }) do
     hl.plugin.hyprbars.add_button({bg_color="rgb("..button[1]..")",fg_color="rgb(202535)",size=13,icon=button[2],action=button[3]})
   end
-  hl.window_rule({match={class="^boralances-(launcher|settings|control-center|quick-settings|calendar|system-menu|start-menu|center|file-menu|go-menu|shortcuts|welcome|installer)$"},["hyprbars:no_bar"]=true})
+  hl.window_rule({match={class="^boralances-(launcher|settings|control-center|quick-settings|calendar|system-menu|start-menu|center|file-menu|go-menu|shortcuts|welcome|installer|gpu-center|nvidia-center|devices|audio-center)$"},["hyprbars:no_bar"]=true})
   hl.window_rule({match={class="^(org.gnome.SystemMonitor|org.gnome.Evince|org.gnome.Calculator|org.gnome.Nautilus)$"},["hyprbars:no_bar"]=true})
 end
-hl.monitor({ output = "", mode = os.getenv("BORALANCES_VM_DISPLAY") or "preferred", position = "auto", scale = "auto" })
+local virtual_display = os.getenv("BORALANCES_VM_DISPLAY")
+-- VirtualBox's synthetic physical dimensions can incorrectly select 200% DPI.
+hl.monitor({ output = "", mode = virtual_display or "preferred", position = "auto", scale = virtual_display and 1 or "auto" })
 hl.env("XCURSOR_SIZE", "24")
 hl.env("XCURSOR_THEME", "Adwaita")
 hl.env("HYPRCURSOR_SIZE", "24")
@@ -68,7 +70,7 @@ hl.window_rule({ match = { class = "boralances-system-menu" }, float = true,
   size = {310,566}, move = {14,44}, pin = true, animation = "slide top" })
 hl.window_rule({match={class="^boralances-(file-menu|go-menu)$"},float=true,size={280,326},move={150,44},pin=true,animation="slide top"})
 hl.window_rule({ match = { class = "boralances-start-menu" }, float = true, center = true,
-  size = {880,650}, animation = "popin 96%" })
+  animation = "popin 96%" })
 hl.window_rule({ match = { class = "boralances-center" }, float = true,
   move = {"monitor_w-window_w-14",44}, pin = true, animation = "slide right" })
 hl.window_rule({ match = { title = "^Now Playing Center$" }, float = true,

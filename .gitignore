@@ -9,3 +9,14 @@ test-output/
 *.img
 *.vdi
 *.raw
+*.ova
+*.vmdk
+*.vbox
+*.vbox-prev
+*.nvram
+node_modules/
+.env
+.env.*
+!.env.example
+hardware-configuration.local.nix
+drivers.local.nix

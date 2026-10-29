@@ -36,3 +36,17 @@ configuration, passwords and account files out of Git. Store downloadable
 images as release assets, not source commits. The website downloader supports
 SHA-256-verified image parts below 25 MB. A public repository alone does not
 publish or create an installation image.
+
+Prepare small release assets after exporting and boot-testing the ISO:
+
+```sh
+python3 scripts/prepare-release.py --iso out/V1/BoralancesOS-V1-Live-Installer-x86_64.iso --kit out/V1/VirtualBox/BoralancesOS-V1-VirtualBox-Kit.zip
+```
+
+Upload the contents of `out/V1/Release` to a GitHub **Release** tagged
+`boralancesos-v1`; do not commit the multi-gigabyte image parts to source history.
+Each ISO part is 23 MB. The command prepares files only and preserves an existing
+different part instead of overwriting it. Verify all assets are publicly available
+before setting `published` to `true` in the release/website manifest. Until then
+the website leaves the ISO download disabled. The static VirtualBox kit is
+available separately and still requires the ISO.

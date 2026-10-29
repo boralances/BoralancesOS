@@ -7,8 +7,8 @@ mkdir -p "$build_directory" "$build_directory/tmp"
 cd "$source_directory"
 test -s flake.lock
 free_bytes=$(df --output=avail -B1 "$build_directory" | tail -n1 | tr -d ' ')
-if (( free_bytes < 14000000000 )); then
-  echo 'The V1 image build needs at least 14 GB of free Linux build space.' >&2
+if (( free_bytes < 18000000000 )); then
+  echo 'The V1 image build needs at least 18 GB of free Linux build space (compressed payload and final ISO coexist).' >&2
   exit 2
 fi
 # End the evaluator before the image builder starts. Keeping the module graph

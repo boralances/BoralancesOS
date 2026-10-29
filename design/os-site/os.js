@@ -19,6 +19,7 @@
     const iso=release.artifacts?.find(artifact=>artifact.id==='iso');
     const kit=release.artifacts?.find(artifact=>artifact.id==='virtualbox');
     if(kit?.ready&&kit.url){vboxButton.href=safeURL(kit.url);vboxButton.setAttribute('download','');vboxButton.removeAttribute('aria-disabled');vboxButton.textContent='Download VirtualBox kit ↓';}
+    if(iso?.ready&&!release.published){status.textContent='The V1 ISO is built. Download publication is pending.';isoButton.textContent='ISO built · publication pending';document.getElementById('iso-size').textContent=formatSize(iso.bytes);return;}
     if(!iso?.ready||!Array.isArray(iso.parts)||!iso.parts.length){status.textContent='V1 is being prepared. Downloads are not published yet.';return;}
     document.getElementById('iso-size').textContent=formatSize(iso.bytes)+' · '+iso.parts.length+' verified parts';
     document.getElementById('full-checksum').textContent='ISO SHA-256: '+iso.sha256;

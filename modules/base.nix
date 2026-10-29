@@ -37,6 +37,9 @@
   i18n.supportedLocales = [ "en_US.UTF-8/UTF-8" "tr_TR.UTF-8/UTF-8" ];
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.settings.auto-optimise-store = true;
+  # Retain application man pages, but avoid generating the full NixOS option
+  # reference/manual on a lightweight live-image builder.
+  documentation.nixos.enable = false;
   nix.gc = { automatic = true; dates = "weekly"; options = "--delete-older-than 30d"; };
   security.sudo.wheelNeedsPassword = true;
   security.polkit.enable = true;

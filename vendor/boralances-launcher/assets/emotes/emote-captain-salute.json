@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "name": "Captain Salute",
+  "author": "Boralances Studios",
+  "description": "A crisp salute.",
+  "uuid": "8bd4dfa1-ee4d-4a3b-ae8b-51928ad5df4e",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 52,
+    "stopTick": 60,
+    "isLoop": false,
+    "returnTick": 0,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -100,
+          "roll": -25,
+          "bend": 95
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -100,
+          "roll": -25,
+          "bend": 95
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

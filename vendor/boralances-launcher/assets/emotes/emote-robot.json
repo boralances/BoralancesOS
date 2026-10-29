@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "name": "Robot",
+  "author": "Boralances Studios",
+  "description": "A mechanical arm-and-body dance.",
+  "uuid": "671763ac-2a6d-45d3-a0fa-4f95c37ac955",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "constant",
+        "rightArm": {
+          "pitch": -90,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 90,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": -25
+        }
+      },
+      {
+        "tick": 22,
+        "easing": "constant",
+        "rightArm": {
+          "pitch": 0,
+          "roll": -90,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": -90,
+          "roll": 0,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 34,
+        "easing": "constant",
+        "rightArm": {
+          "pitch": -90,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 90,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": -25
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -90,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 90,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": -25
+        }
+      }
+    ]
+  }
+}

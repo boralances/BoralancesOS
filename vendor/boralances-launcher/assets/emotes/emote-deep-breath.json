@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "name": "Deep Breath",
+  "author": "Boralances Studios",
+  "description": "A slow breathing pose.",
+  "uuid": "ab8a7fa3-66e1-49bb-a6a1-5ff131dd2956",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "easeInOutSine",
+        "torso": {
+          "y": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": -8,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 8,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 5,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "torso": {
+          "y": 1
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": -15,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 15,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": -5,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "torso": {
+          "y": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": -8,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 8,
+          "yaw": 0
+        },
+        "head": {
+          "pitch": 5,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

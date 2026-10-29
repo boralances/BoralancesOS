@@ -1,0 +1,15 @@
+'use strict';
+const {assert}=require('./core.cjs');
+const {png}=require('./player-style.cjs'),{decodePNG,modernSkin}=require('./wings.cjs');
+const HATS=['Astral Crown','Moonlit Beanie','Ocean Bucket','Ember Cap','Aurora Headband','Jade Helm','Rose Beret','Circuit Visor','Frost Hood','Golden Tiara','Violet Bandana','Cherry Bonnet','Sunset Trilby','Forest Ranger','Storm Goggles','Coral Sunhat','Prism Crown','Raven Cowl','Sakura Ribbon','Copper Pilot','Opal Headdress','Neon Headphones','Desert Wrap','Mint Sailor','Galaxy Helmet'];
+const TRINKETS=['Astral Pendant','Ocean Brooch','Ember Bracelet','Jade Amulet','Rose Necklace','Circuit Wristband','Frost Locket','Golden Chain','Violet Shoulder Pin','Coral Cuff'];
+const DRESSES=['Aurora Gown','Rose Garden Dress','Ocean Silk Dress','Midnight Star Dress','Golden Festival Dress'];
+const PALETTE=[['#b5dcff','#25375c'],['#d4c5ff','#3c285c'],['#8eead8','#24525a'],['#ffbd80','#65383d'],['#cef0ad','#354d3d']];
+const slug=s=>s.toLowerCase().replaceAll(' ','-');
+const WEARABLES=[...HATS.map((name,i)=>({name,type:'Hat',pattern:i})),...TRINKETS.map((name,i)=>({name,type:'Trinket',pattern:i})),...DRESSES.map((name,i)=>({name,type:'Dress',pattern:i}))].map((p,i)=>({...p,id:slug(p.name),color:PALETTE[i%5][0],base:PALETTE[i%5][1],collection:'Atelier 40',render:'skin-overlay',description:p.name+' — original pixel artwork worn on your skin’s outer '+(p.type==='Hat'?'head layer':p.type==='Trinket'?'accessory layer':'outfit layers')+'. Combine one hat, trinket and dress. Enable outer skin layers in Minecraft.',price:0,currency:'FREE',asset:'../../assets/cosmetics/'+slug(p.name)+'.png'}));
+const TYPES={Hat:'hat',Trinket:'trinket',Dress:'dress'};
+function uv(x,y,sx,sy,w,h,d){return y>=sy&&y<sy+d&&x>=sx+d&&x<sx+d+w*2||y>=sy+d&&y<sy+d+h&&x>=sx&&x<sx+2*d+2*w;}
+function allowed(type,x,y){if(type==='Hat')return uv(x,y,32,0,8,8,8);const body=uv(x,y,16,32,8,12,4)||uv(x,y,40,32,4,12,4)||uv(x,y,48,48,4,12,4);if(type==='Trinket')return body;if(type==='Dress')return body||uv(x,y,0,32,4,12,4)||uv(x,y,0,48,4,12,4);return false;}
+function validateOverlay(bytes,type){assert(TYPES[type],'Unknown wearable slot.');const image=decodePNG(bytes);assert(image.width===64&&image.height===64,'Wearables use a transparent 64×64 PNG.');let visible=0;for(let y=0;y<64;y++)for(let x=0;x<64;x++){if(!image.pixels[(y*64+x)*4+3])continue;assert(allowed(type,x,y),'Paint only the outer skin layer for this cosmetic type.');visible++;}assert(visible>0,'Paint at least one visible pixel.');return image;}
+function compose(base,overlays){const pixels=modernSkin(base);for(const {bytes,type}of overlays){const image=validateOverlay(bytes,type);for(let i=0;i<pixels.length;i+=4){const a=image.pixels[i+3]/255;if(!a)continue;const alpha=a+pixels[i+3]/255*(1-a);for(let k=0;k<3;k++)pixels[i+k]=Math.round((image.pixels[i+k]*a+pixels[i+k]*(pixels[i+3]/255)*(1-a))/alpha);pixels[i+3]=Math.round(alpha*255);}}return png(64,64,pixels);}
+module.exports={WEARABLES,TYPES,allowed,validateOverlay,compose};

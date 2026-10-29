@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "name": "Shuffle",
+  "author": "Boralances Studios",
+  "description": "A quick alternating shuffle.",
+  "uuid": "e39b6717-0460-4e26-ab34-07a01a602361",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": -35,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "roll": 0,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": 30,
+          "roll": -10,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": -30,
+          "roll": 10,
+          "yaw": 0
+        },
+        "torso": {
+          "yaw": 15
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": 25,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": -35,
+          "roll": 0,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": -30,
+          "roll": -10,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 30,
+          "roll": 10,
+          "yaw": 0
+        },
+        "torso": {
+          "yaw": -15
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": -35,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "roll": 0,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": 30,
+          "roll": -10,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": -30,
+          "roll": 10,
+          "yaw": 0
+        },
+        "torso": {
+          "yaw": 15
+        }
+      }
+    ]
+  }
+}

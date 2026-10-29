@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "name": "Formal Bow",
+  "author": "Boralances Studios",
+  "description": "A courteous bow.",
+  "uuid": "8a3ca1bb-6435-4cbb-a801-533cda427a15",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 52,
+    "stopTick": 60,
+    "isLoop": false,
+    "returnTick": 0,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 14,
+        "easing": "easeInOutSine",
+        "torso": {
+          "pitch": 35
+        },
+        "head": {
+          "pitch": 15,
+          "roll": 0,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": 10,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 10,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 32,
+        "easing": "easeInOutSine",
+        "torso": {
+          "pitch": 35
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

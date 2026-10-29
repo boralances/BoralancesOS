@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title"><title id="title">BoralancesOS ribbon monogram</title><defs>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5fcff"/><stop offset=".36" stop-color="#b9dcff"/><stop offset=".68" stop-color="#939ef5"/><stop offset="1" stop-color="#daedff"/></linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9bbaf7"/><stop offset="1" stop-color="#445bb0"/></linearGradient>
+<linearGradient id="rim" x2=".7" y2="1"><stop stop-color="#fff" stop-opacity=".85"/><stop offset=".4" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity=".4"/></linearGradient>
+<radialGradient id="shine" cx=".25" cy="0" r="1"><stop stop-color="#fff" stop-opacity=".45"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></radialGradient></defs><path d="M182 132v248M184 132h78c80 0 100 103 21 121 90 14 87 127-6 127h-93M185 253h89" fill="none" stroke="#172944" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/></svg>

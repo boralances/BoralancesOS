@@ -1,0 +1,170 @@
+{
+  "version": 2,
+  "name": "Hello Wave",
+  "author": "Boralances Studios",
+  "description": "A friendly overhead wave.",
+  "uuid": "291a450b-737a-4874-acef-518e2358a443",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 52,
+    "stopTick": 60,
+    "isLoop": false,
+    "returnTick": 0,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -150,
+          "roll": -15,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 16,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -150,
+          "roll": -40,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 24,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -150,
+          "roll": 5,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 32,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -150,
+          "roll": -40,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -150,
+          "roll": 5,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

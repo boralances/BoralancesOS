@@ -1,0 +1,16 @@
+{
+  "name": "boralances-launcher",
+  "version": "1.8.3",
+  "description": "Minecraft instances, mods, modpacks and client tools",
+  "main": "src/main.cjs",
+  "author": "Boralances",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "0.5.16"
+  },
+  "boralancesOS": {
+    "platform": "linux",
+    "updates": "system",
+    "sourceVersion": "1.8.3"
+  }
+}

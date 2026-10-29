@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "name": "Heart Hands",
+  "author": "Boralances Studios",
+  "description": "Bring your hands together at your chest.",
+  "uuid": "e33843ed-1c85-44e3-a752-ad82f9cd721d",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 52,
+    "stopTick": 60,
+    "isLoop": false,
+    "returnTick": 0,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 14,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -70,
+          "roll": -25,
+          "yaw": -25,
+          "bend": 100
+        },
+        "leftArm": {
+          "pitch": -70,
+          "roll": 25,
+          "yaw": 25,
+          "bend": 100
+        }
+      },
+      {
+        "tick": 36,
+        "easing": "easeInOutSine",
+        "torso": {
+          "y": 1
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

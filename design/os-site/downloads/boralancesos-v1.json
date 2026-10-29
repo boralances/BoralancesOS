@@ -1,0 +1,15 @@
+{
+  "artifacts": [
+    {
+      "file": "BoralancesOS-V1-VirtualBox-Kit.zip",
+      "url": "downloads/BoralancesOS-V1-VirtualBox-Kit.zip",
+      "ready": true,
+      "id": "virtualbox",
+      "bytes": 5319,
+      "sha256": "bc42cc413debc1af38040d139d43ad042848beb41c9a738bc2dc7db772036c59"
+    }
+  ],
+  "published": false,
+  "releaseTag": "boralancesos-v1",
+  "version": "1.0.0"
+}

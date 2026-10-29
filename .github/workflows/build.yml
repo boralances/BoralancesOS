@@ -1,0 +1,53 @@
+name: Validate and build BoralancesOS
+on:
+  push:
+    paths-ignore: ['docs/**', 'design/**', '*.md']
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Build artifact
+        type: choice
+        default: installer-iso
+        options: [installer-iso, live-iso, persistent-iso, usb-image, virtualbox-image, all]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Generate initial lock if missing
+        run: test -f flake.lock || nix flake lock
+      - run: python3 scripts/validate.py
+      - run: bash -n scripts/build.sh scripts/install.sh scripts/persistence-volume.sh scripts/measure.sh scripts/session.sh
+      - run: nix flake check --no-update-lock-file
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluated-flake-lock
+          path: flake.lock
+  images:
+    if: github.event_name == 'workflow_dispatch'
+    needs: validate
+    # ISO closures with gaming + Java need a large builder. Do not fill a hosted 14 GB runner.
+    runs-on: [self-hosted, linux, x64, nix-builder]
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: evaluated-flake-lock
+      - name: Build requested format
+        env:
+          BUILD_TARGET: ${{ inputs.target }}
+        run: bash scripts/build.sh "$BUILD_TARGET"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BoralancesOS-${{ inputs.target }}
+          path: out/
+          compression-level: 0
+          retention-days: 7

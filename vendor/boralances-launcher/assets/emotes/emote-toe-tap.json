@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "name": "Toe Tap",
+  "author": "Boralances Studios",
+  "description": "Tap along to an imaginary beat.",
+  "uuid": "3dfe0049-cb44-4c14-a0c5-2738eb2a3caa",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": -22,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "roll": 4
+        }
+      },
+      {
+        "tick": 20,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": 8,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": -22,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": 8,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "rightLeg": {
+          "pitch": -22,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

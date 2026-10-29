@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "name": "Air Guitar",
+  "author": "Boralances Studios",
+  "description": "Play an imaginary guitar.",
+  "uuid": "c6d46188-7f24-4170-aa43-73455b6a329e",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -50,
+          "roll": -30,
+          "bend": 65
+        },
+        "leftArm": {
+          "pitch": -65,
+          "roll": 35,
+          "bend": 90
+        },
+        "torso": {
+          "roll": 8
+        }
+      },
+      {
+        "tick": 20,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -35,
+          "roll": -10,
+          "bend": 40
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -50,
+          "roll": -30,
+          "bend": 65
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -35,
+          "roll": -10,
+          "bend": 40
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -50,
+          "roll": -30,
+          "bend": 65
+        }
+      }
+    ]
+  }
+}

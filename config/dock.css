@@ -1,0 +1,5 @@
+window { background: rgba(31,38,56,0.97); border-radius: 22px; border: 1px solid rgba(235,242,255,0.28); }
+#box { padding: 7px 10px; }
+button { padding: 5px; margin: 0 3px; border-radius: 13px; background: transparent; border:0; }
+button:hover { background: rgba(230,240,255,0.20); }
+button:focus,button#focused { background: rgba(169,204,255,0.20); }

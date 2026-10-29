@@ -1,0 +1,13 @@
+/* Two lenses: a persistent selected row and a magnetic pointer surface. */
+body[data-theme=glass] .sidebar>.brand,body[data-theme=glass] .sidebar>.nav-label,body[data-theme=glass] .sidebar>.sidebar-bottom{position:relative;z-index:1}
+.glass-sidebar-host .sidebar-hover-lens{display:block;position:absolute;left:0;top:0;z-index:0;pointer-events:none;border:1px solid #f2ffff8c;background:linear-gradient(145deg,#ffffff2c,#eaffff0e 48%,#c0fbed21);box-shadow:inset 0 1px 1px #ffffffc7,inset 0 -1px 2px #a4e8de57,0 8px 24px #001a2240,0 0 16px #bfffee10;backdrop-filter:blur(9px) saturate(155%);-webkit-backdrop-filter:blur(9px) saturate(155%);transform-origin:center;transition:transform .24s cubic-bezier(.3,1.3,.5,1),width .22s,height .22s,border-radius .22s,scale .35s cubic-bezier(.3,1.4,.5,1)}
+.glass-sidebar-host .sidebar-hover-lens[hidden]{display:none}
+.glass-sidebar-host .sidebar-hover-lens.glass-refracted{backdrop-filter:var(--glass-filter) saturate(145%);-webkit-backdrop-filter:var(--glass-filter) saturate(145%)}
+.sidebar-hover-lens::before,.sidebar-lens::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(ellipse 90px 55px at var(--lens-light-x,30%) var(--lens-light-y,0%),#ffffff42,transparent 85%),linear-gradient(135deg,#ffffff20,transparent 48%,#cefff712)}
+.sidebar-hover-lens::after{content:"";position:absolute;inset:2px;border:1px solid #ffffff1f;border-radius:inherit;pointer-events:none}
+.glass-sidebar-host .glass-pointer-held{scale:1.045;box-shadow:inset 0 1px 2px #ffffffff,inset 0 -2px 4px #bdffee69,0 7px 22px #0004,0 0 20px #d0fff529}
+:is(body[data-theme=glass],html[data-theme=liquidglass]) .sidebar-pointer-light{position:absolute;inset:0;z-index:0;border-radius:inherit;pointer-events:none;opacity:0;background:radial-gradient(circle 155px at var(--sidebar-pointer-x,50%) var(--sidebar-pointer-y,20%),#d6fffc19,transparent 75%);transition:opacity .2s}
+:is(body[data-theme=glass],html[data-theme=liquidglass]) .glass-pointer-present>.sidebar-pointer-light{opacity:1}
+body.glass-performance-mode .sidebar-hover-lens{backdrop-filter:none;-webkit-backdrop-filter:none;background:linear-gradient(145deg,#ffffff28,#eaffff0a)}
+@media(prefers-reduced-motion:reduce){.glass-sidebar-host .sidebar-hover-lens,.sidebar-pointer-light{transition:none!important}.glass-sidebar-host .glass-pointer-held{scale:1}}
+@media(prefers-reduced-transparency:reduce){.glass-sidebar-host .sidebar-hover-lens,.sidebar-pointer-light{display:none!important}}

@@ -1,0 +1,25 @@
+html.boralances-google{--boralances-bg:#edf0f7;--boralances-ink:#253149;--boralances-edge:#ffffffba;--boralances-pane:#ffffff80}
+html.boralances-google-dark{--boralances-bg:#11162c;--boralances-ink:#dce7f7;--boralances-edge:#d0e8ff36;--boralances-pane:#aec9ff0d}
+html.boralances-google body{background:var(--boralances-bg)!important;isolation:isolate;color:var(--boralances-ink)}
+.boralances-google #boralances-google-backdrop{position:fixed;inset:0;z-index:-1;pointer-events:none;background-color:var(--boralances-bg);background-image:repeating-linear-gradient(0deg,#99b3ce0a 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,#99b3ce0a 0 1px,transparent 1px 40px),radial-gradient(ellipse at 15% 30%,#ff7a5c35 0 6%,transparent 28%),radial-gradient(ellipse at 82% 18%,#ffc24a30 0 6%,transparent 26%),radial-gradient(ellipse at 66% 84%,#38d6c440 0 10%,transparent 34%),radial-gradient(ellipse at 22% 88%,#7b6cff45 0 7%,transparent 30%);background-size:100% 100%;animation:boralances-light 20s ease-in-out infinite alternate}
+.boralances-google #main,.boralances-google #rcnt,.boralances-google #center_col,.boralances-google #appbar,.boralances-google #top_nav,.boralances-google #searchform,.boralances-google #searchform>div{background:transparent!important}
+.boralances-google .RNNXgb{background:var(--boralances-pane)!important;border:1px solid var(--boralances-edge)!important;box-shadow:inset 0 1px 1px #fff8,0 15px 45px #00192f18!important}
+.boralances-google .boralances-google-result{background:var(--boralances-pane)!important;border:1px solid var(--boralances-edge)!important;border-radius:24px;padding:22px 24px;margin-block:16px 20px;backdrop-filter:blur(calc(4px + 12px * var(--boralances-glass-strength))) saturate(1.35);box-shadow:inset 0 1px 0 #d9f6ff4a,0 15px 40px #06162917;transition:box-shadow .2s,border-color .2s}
+.boralances-google .boralances-google-result:hover{border-color:#a3d7f080!important;box-shadow:inset 0 1px 0 #d9f6ff60,0 20px 45px #06162924}
+.boralances-google #boralances-google-badge{position:fixed;right:18px;bottom:16px;z-index:10;pointer-events:none;padding:10px 15px;background:var(--boralances-pane);backdrop-filter:blur(15px);border:1px solid var(--boralances-edge);border-radius:22px;font:11px "Segoe UI",sans-serif;color:var(--boralances-ink);box-shadow:0 4px 20px #0002}
+html:not(.boralances-google) #boralances-google-badge,html:not(.boralances-google) #boralances-google-backdrop{display:none!important}
+.boralances-google-still #boralances-google-backdrop{animation:none}
+@keyframes boralances-light{to{background-position:0 0,0 0,30px 20px,-20px 30px,35px -20px,-25px -30px}}
+@media(prefers-reduced-motion:reduce){.boralances-google #boralances-google-backdrop{animation:none}.boralances-google .boralances-google-result{transition:none}}
+
+.boralances-google #search h3{color:#1a639c!important}.boralances-google-dark #search h3{color:#97c8ff!important}.boralances-google #search :is(.VwiC3b,.YrbPuc,.aCOpRe,cite){color:var(--boralances-ink)!important}.boralances-google :is(textarea[name=q],input[name=q]){color:var(--boralances-ink)!important}
+.boralances-google[data-boralances-google-backdrop=aurora] #boralances-google-backdrop{background-image:radial-gradient(ellipse at 70% 45%,#38d6c42b,transparent 60%),radial-gradient(ellipse at 20% 70%,#7b6cff2b,transparent 70%),repeating-linear-gradient(165deg,transparent 0 42px,#87c9df09 45px,transparent 60px)}
+
+html.boralances-google:not(.boralances-google-dark) .boralances-google-result :is(div,span,p,cite){color:var(--boralances-ink)!important}
+html.boralances-google:not(.boralances-google-dark) .boralances-google-result :is(a,a span,a div){color:#155e99!important}
+html.boralances-google:not(.boralances-google-dark) :is(#top_nav,#appbar) :is(a,div,span){color:#526273!important}
+html.boralances-google:not(.boralances-google-dark) :is(img[alt=Google],svg[aria-label=Google]){filter:brightness(0)}
+html.boralances-google:not(.boralances-google-dark) #searchform :is(button,[role=button],svg){color:#526273!important}
+html.boralances-google:not(.boralances-google-dark) #searchform svg path{fill:currentColor}
+
+html.boralances-google:not(.boralances-google-dark) :is(.YmvwI,#hdtb a,#hdtb span){color:#243b55!important}

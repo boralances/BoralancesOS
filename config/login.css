@@ -1,0 +1,37 @@
+@keyframes arrive { from { opacity:0; } to { opacity:1; } }
+window {
+  background-image: linear-gradient(rgba(8,14,27,0.20),rgba(8,14,27,0.64)), url("/etc/boralances/wallpapers/dusk.png");
+  background-size:cover;
+  background-position:center;
+  color:#f0f4ff;
+  font-family:Inter;
+}
+frame.background {
+  background:rgba(18,25,41,0.93);
+  border:1px solid rgba(235,243,255,0.24);
+  border-radius:26px;
+  padding:25px 30px;
+  box-shadow:0 20px 70px rgba(0,0,0,0.25);
+  animation:arrive 350ms ease-out;
+}
+frame.background grid > label:first-child { font-size:22px; font-weight:600; padding:8px 0 12px; }
+overlay > frame.background:nth-child(3) {
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  padding:40px 20px 10px;
+}
+overlay > frame.background:nth-child(3) label { font-size:32px; font-weight:500; color:#ffffff; }
+entry,passwordentry,combobox button {
+  background:rgba(238,245,255,0.08);
+  color:#f0f4ff;
+  border:1px solid rgba(222,236,255,0.24);
+  border-radius:12px;
+  min-height:32px;
+  padding:7px 12px;
+}
+entry:focus,passwordentry:focus-within { border-color:#a9ccff; box-shadow:0 0 0 2px rgba(143,186,250,0.18); }
+button { border-radius:11px; padding:10px 16px; transition:background 150ms ease-out; }
+button.suggested-action { background:#b5d3ff; color:#14253f; font-weight:600; border:1px solid #dceaff; }
+button.suggested-action:hover { background:#d3e5ff; }
+button.destructive-action { background:rgba(238,245,255,0.10); color:#f0f4ff; }

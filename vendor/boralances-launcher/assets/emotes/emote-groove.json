@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "name": "Groove",
+  "author": "Boralances Studios",
+  "description": "A relaxed shoulder groove.",
+  "uuid": "ff312375-81cd-4b37-a37d-dd2a1f05ac7e",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 10,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "easeInOutSine",
+        "torso": {
+          "roll": 12
+        },
+        "head": {
+          "pitch": 0,
+          "roll": -10,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": -35,
+          "roll": -35,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 20,
+          "roll": 25,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "easeInOutSine",
+        "torso": {
+          "roll": -12
+        },
+        "head": {
+          "pitch": 0,
+          "roll": 10,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": 20,
+          "roll": -25,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": -35,
+          "roll": 35,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "easeInOutSine",
+        "torso": {
+          "roll": 12
+        },
+        "head": {
+          "pitch": 0,
+          "roll": -10,
+          "yaw": 0
+        },
+        "rightArm": {
+          "pitch": -35,
+          "roll": -35,
+          "yaw": 0
+        },
+        "leftArm": {
+          "pitch": 20,
+          "roll": 25,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

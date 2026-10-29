@@ -1,0 +1,12 @@
+[window]
+padding = { x = 18, y = 16 }
+opacity = 0.88
+decorations = "None"
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 11.5
+[colors.primary]
+background = "#0d1220"
+foreground = "#e7ecfa"
+[cursor]
+style = { shape = "Beam", blinking = "Off" }

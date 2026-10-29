@@ -1,0 +1,155 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+  "spacing": 5,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "modules-left": [
+    "image#brand",
+    "custom/brand",
+    "hyprland/window",
+    "custom/files",
+    "custom/go",
+    "custom/help"
+  ],
+  "modules-center": [
+    "custom/island"
+  ],
+  "modules-right": [
+    "tray",
+    "battery",
+    "pulseaudio",
+    "network",
+    "custom/control",
+    "clock"
+  ],
+  "image#brand": {
+    "path": "/etc/boralances/logo.png",
+    "size": 23,
+    "interval": 3600,
+    "on-click": "boralances-control system-menu"
+  },
+  "custom/brand": {
+    "format": "Desktop",
+    "on-click": "boralances-control system-menu",
+    "tooltip-format": "Desktop menu"
+  },
+  "custom/files": {
+    "format": "\uf07b  File",
+    "on-click": "boralances-control file-menu"
+  },
+  "custom/go": {
+    "format": "\uf124  Go",
+    "on-click": "boralances-control go-menu"
+  },
+  "custom/help": {
+    "format": "\uf059  Help",
+    "on-click": "boralances-shortcuts"
+  },
+  "custom/spaces": {
+    "format": "Workspaces",
+    "on-click": "boralances-control overview",
+    "tooltip-format": "Workspace overview \u00b7 Super+Tab"
+  },
+  "custom/search": {
+    "format": "\u2315",
+    "on-click": "rofi -show drun",
+    "tooltip-format": "Search apps \u00b7 Super+Space"
+  },
+  "custom/control": {
+    "format": "\udb81\udc93",
+    "on-click": "boralances-control quick-settings",
+    "tooltip-format": "Control Center - Win+A"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate"
+  },
+  "hyprland/window": {
+    "max-length": 20,
+    "separate-outputs": true,
+    "on-click": "boralances-control overview",
+    "format": "{class}",
+    "rewrite": {
+      "boralances-browser": "Browser",
+      "boralances-settings": "System Settings",
+      "boralances-control-center": "System Settings",
+      "boralances-terminal": "Terminal",
+      "foot": "Terminal",
+      "thunar": "Files",
+      "org.pulseaudio.pavucontrol": "Sound",
+      "boralances-launcher": "Launcher",
+      "boralances-quick-settings": "Control Center"
+    }
+  },
+  "clock": {
+    "format": "{:%b %d  %H:%M}",
+    "tooltip-format": "{:%Y-%m-%d}",
+    "on-click": "boralances-control calendar"
+  },
+  "custom/profile": {
+    "exec": "boralances-control status",
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "boralances-control settings"
+  },
+  "cpu": {
+    "format": "CPU {usage}%",
+    "interval": 5,
+    "on-click": "boralances-terminal -e btop"
+  },
+  "memory": {
+    "format": "{used:0.1f}G",
+    "interval": 5
+  },
+  "pulseaudio": {
+    "format": "\udb81\udd7e",
+    "format-muted": "\udb81\udd81",
+    "on-click": "boralances-control center sound",
+    "tooltip-format": "Sound ? {volume}%"
+  },
+  "network": {
+    "format-wifi": "\udb81\udda9",
+    "format-ethernet": "\udb80\ude00",
+    "format-disconnected": "\udb81\uddaa",
+    "on-click": "boralances-control center network",
+    "max-length": 18,
+    "tooltip-format": "{ifname} ? {ipaddr}"
+  },
+  "battery": {
+    "format": "{icon}",
+    "format-charging": "\udb80\udc84",
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "format-icons": [
+      "\udb80\udc7a",
+      "\udb80\udc7b",
+      "\udb80\udc7c",
+      "\udb80\udc7d",
+      "\udb80\udc7e",
+      "\udb80\udc7f",
+      "\udb80\udc80",
+      "\udb80\udc81",
+      "\udb80\udc82",
+      "\udb80\udc79"
+    ],
+    "on-click": "boralances-control center power",
+    "tooltip-format": "{capacity}% battery"
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "custom/island": {
+    "exec": "boralances-control island-status",
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "boralances-control center media",
+    "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 2%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-",
+    "tooltip": true
+  }
+}

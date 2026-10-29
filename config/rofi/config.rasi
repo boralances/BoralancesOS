@@ -1,0 +1,18 @@
+configuration {
+  modi: "drun,run";
+  show-icons: true;
+  font: "Inter 12";
+  drun-display-format: "{name}";
+  display-drun: "Applications";
+}
+* { background-color: transparent; text-color: #edf2ff; }
+window { width: 720px; border: 1px; border-color: #d4e5ff38; border-radius: 24px; background-color: #141c2ee8; padding: 22px; }
+mainbox { spacing: 18px; }
+inputbar { children: [entry]; background-color: #ffffff12; border: 1px; border-color: #ffffff24; border-radius: 16px; padding: 16px; }
+entry { placeholder: "Search applications…"; }
+listview { columns: 4; lines: 3; fixed-height: true; spacing: 8px; }
+element { orientation: vertical; padding: 18px 6px; border-radius: 16px; spacing: 10px; }
+element selected.normal { background-color: #b4ceff26; }
+element-icon { size: 48px; horizontal-align: 0.5; }
+element-text { horizontal-align: 0.5; font: "Inter 10"; }
+element-text selected { text-color: #ffffff; }

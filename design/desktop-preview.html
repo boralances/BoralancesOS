@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BoralancesOS · Desktop design preview</title>
+<link rel="stylesheet" href="preview.css"></head><body>
+<div class="wallpaper"></div>
+<header class="glass"><div class="brand"><span class="mark">◈</span><b>Boralances</b><span class="app-title">Workspace</span></div>
+<nav aria-label="Workspaces"><button class="workspace active" data-workspace="1" aria-pressed="true">01</button><button class="workspace" data-workspace="2" aria-pressed="false">02</button><button class="workspace" data-workspace="3" aria-pressed="false">03</button></nav>
+<div class="status"><span>⌁ Connected</span><span>♪</span><button id="theme" aria-label="Toggle light appearance">◐</button><span id="clock">09:41</span></div></header>
+<main>
+<section class="greeting"><div class="eyebrow">A CLEARER KIND OF DESKTOP</div><h1>Make room<br>for what matters.</h1><p>Considered design. Quiet efficiency.<br>A workspace that feels like yours.</p><div class="design-label"><span></span> BoralancesOS 0.1 · Design preview</div></section>
+<section class="window glass" aria-label="Workspace applications"><div class="titlebar"><div class="traffic"><i></i><i></i><i></i></div><span>Your workspace</span><button id="overview" aria-label="Show workspace overview">⊞</button></div>
+<div class="window-body"><aside><div class="side-label">LIBRARY</div><button class="selected">◈ &nbsp; Overview</button><button data-filter="work">⌘ &nbsp; Create & develop</button><button data-filter="play">◇ &nbsp; Play</button><button data-filter="tools">◌ &nbsp; Companions</button><div class="aside-bottom">LINUX, WITH INTENTION.<br><span>Built around your flow.</span></div></aside>
+<div class="content"><div class="content-head"><div><div class="eyebrow">GOOD TO SEE YOU, BORA</div><h2>Pick up your flow.</h2></div><span class="pill">Balanced</span></div>
+<article class="browser-card"><div class="browser-art"><div class="orbit"></div><span>◉</span></div><div><span class="kicker">YOUR WINDOW TO THE WEB</span><h3>BoralancesBrowser</h3><p>A familiar view. A native Linux home.</p><button class="open" data-app="BoralancesBrowser">Explore browser ↗</button></div></article>
+<div class="section-title"><h3>Made for your everyday</h3><span>YOUR COLLECTION</span></div>
+<div class="apps"><button class="app" data-category="play" data-app="Boralances Launcher"><span class="icon launcher">◇</span><span><b>Launcher</b><small>Your next world awaits.</small></span><i>↗</i></button>
+<button class="app" data-category="tools" data-app="JARVIS"><span class="icon jarvis">◌</span><span><b>JARVIS</b><small>A quieter kind of assistant.</small></span><i>↗</i></button>
+<button class="app" data-category="tools" data-app="Glass Connect"><span class="icon display">▱</span><span><b>Glass Connect</b><small>A little more perspective.</small></span><i>↗</i></button>
+<button class="app" data-category="work" data-app="Terminal"><span class="icon terminal">›_</span><span><b>Terminal</b><small>Space for your next idea.</small></span><i>↗</i></button></div>
+<div class="footnote"><span class="tiny-dot"></span>Apps open on demand. Your desktop stays quiet.</div></div></div></section>
+<div class="workspace-sheet glass" hidden><div class="eyebrow">YOUR WORK, IN PERSPECTIVE</div><h2>Three spaces. One flow.</h2><div class="spaces"><button data-workspace="1"><div class="mini work"></div><b>01 &nbsp; Workspace</b><span>Browser · Terminal</span></button><button data-workspace="2"><div class="mini play"></div><b>02 &nbsp; Play</b><span>Launcher · Steam</span></button><button data-workspace="3"><div class="mini focus"></div><b>03 &nbsp; Focus</b><span>A clear canvas</span></button></div><button id="close-overview">Back to desktop</button></div>
+</main>
+<footer><span>◈ &nbsp; Glass, without the weight.</span><span id="workspace-name">01 / Workspace</span><span>DESKTOP CONCEPT · NOT A RUNNING OS</span></footer>
+<nav class="dock glass" aria-label="Application dock"><button data-app="Applications" aria-label="Applications">⊞</button><div class="divider"></div><button data-app="BoralancesBrowser" aria-label="Browser" class="dock-browser">◉</button><button data-app="Boralances Launcher" aria-label="Launcher" class="dock-launcher">◇</button><button data-app="Terminal" aria-label="Terminal">›_</button><button data-app="JARVIS" aria-label="JARVIS">◌</button><button data-app="Files" aria-label="Files">▰</button><div class="divider"></div><button id="settings" aria-label="Appearance and performance">⚙</button></nav>
+<div class="toast glass" role="status" aria-live="polite" hidden></div>
+<dialog id="settings-dialog" class="glass"><h2>Make it feel like you.</h2><p>Preview your preferred appearance.</p><label>Color scheme <select id="scheme"><option value="dark">Obsidian</option><option value="light">Glacier</option></select></label><label><span>Reduce motion</span><input type="checkbox" id="reduce"></label><p class="dialog-note">This design preview does not change your Windows settings or start Linux applications.</p><button id="done">Done</button></dialog>
+<script src="preview.js"></script></body></html>

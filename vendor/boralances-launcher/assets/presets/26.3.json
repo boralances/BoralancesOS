@@ -1,0 +1,303 @@
+{
+  "customization": {
+    "name": "Aurora 26.3",
+    "theme": "aurora",
+    "profile": "balanced"
+  },
+  "dependencyOverrides": [],
+  "minecraft": "26.3",
+  "loader": "fabric",
+  "loaderVersion": "0.19.5",
+  "features": [
+    {
+      "id": "renderer",
+      "name": "Fast rendering",
+      "project": "sodium",
+      "projectId": "AANobbMI",
+      "versionId": "bAZQdGpg",
+      "version": "mc26.3-0.9.2-fabric"
+    },
+    {
+      "id": "logic",
+      "name": "Game logic boost",
+      "project": "lithium",
+      "projectId": "gvQqBUqZ",
+      "versionId": "xS0Q8LSi",
+      "version": "mc26.3-0.26.2-fabric"
+    },
+    {
+      "id": "memory",
+      "name": "Memory optimization",
+      "project": "ferrite-core",
+      "projectId": "uXXizFIs",
+      "versionId": "d5ddUdiB",
+      "version": "9.0.0-fabric"
+    },
+    {
+      "id": "culling",
+      "name": "Hidden entity culling",
+      "project": "entityculling",
+      "projectId": "NNAgCjsB",
+      "versionId": "X1g3VhTx",
+      "version": "1.11.3"
+    },
+    {
+      "id": "moreculling",
+      "name": "Extra block culling",
+      "project": "moreculling",
+      "projectId": "51shyZVL",
+      "versionId": "t7vAlfgO",
+      "version": "1.9.0"
+    },
+    {
+      "id": "immediate",
+      "name": "HUD rendering boost",
+      "project": "immediatelyfast",
+      "projectId": "5ZwdcRci",
+      "versionId": "3MP9UR23",
+      "version": "1.17.1+26.3-fabric"
+    },
+    {
+      "id": "background",
+      "name": "Background FPS saver",
+      "project": "dynamic-fps",
+      "projectId": "LQ3K71Q1",
+      "versionId": "Jwq069rR",
+      "version": "3.11.10"
+    },
+    {
+      "id": "badoptimizations",
+      "name": "Client CPU optimizations",
+      "project": "badoptimizations",
+      "projectId": "g96Z4WVZ",
+      "versionId": "Sp0ctspw",
+      "version": "2.4.1"
+    },
+    {
+      "id": "sodiumextra",
+      "name": "Extra Sodium controls",
+      "project": "sodium-extra",
+      "projectId": "PtjYWJkn",
+      "versionId": "te2y9qZn",
+      "version": "mc26.3-0.9.4+fabric"
+    },
+    {
+      "id": "reeses",
+      "name": "Cleaner video settings",
+      "project": "reeses-sodium-options",
+      "projectId": "Bh37bMuy",
+      "versionId": "EfchygKx",
+      "version": "mc26.3-2.2.5+fabric"
+    },
+    {
+      "id": "krypton",
+      "name": "Networking optimization",
+      "project": "krypton",
+      "projectId": "fQEb0iXm",
+      "versionId": "UugdIYJw",
+      "version": "0.3.2"
+    },
+    {
+      "id": "fastquit",
+      "name": "Quick world exit",
+      "project": "fastquit",
+      "projectId": "x1hIzbuY",
+      "versionId": "ZZ5dfboC",
+      "version": "3.1.5+mc26.2"
+    },
+    {
+      "id": "smoothswapping",
+      "name": "Animated inventory swaps",
+      "project": "smooth-swapping",
+      "projectId": "ydZic5r4",
+      "versionId": "TYYQn5Mn",
+      "version": "0.9.11-26.3"
+    },
+    {
+      "id": "smoothscroll",
+      "name": "Smooth scrolling",
+      "project": "smooth-scroll",
+      "projectId": "CllP7wW0",
+      "versionId": "bvDXfYZr",
+      "version": "3.0.1"
+    },
+    {
+      "id": "controlling",
+      "name": "Searchable keybindings",
+      "project": "controlling",
+      "projectId": "xv94TkTM",
+      "versionId": "V6AbRm67",
+      "version": "26.3.4"
+    },
+    {
+      "id": "shulker",
+      "name": "Shulker contents preview",
+      "project": "shulkerboxtooltip",
+      "projectId": "2M01OLQq",
+      "versionId": "Cj9VEeGt",
+      "version": "5.4.2+26.3-fabric"
+    },
+    {
+      "id": "betterdebug",
+      "name": "Readable debug HUD",
+      "project": "betterf3",
+      "projectId": "8shC1gFX",
+      "versionId": "XB7u4eSf",
+      "version": "20.0.0"
+    },
+    {
+      "id": "fps",
+      "name": "FPS display",
+      "project": "widgets",
+      "projectId": "lvqPItJV",
+      "versionId": "fw2pVgXO",
+      "version": "2.6.0-26.3-fabric"
+    },
+    {
+      "id": "cps",
+      "name": "CPS display",
+      "project": "widgets",
+      "projectId": "lvqPItJV",
+      "versionId": "fw2pVgXO",
+      "version": "2.6.0-26.3-fabric"
+    },
+    {
+      "id": "ping",
+      "name": "Ping display",
+      "project": "widgets",
+      "projectId": "lvqPItJV",
+      "versionId": "fw2pVgXO",
+      "version": "2.6.0-26.3-fabric"
+    },
+    {
+      "id": "mouse",
+      "name": "Mouse tweaks",
+      "project": "mouse-tweaks",
+      "projectId": "aC3cM3Vq",
+      "versionId": "LeMuMhLv",
+      "version": "26.3-2.31-fabric"
+    },
+    {
+      "id": "zoom",
+      "name": "Smooth zoom",
+      "project": "ok-zoomer",
+      "projectId": "aXf2OSFU",
+      "versionId": "3UXOK2JF",
+      "version": "19.0.0-beta.2"
+    },
+    {
+      "id": "food",
+      "name": "Food & saturation",
+      "project": "appleskin",
+      "projectId": "EsAfCjCV",
+      "versionId": "PHjDtQay",
+      "version": "3.0.10+mc26.3"
+    },
+    {
+      "id": "modmenu",
+      "name": "Mod settings menu",
+      "project": "modmenu",
+      "projectId": "mOgUt4GM",
+      "versionId": "kyy7dbrZ",
+      "version": "21.0.0"
+    },
+    {
+      "id": "skin3d",
+      "name": "3D skins",
+      "project": "3dskinlayers",
+      "projectId": "zV5r3pPn",
+      "versionId": "G8BCRxv5",
+      "version": "1.11.3"
+    },
+    {
+      "id": "localcosmetics",
+      "name": "Local skins & capes",
+      "project": "customskinloader",
+      "projectId": "idMHQ4n2",
+      "versionId": "yyYvYfZI",
+      "version": "15.1-Universal"
+    },
+    {
+      "id": "cosmetics",
+      "name": "Skin cosmetics",
+      "project": "ears",
+      "projectId": "mfzaZK3Z",
+      "versionId": "Tdfeeflh",
+      "version": "2.2.1-d+thermite"
+    },
+    {
+      "id": "capes",
+      "name": "Animated capes",
+      "project": "wavey-capes",
+      "projectId": "kYuIpRLv",
+      "versionId": "btMqe7fQ",
+      "version": "1.11.2"
+    },
+    {
+      "id": "emotes",
+      "name": "Emotes",
+      "project": "emotecraft",
+      "projectId": "pZ2wrerK",
+      "versionId": "M17ZQBUj",
+      "version": "3.5.0-a.build.171"
+    },
+    {
+      "id": "animations",
+      "name": "Player animations",
+      "project": "not-enough-animations",
+      "projectId": "MPCX6s5C",
+      "versionId": "EhSk2OTD",
+      "version": "1.12.6"
+    },
+    {
+      "id": "fancymenu",
+      "name": "FancyMenu",
+      "project": "fancymenu",
+      "projectId": "Wq5SjeWM",
+      "versionId": "CBLbyHzH",
+      "version": "3.9.14-26.3-fabric"
+    },
+    {
+      "id": "drippy",
+      "name": "Drippy Loading Screen",
+      "project": "drippy-loading-screen",
+      "projectId": "v3CYg2V9",
+      "versionId": "RQRAhm30",
+      "version": "3.1.6-26.3-fabric"
+    },
+    {
+      "id": "essential",
+      "name": "Essential Mod",
+      "project": "essential",
+      "projectId": "k2ZPuTBm",
+      "versionId": "NWE2l2zJ",
+      "version": "1.5.0.1"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "modernfix",
+      "name": "Load & memory boost",
+      "reason": "No compatible release for Minecraft 26.3 / fabric."
+    },
+    {
+      "id": "earlyloading",
+      "name": "Early Loading Screen",
+      "reason": "No compatible release for Minecraft 26.3 / fabric."
+    }
+  ],
+  "emotes": 20,
+  "modFiles": 39,
+  "nativeClient": {
+    "version": "1.8.3",
+    "menuKey": "F9",
+    "localCosmetics": true,
+    "hudEditorKey": "F7",
+    "chatKey": "F4",
+    "controlsCategory": "Boralances",
+    "crispMenus": true,
+    "wearables": 40,
+    "sharedCosmetics": "CPM"
+  },
+  "file": "Boralances-26.3-Optimization-Extras.mrpack"
+}

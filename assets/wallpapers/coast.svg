@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1600" viewBox="0 0 2560 1600">
+<defs>
+ <linearGradient id="sky" x2=".4" y2="1"><stop stop-color="#162d66"/><stop offset=".55" stop-color="#4776a2"/><stop offset="1" stop-color="#bacbdd"/></linearGradient>
+ <linearGradient id="water" x2=".8" y2="1"><stop stop-color="#72afc1"/><stop offset=".55" stop-color="#336b9e"/><stop offset="1" stop-color="#101b45"/></linearGradient>
+ <linearGradient id="ridge" x2=".7" y2="1"><stop stop-color="#e1b0b0"/><stop offset=".55" stop-color="#777da7"/><stop offset="1" stop-color="#26395d"/></linearGradient>
+ <linearGradient id="shore" x2=".6" y2="1"><stop stop-color="#c7acba"/><stop offset="1" stop-color="#3b466f"/></linearGradient>
+</defs>
+<path fill="url(#sky)" d="M0 0h2560v1600H0z"/>
+<path fill="url(#water)" d="M0 580c480-60 880 160 1280 85s850-160 1280-90v1025H0z"/>
+<path fill="url(#ridge)" d="M0 560c280 40 350 250 540 370 230 145 650 140 840 360 70 80 110 185 170 310H0z"/>
+<path fill="url(#shore)" d="M2560 665c-290 90-420 355-615 470-220 130-405 250-520 465h1135z"/>
+<path d="M0 560c280 40 350 250 540 370 230 145 650 140 840 360" fill="none" stroke="#f3cccb" stroke-opacity=".3" stroke-width="2"/>
+<path d="M2560 665c-290 90-420 355-615 470-220 130-405 250-520 465" fill="none" stroke="#d1d9e6" stroke-opacity=".3" stroke-width="2"/>
+</svg>

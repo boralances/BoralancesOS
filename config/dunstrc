@@ -1,0 +1,18 @@
+[global]
+font = Inter 10
+width = 360
+height = 180
+offset = 18x58
+origin = top-right
+corner_radius = 16
+frame_width = 1
+frame_color = "#53627c"
+background = "#141a2eec"
+foreground = "#eef2ff"
+separator_color = frame
+timeout = 6
+padding = 18
+horizontal_padding = 18
+[urgency_critical]
+frame_color = "#ffb1b8"
+timeout = 0

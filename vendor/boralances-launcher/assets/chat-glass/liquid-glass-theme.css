@@ -1,0 +1,33 @@
+/* Refraction applies only to the existing Liquid Glass theme. */
+html[data-theme="liquidglass"] .boralances-physical-glass{
+ --glass-bezel:28;--glass-thickness:16;--glass-index:1.5;--glass-strength:1;
+ background:rgba(30,43,63,.32)!important;
+ border:1px solid rgba(255,255,255,.2)!important;
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 12px 32px rgba(0,0,0,.18);
+ backdrop-filter:blur(var(--lgx-blur,18px)) saturate(var(--lgx-sat,160%))!important;
+ -webkit-backdrop-filter:blur(var(--lgx-blur,18px)) saturate(var(--lgx-sat,160%))!important;
+}
+html[data-theme="liquidglass"] .boralances-physical-glass.glass-refracted{
+ backdrop-filter:var(--glass-filter) blur(1.5px) saturate(var(--lgx-sat,160%))!important;
+ -webkit-backdrop-filter:var(--glass-filter) blur(1.5px) saturate(var(--lgx-sat,160%))!important;
+}
+.glass-filter-definitions{position:absolute;pointer-events:none;overflow:hidden}
+@media(prefers-reduced-transparency:reduce){html[data-theme="liquidglass"] .boralances-physical-glass{background:#192437!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}}
+
+/* Bounded navigation lens never receives pointer input or shifts layout. */
+.glass-sidebar-host{position:relative;isolation:isolate}
+.glass-sidebar-host .sidebar-lens{display:block;position:absolute;left:0;top:0;pointer-events:none;z-index:0;border-radius:14px;border:1px solid #e9fff755;background:linear-gradient(150deg,#ffffff24,#b7fbe90b);box-shadow:inset 0 1px 2px #ffffff70,0 5px 18px #0002;backdrop-filter:blur(6px) saturate(145%);transition:transform .2s cubic-bezier(.2,.8,.2,1)}
+.glass-sidebar-host .sidebar-lens.glass-refracted{backdrop-filter:var(--glass-filter) saturate(135%)}
+.glass-sidebar-host .sidebar-lens[hidden]{display:none}
+.glass-sidebar-host .rail-btn{position:relative;z-index:1}
+html[data-theme=liquidglass] .glass-sidebar-host .rail-btn:hover,html[data-theme=liquidglass] .glass-sidebar-host .rail-btn.active{background:#ffffff12}
+@media(prefers-reduced-motion:reduce){.glass-sidebar-host .sidebar-lens{transition:none}}
+@media(prefers-reduced-transparency:reduce){.glass-sidebar-host .sidebar-lens{display:none}}
+
+/* Elastic optical selection, shared with the launcher. */
+.glass-sidebar-host .sidebar-lens{z-index:0;backdrop-filter:blur(.8px) saturate(130%);background:linear-gradient(155deg,#ffffff1b,#efffff06);border-color:#ecffff66;box-shadow:inset 0 1px 1px #ffffffa3,inset 0 -1px 1px #aee7ee4d,0 8px 22px #00171a30}
+.sidebar-lens-moving{will-change:transform}
+.sidebar-lens::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(125deg,#ffffff32,transparent 35%,transparent 65%,#bbfff412);opacity:.75}
+
+html[data-theme=liquidglass] .glass-sidebar-host .rail-btn.active svg{transform:scale(1.12);transition:transform .22s ease}
+@media(prefers-reduced-motion:reduce){html[data-theme=liquidglass] .glass-sidebar-host .rail-btn.active svg{transition:none}}

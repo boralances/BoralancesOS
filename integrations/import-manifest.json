@@ -1,0 +1,2275 @@
+{
+  "schema": 1,
+  "sourceProjects": [
+    "BoralancesAnimations/Browser",
+    "BoralancesAnimations/Jarvis",
+    "BoralancesAnimations/HDMI Glass",
+    "BoralancesAnimations/Suite",
+    "BoralancesLauncher"
+  ],
+  "policy": "Allowlisted source/assets only; profiles, credentials, caches and Windows binaries excluded.",
+  "files": [
+    {
+      "path": "vendor/boralances-launcher/src/auth-diagnostics.cjs",
+      "sourceSha256": "eff6b99a0ff9dc3658297c189707f4c0770c5d914f7e9502d43aa62fe8e4ca37",
+      "sha256": "eff6b99a0ff9dc3658297c189707f4c0770c5d914f7e9502d43aa62fe8e4ca37",
+      "bytes": 3952
+    },
+    {
+      "path": "vendor/boralances-launcher/src/chat-policy.cjs",
+      "sourceSha256": "fbb8f0e1d0f09a5eaccc3630467f5ea1004d7c6a726c9f93a23b2161cade6fb0",
+      "sha256": "fbb8f0e1d0f09a5eaccc3630467f5ea1004d7c6a726c9f93a23b2161cade6fb0",
+      "bytes": 2181
+    },
+    {
+      "path": "vendor/boralances-launcher/src/chat-session.cjs",
+      "sourceSha256": "6316925f143ee6fb61191c985dd8ece4ef53446ee69d64eddd17b89d88f4f154",
+      "sha256": "6316925f143ee6fb61191c985dd8ece4ef53446ee69d64eddd17b89d88f4f154",
+      "bytes": 1661
+    },
+    {
+      "path": "vendor/boralances-launcher/src/chat.cjs",
+      "sourceSha256": "1629435fa0a0a5fa040735bfcdc5fafd8b68f0baeb4f97231d83b3f48fc7f423",
+      "sha256": "1629435fa0a0a5fa040735bfcdc5fafd8b68f0baeb4f97231d83b3f48fc7f423",
+      "bytes": 9238
+    },
+    {
+      "path": "vendor/boralances-launcher/src/cloud-rules.cjs",
+      "sourceSha256": "2a59404b6e23c94bbb70d1adf594d0bcd572c5e38bd951f97f3efa330e3eca93",
+      "sha256": "2a59404b6e23c94bbb70d1adf594d0bcd572c5e38bd951f97f3efa330e3eca93",
+      "bytes": 2460
+    },
+    {
+      "path": "vendor/boralances-launcher/src/core.cjs",
+      "sourceSha256": "d292d823be328c622fda63e20529b7afb2607cce0d2b0d194aab4c7e1708c7dc",
+      "sha256": "2a937f9741f340814a28475aad99ef636ba0ea60b3f67c22f89a8caecb464cd7",
+      "bytes": 26012
+    },
+    {
+      "path": "vendor/boralances-launcher/src/cosmetic-collection.cjs",
+      "sourceSha256": "e598015f29046ab42479e125138f9040b27258c6e5ee2426986f4c7c73ed9eb1",
+      "sha256": "e598015f29046ab42479e125138f9040b27258c6e5ee2426986f4c7c73ed9eb1",
+      "bytes": 2711
+    },
+    {
+      "path": "vendor/boralances-launcher/src/cosmetics.cjs",
+      "sourceSha256": "871bb0cf3d0e8aed9d3958f0bffc25d330c18c01be809c8ac4ea5f835303c35b",
+      "sha256": "871bb0cf3d0e8aed9d3958f0bffc25d330c18c01be809c8ac4ea5f835303c35b",
+      "bytes": 4516
+    },
+    {
+      "path": "vendor/boralances-launcher/src/credentials.cjs",
+      "sourceSha256": "e177a592f826fda5b7d65b247d63aaf39b17d4c0c825bd0978d068a0a132ebfe",
+      "sha256": "e177a592f826fda5b7d65b247d63aaf39b17d4c0c825bd0978d068a0a132ebfe",
+      "bytes": 1575
+    },
+    {
+      "path": "vendor/boralances-launcher/src/curated.cjs",
+      "sourceSha256": "4e4a5270b6cfee04bb62238516ac1a2ff6895cf86991d42f7862678f5f2248e5",
+      "sha256": "4e4a5270b6cfee04bb62238516ac1a2ff6895cf86991d42f7862678f5f2248e5",
+      "bytes": 2553
+    },
+    {
+      "path": "vendor/boralances-launcher/src/data-path.cjs",
+      "sourceSha256": "93c05fcc87d74a541c0bd67ec5a8c263b9293a56c3e0f5724ab8af3dbaee9b5c",
+      "sha256": "dca6c61726c75d5a5f99c3724e57587a0b3f9a733df9fa1592a69bd86a5dff31",
+      "bytes": 526
+    },
+    {
+      "path": "vendor/boralances-launcher/src/emotes.cjs",
+      "sourceSha256": "e1d9cb32c6a5fd7459c05480229aeea9857ca0293ba961a6aaf7d10bff61fab5",
+      "sha256": "e1d9cb32c6a5fd7459c05480229aeea9857ca0293ba961a6aaf7d10bff61fab5",
+      "bytes": 8356
+    },
+    {
+      "path": "vendor/boralances-launcher/src/expansion.cjs",
+      "sourceSha256": "77fecbb8e9091e10b88e036af36c0a5d026230e5fcd59cb5cdbf1ac347f38606",
+      "sha256": "77fecbb8e9091e10b88e036af36c0a5d026230e5fcd59cb5cdbf1ac347f38606",
+      "bytes": 7881
+    },
+    {
+      "path": "vendor/boralances-launcher/src/featured-creators.cjs",
+      "sourceSha256": "cf0a1c1ed95398aa33a66af1be54470d3bc733de1868c0e57cd28f129686c96e",
+      "sha256": "cf0a1c1ed95398aa33a66af1be54470d3bc733de1868c0e57cd28f129686c96e",
+      "bytes": 1089
+    },
+    {
+      "path": "vendor/boralances-launcher/src/features.cjs",
+      "sourceSha256": "a776f8793dc11b201ea6a781b3e30983d8050faad7b9b10782f6fb34ccef0a3c",
+      "sha256": "73d1d9d150b7589926bee3c6bb20f92432ec30d62802d518eb5d076b12492435",
+      "bytes": 15781
+    },
+    {
+      "path": "vendor/boralances-launcher/src/firebase.cjs",
+      "sourceSha256": "9a158a94827ffcc8481c48f27fc2ff5cbe8612eddada39c8becfcdd5702e37e8",
+      "sha256": "9a158a94827ffcc8481c48f27fc2ff5cbe8612eddada39c8becfcdd5702e37e8",
+      "bytes": 6626
+    },
+    {
+      "path": "vendor/boralances-launcher/src/friends-relay.cjs",
+      "sourceSha256": "204b55491df324c61b19437e706965e8e080c5605f691758416f2406706b6724",
+      "sha256": "204b55491df324c61b19437e706965e8e080c5605f691758416f2406706b6724",
+      "bytes": 5473
+    },
+    {
+      "path": "vendor/boralances-launcher/src/game-sessions.cjs",
+      "sourceSha256": "06501476112c83a552b18f38b6f7ad40e00e387fad985bf050757ffcc445eb8b",
+      "sha256": "06501476112c83a552b18f38b6f7ad40e00e387fad985bf050757ffcc445eb8b",
+      "bytes": 840
+    },
+    {
+      "path": "vendor/boralances-launcher/src/glass-settings.cjs",
+      "sourceSha256": "747022ecbc81219b6706c4d989b1e3e2df3fc6c0470ab80a88a8446720db356c",
+      "sha256": "747022ecbc81219b6706c4d989b1e3e2df3fc6c0470ab80a88a8446720db356c",
+      "bytes": 483
+    },
+    {
+      "path": "vendor/boralances-launcher/src/launcher-access.cjs",
+      "sourceSha256": "59476c487e19d01e17073a3d9a7a5d335214bb2e60127d3b50dd1f9492741ccd",
+      "sha256": "59476c487e19d01e17073a3d9a7a5d335214bb2e60127d3b50dd1f9492741ccd",
+      "bytes": 959
+    },
+    {
+      "path": "vendor/boralances-launcher/src/main.cjs",
+      "sourceSha256": "fca526702f7dcd6e4124abee90aed35843a19a5d14350c44cc7554f9cce48f0a",
+      "sha256": "a877ff908b380f7e1d40aa1fd34e05cc94f655f5d436663a44c6e469397885e0",
+      "bytes": 37204
+    },
+    {
+      "path": "vendor/boralances-launcher/src/microsoft-config.cjs",
+      "sourceSha256": "b85427f814d3f74a6b36bd5ebda314f9dccb393f35f3af4c2f991986d92ec14a",
+      "sha256": "b85427f814d3f74a6b36bd5ebda314f9dccb393f35f3af4c2f991986d92ec14a",
+      "bytes": 284
+    },
+    {
+      "path": "vendor/boralances-launcher/src/multiplayer.cjs",
+      "sourceSha256": "a6c0c9a5496ddf21ea30425e9db9ad3594562e75081e223ad646cd5c5ceca700",
+      "sha256": "a6c0c9a5496ddf21ea30425e9db9ad3594562e75081e223ad646cd5c5ceca700",
+      "bytes": 10971
+    },
+    {
+      "path": "vendor/boralances-launcher/src/native-client.cjs",
+      "sourceSha256": "65a43150a9a057b3fadec25a7e469e27526865b86999fb39cf56e487492cda64",
+      "sha256": "65a43150a9a057b3fadec25a7e469e27526865b86999fb39cf56e487492cda64",
+      "bytes": 7401
+    },
+    {
+      "path": "vendor/boralances-launcher/src/onboarding.cjs",
+      "sourceSha256": "bce97ee2279e3e6d3bdece65b2365097111c8b4240eb00b9e57b0c1927f8dc75",
+      "sha256": "bce97ee2279e3e6d3bdece65b2365097111c8b4240eb00b9e57b0c1927f8dc75",
+      "bytes": 2693
+    },
+    {
+      "path": "vendor/boralances-launcher/src/optimization.cjs",
+      "sourceSha256": "e0de5e04620bb29795846ca05c43a8da4dbb0bfc795b0434eeb4712cc4b1057e",
+      "sha256": "e0de5e04620bb29795846ca05c43a8da4dbb0bfc795b0434eeb4712cc4b1057e",
+      "bytes": 2924
+    },
+    {
+      "path": "vendor/boralances-launcher/src/owner-account.cjs",
+      "sourceSha256": "899dac6a3c6b771f9743e4dad60c6d0021c79f62d45ca319c3901111ce17a58e",
+      "sha256": "899dac6a3c6b771f9743e4dad60c6d0021c79f62d45ca319c3901111ce17a58e",
+      "bytes": 171
+    },
+    {
+      "path": "vendor/boralances-launcher/src/owner.cjs",
+      "sourceSha256": "92625d8e2cf90cf434f8327a1b3223580fc6334ef2aff1e2f3e4b0f6474c8ac0",
+      "sha256": "92625d8e2cf90cf434f8327a1b3223580fc6334ef2aff1e2f3e4b0f6474c8ac0",
+      "bytes": 3842
+    },
+    {
+      "path": "vendor/boralances-launcher/src/pack-fallback.cjs",
+      "sourceSha256": "59d1d0386f14597938584494e36eb83c5667a791635d96a1cce35b9be8aa9958",
+      "sha256": "59d1d0386f14597938584494e36eb83c5667a791635d96a1cce35b9be8aa9958",
+      "bytes": 8803
+    },
+    {
+      "path": "vendor/boralances-launcher/src/player-style.cjs",
+      "sourceSha256": "7fa8bcf0a636a16f2723f067f015afbf61df097004977f100163a9bc357ec70b",
+      "sha256": "7fa8bcf0a636a16f2723f067f015afbf61df097004977f100163a9bc357ec70b",
+      "bytes": 6735
+    },
+    {
+      "path": "vendor/boralances-launcher/src/playit.cjs",
+      "sourceSha256": "1333fdc08e0107f865f5acf95395d2db5332ec2a42cdbba6d64ff94cc52c5968",
+      "sha256": "1333fdc08e0107f865f5acf95395d2db5332ec2a42cdbba6d64ff94cc52c5968",
+      "bytes": 4101
+    },
+    {
+      "path": "vendor/boralances-launcher/src/preload.cjs",
+      "sourceSha256": "9616e2c899ed1a6cd254c3ef30fe2654458ba299b7905140cbd70764a4f3085c",
+      "sha256": "9616e2c899ed1a6cd254c3ef30fe2654458ba299b7905140cbd70764a4f3085c",
+      "bytes": 2353
+    },
+    {
+      "path": "vendor/boralances-launcher/src/provider-defaults.cjs",
+      "sourceSha256": "bbe488c4624fc42c153b69bbe24dcf12e25fe513d8f3d335dfbd8fae4feb0a2a",
+      "sha256": "7b6e53f6f95125629623427a7d8d5465d95f5227066efa4e67e6fdfe3bd0f0ed",
+      "bytes": 81
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ready-customization.cjs",
+      "sourceSha256": "58409e3141480affe4ff3388aa5f3f0bccfd004f0d5969fa08a9abe41844fb36",
+      "sha256": "af1233a1c2392203bbf50c67772f613d83be6762da66afad747b9659591e5e42",
+      "bytes": 12241
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ready-design.cjs",
+      "sourceSha256": "1eb42ee7c290bf249c260a1a4a8c330124b0b18c83890414859f4488f40cddfa",
+      "sha256": "1eb42ee7c290bf249c260a1a4a8c330124b0b18c83890414859f4488f40cddfa",
+      "bytes": 2056
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ready.cjs",
+      "sourceSha256": "284428e37fa45ebb1b9ab06a07d44f5a8f5ce63b5f452960d3e66a3fd265f975",
+      "sha256": "284428e37fa45ebb1b9ab06a07d44f5a8f5ce63b5f452960d3e66a3fd265f975",
+      "bytes": 3741
+    },
+    {
+      "path": "vendor/boralances-launcher/src/suite.cjs",
+      "sourceSha256": "df1ebd5ff366dbc3a733770c0133c8ed08f2be5a6ada0938449f85e177c659b9",
+      "sha256": "df1ebd5ff366dbc3a733770c0133c8ed08f2be5a6ada0938449f85e177c659b9",
+      "bytes": 18785
+    },
+    {
+      "path": "vendor/boralances-launcher/src/title-integration.cjs",
+      "sourceSha256": "79632f694a23895209c4f5a17c4f73a4d2befaec447562077a28976c463794f8",
+      "sha256": "79632f694a23895209c4f5a17c4f73a4d2befaec447562077a28976c463794f8",
+      "bytes": 1859
+    },
+    {
+      "path": "vendor/boralances-launcher/src/tools.cjs",
+      "sourceSha256": "f7c7a503fa46c9bfb0dd7bcd5f42784cdef029c55448e4195b9ea98cada16ae0",
+      "sha256": "f7c7a503fa46c9bfb0dd7bcd5f42784cdef029c55448e4195b9ea98cada16ae0",
+      "bytes": 18814
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/access-ui.js",
+      "sourceSha256": "b48480b9cba4e0969fbdabedb063f663b691a54a3b023ec2c05af5a314cabafa",
+      "sha256": "b48480b9cba4e0969fbdabedb063f663b691a54a3b023ec2c05af5a314cabafa",
+      "bytes": 2763
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/animation-preview.js",
+      "sourceSha256": "e3a19ff107a44cb293f06b0039472a39ca1710988922bdf803edc9f63f8c3e98",
+      "sha256": "e3a19ff107a44cb293f06b0039472a39ca1710988922bdf803edc9f63f8c3e98",
+      "bytes": 1548
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/app.js",
+      "sourceSha256": "18061bb3197a35d773465d015f8539ab21d587b8119eec9f8dfc837dedd8ebdc",
+      "sha256": "3df91a16ac591d67ee70b4061bad83665ad1cf84477356f1c88ea9862cea75ff",
+      "bytes": 50435
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/auth-ui.js",
+      "sourceSha256": "0a2e3ae25835f937fbb277d97d28bc3e824f667baba80dfe171551010063d295",
+      "sha256": "0a2e3ae25835f937fbb277d97d28bc3e824f667baba80dfe171551010063d295",
+      "bytes": 977
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/chat-ui.js",
+      "sourceSha256": "5479148a13de61376cf8fb7d2797c7b8151a06472fcd655c7399d7f9d8610eb3",
+      "sha256": "5479148a13de61376cf8fb7d2797c7b8151a06472fcd655c7399d7f9d8610eb3",
+      "bytes": 2246
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/chat.css",
+      "sourceSha256": "42ce822229d60191606704bdaa779bb7aa3e3dcd90dcdb1d2a3d0f6c44db68e9",
+      "sha256": "42ce822229d60191606704bdaa779bb7aa3e3dcd90dcdb1d2a3d0f6c44db68e9",
+      "bytes": 1265
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/client-controls.js",
+      "sourceSha256": "857b4aa27dd31065e60ddf45a864833971f7fdb03fa6ac41a5fa5be557ddc8fd",
+      "sha256": "857b4aa27dd31065e60ddf45a864833971f7fdb03fa6ac41a5fa5be557ddc8fd",
+      "bytes": 566
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/cosmetic-preview.js",
+      "sourceSha256": "9c71b80bd564d1745a8afcb3d9b7e6b7c966409b145bc72451b9a86d95858c16",
+      "sha256": "9c71b80bd564d1745a8afcb3d9b7e6b7c966409b145bc72451b9a86d95858c16",
+      "bytes": 9423
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/expansion-ui.js",
+      "sourceSha256": "c8a733a3daaa0ca045405573a087084e06e69c84da944ed04d13be8b00d5c990",
+      "sha256": "c8a733a3daaa0ca045405573a087084e06e69c84da944ed04d13be8b00d5c990",
+      "bytes": 11119
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/expansion.css",
+      "sourceSha256": "d4f4159e7f2572872dadf8d77d5d8a7d1d9672484bf213fdd122f1ab73861b85",
+      "sha256": "d4f4159e7f2572872dadf8d77d5d8a7d1d9672484bf213fdd122f1ab73861b85",
+      "bytes": 1671
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-components.css",
+      "sourceSha256": "f2aac38e2e2ad31fa96db581b96dde844439623013afcc1937d8dd31519367ad",
+      "sha256": "6b142edec2367bef2734899c9ed7611c7c2cffdf66dec7c80010b127c9f1682b",
+      "bytes": 9784
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-components.js",
+      "sourceSha256": "f69ea222309cfce2c8ee816e8c9784a5d6a801df31992de9beade868fb5d89f1",
+      "sha256": "f69ea222309cfce2c8ee816e8c9784a5d6a801df31992de9beade868fb5d89f1",
+      "bytes": 1685
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-controls.js",
+      "sourceSha256": "96fbf6472390409816f019fe187891eb877e2b8d08909ab16b25e5c562250092",
+      "sha256": "96fbf6472390409816f019fe187891eb877e2b8d08909ab16b25e5c562250092",
+      "bytes": 2231
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-interactions.js",
+      "sourceSha256": "d6c9a6c4ea4754b771649b2be7657bdc5f2397f1030f9c03ef874a29b1728483",
+      "sha256": "d6c9a6c4ea4754b771649b2be7657bdc5f2397f1030f9c03ef874a29b1728483",
+      "bytes": 13545
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-polish.css",
+      "sourceSha256": "85a3203bcbe5586d4b0180ace8710fa898b1d6f5940ab3a85f08f005ef1d6b38",
+      "sha256": "85a3203bcbe5586d4b0180ace8710fa898b1d6f5940ab3a85f08f005ef1d6b38",
+      "bytes": 9924
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/glass-polish.js",
+      "sourceSha256": "a860fb24449625e3cfca8181571beb7c54d0832a3b72889b458f29690db6efc1",
+      "sha256": "a860fb24449625e3cfca8181571beb7c54d0832a3b72889b458f29690db6efc1",
+      "bytes": 1539
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/index.html",
+      "sourceSha256": "47967e30eebd6d224950e2d6700ea07bf8316bca28a01c416cbba3205ad50647",
+      "sha256": "f38c5f92e24e912329c96329c957927d0f8dd54d2870d171c9ddf61204d9fb9a",
+      "bytes": 52710
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/instance-wizard.js",
+      "sourceSha256": "0f4e827cdefbada3483ecd103d15f18a272a7f04682ea54b7a518823c9e445da",
+      "sha256": "0f4e827cdefbada3483ecd103d15f18a272a7f04682ea54b7a518823c9e445da",
+      "bytes": 3689
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/liquid-glass.css",
+      "sourceSha256": "e08cf8bce8786285fc366574347bd7f44122922c6138a08e8aa528b8b999ff44",
+      "sha256": "e08cf8bce8786285fc366574347bd7f44122922c6138a08e8aa528b8b999ff44",
+      "bytes": 1112
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/liquid-glass.js",
+      "sourceSha256": "59bcf5e7da9385ce54e01f10c49589998cd442d53a2ab5dff8712bd2b66dcc66",
+      "sha256": "59bcf5e7da9385ce54e01f10c49589998cd442d53a2ab5dff8712bd2b66dcc66",
+      "bytes": 11870
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/multiplayer-ui.js",
+      "sourceSha256": "db389dfc7700e406a2904b8619cd062781ea8d1cf7b4ed15af5ff6bc492ddab9",
+      "sha256": "db389dfc7700e406a2904b8619cd062781ea8d1cf7b4ed15af5ff6bc492ddab9",
+      "bytes": 9580
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/onboarding-ui.js",
+      "sourceSha256": "9ffc210a333fdf846b9eb4edc426d6d9674d19ac020ccfdf791cc0b3cb2a8b0f",
+      "sha256": "9ffc210a333fdf846b9eb4edc426d6d9674d19ac020ccfdf791cc0b3cb2a8b0f",
+      "bytes": 6864
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/onboarding.css",
+      "sourceSha256": "e84a9f9a82b1e08da7c62b799a6f4f628bad70e2c3825a37c6332ad4234df7e9",
+      "sha256": "e84a9f9a82b1e08da7c62b799a6f4f628bad70e2c3825a37c6332ad4234df7e9",
+      "bytes": 3738
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/sidebar-glass.js",
+      "sourceSha256": "9c32a7fd60290e03f4df8aea4e374acc87eb4cb4cfe48fdaad8c5ffac086f7e6",
+      "sha256": "9c32a7fd60290e03f4df8aea4e374acc87eb4cb4cfe48fdaad8c5ffac086f7e6",
+      "bytes": 11374
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/sidebar-pointer-glass.css",
+      "sourceSha256": "8b4662cb67d22dc206be4201f34cb179a4d6d196d5a7298078dd0cdf66dc4fb9",
+      "sha256": "8b4662cb67d22dc206be4201f34cb179a4d6d196d5a7298078dd0cdf66dc4fb9",
+      "bytes": 2523
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/style.css",
+      "sourceSha256": "fcd2914b3fbecbd4453e6aa79eeb588fe637f8a34e67774d8ded330e67db6f45",
+      "sha256": "09357c7c2e41890ad9f4135c5f1620e7958bc3ad10836ce56c0335254b371357",
+      "bytes": 49664
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/suite-ui.js",
+      "sourceSha256": "d6da390ec01655a93d7e9110f3c7765a26428567d9d1beb71e589151d5556353",
+      "sha256": "982a7f4a57485d1425509f5de09f6e1f77ba05328090e5a5409f1ac4b7d8b6d6",
+      "bytes": 20156
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/tools-ui.js",
+      "sourceSha256": "48d9990d30aeee6226c82130e69e2bdfbe2ae30f551eb9b2d8b8f4a33dcaf612",
+      "sha256": "48d9990d30aeee6226c82130e69e2bdfbe2ae30f551eb9b2d8b8f4a33dcaf612",
+      "bytes": 4425
+    },
+    {
+      "path": "vendor/boralances-launcher/src/ui/update-ui.js",
+      "sourceSha256": "b3f1731f792c8b21541ab88fed6fa58c27517eb09e779e65bb62ec590a5eab34",
+      "sha256": "b3f1731f792c8b21541ab88fed6fa58c27517eb09e779e65bb62ec590a5eab34",
+      "bytes": 3039
+    },
+    {
+      "path": "vendor/boralances-launcher/src/update-handoff.cjs",
+      "sourceSha256": "473bdccf87ba374d8a7595ba9e40b16872ac4242c703b009fc73f33af98cffdc",
+      "sha256": "473bdccf87ba374d8a7595ba9e40b16872ac4242c703b009fc73f33af98cffdc",
+      "bytes": 2150
+    },
+    {
+      "path": "vendor/boralances-launcher/src/update-public-key.cjs",
+      "sourceSha256": "7bc73ad30a2d5819392da9e3bd8942bde4eb7d5669da0124b96c8daa5151745b",
+      "sha256": "7bc73ad30a2d5819392da9e3bd8942bde4eb7d5669da0124b96c8daa5151745b",
+      "bytes": 225
+    },
+    {
+      "path": "vendor/boralances-launcher/src/updater.cjs",
+      "sourceSha256": "aea7f1bd9735c98e7d900fb60e84cd4f2bd8a0e9d485574d7c00d804f7c27272",
+      "sha256": "aea7f1bd9735c98e7d900fb60e84cd4f2bd8a0e9d485574d7c00d804f7c27272",
+      "bytes": 12047
+    },
+    {
+      "path": "vendor/boralances-launcher/src/wardrobe-expansion.cjs",
+      "sourceSha256": "f82a88baad960546f40f1958a89d0c92e9c3ed18e92b9dd65efbdaa5b99a45c9",
+      "sha256": "f82a88baad960546f40f1958a89d0c92e9c3ed18e92b9dd65efbdaa5b99a45c9",
+      "bytes": 2927
+    },
+    {
+      "path": "vendor/boralances-launcher/src/wearables.cjs",
+      "sourceSha256": "54a124b5d9a47fe8d244dd38ff62fd8692840ca4f762c1ba492d727699c19308",
+      "sha256": "54a124b5d9a47fe8d244dd38ff62fd8692840ca4f762c1ba492d727699c19308",
+      "bytes": 3024
+    },
+    {
+      "path": "vendor/boralances-launcher/src/window-material.cjs",
+      "sourceSha256": "0447c4effb098c2c620eb4487fc94e87a57d6310311eaaefe81fe3cf641b9488",
+      "sha256": "0447c4effb098c2c620eb4487fc94e87a57d6310311eaaefe81fe3cf641b9488",
+      "bytes": 187
+    },
+    {
+      "path": "vendor/boralances-launcher/src/wings.cjs",
+      "sourceSha256": "87386fe5cde49e5ea39b6208a5698f102e3e4e18737540e9ffc1240d656f7454",
+      "sha256": "87386fe5cde49e5ea39b6208a5698f102e3e4e18737540e9ffc1240d656f7454",
+      "bytes": 8373
+    },
+    {
+      "path": "vendor/boralances-launcher/backend/credentials.py",
+      "sourceSha256": "38e050c2dd6b53d51fff42a0b43ef5d0e17592ba6b8c59cebca5cefca2485153",
+      "sha256": "38e050c2dd6b53d51fff42a0b43ef5d0e17592ba6b8c59cebca5cefca2485153",
+      "bytes": 3642
+    },
+    {
+      "path": "vendor/boralances-launcher/backend/game_metadata.py",
+      "sourceSha256": "8b9d0c0c2dc81077953f2fa583bfdd51210ad4a3b09757c4f8d3fa8050839604",
+      "sha256": "8b9d0c0c2dc81077953f2fa583bfdd51210ad4a3b09757c4f8d3fa8050839604",
+      "bytes": 3066
+    },
+    {
+      "path": "vendor/boralances-launcher/backend/microsoft_auth.py",
+      "sourceSha256": "eefa15ee912bee7205b1cd7c4f47d686e324bc3a39ac6392f3d0f0416f4b4eeb",
+      "sha256": "eefa15ee912bee7205b1cd7c4f47d686e324bc3a39ac6392f3d0f0416f4b4eeb",
+      "bytes": 12066
+    },
+    {
+      "path": "vendor/boralances-launcher/backend/worker.py",
+      "sourceSha256": "b5d2e25f2dfdfe36bdafed0df0963fe38db6e4cd940e738c22c57362deff1868",
+      "sha256": "c9da7ef9a72ed07f758c08c0d3d5f1223374d0b15043cc87f6d1f20e3a7bd06f",
+      "bytes": 15137
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/glass-components.css",
+      "sourceSha256": "f2aac38e2e2ad31fa96db581b96dde844439623013afcc1937d8dd31519367ad",
+      "sha256": "6b142edec2367bef2734899c9ed7611c7c2cffdf66dec7c80010b127c9f1682b",
+      "bytes": 9784
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/glass-interactions.js",
+      "sourceSha256": "d6c9a6c4ea4754b771649b2be7657bdc5f2397f1030f9c03ef874a29b1728483",
+      "sha256": "d6c9a6c4ea4754b771649b2be7657bdc5f2397f1030f9c03ef874a29b1728483",
+      "bytes": 13545
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/liquid-glass-theme.css",
+      "sourceSha256": "6858475e81c9bc7a457f8fec887b5f39603a133182f2c9579da4f660218619d7",
+      "sha256": "6858475e81c9bc7a457f8fec887b5f39603a133182f2c9579da4f660218619d7",
+      "bytes": 2950
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/liquid-glass-theme.js",
+      "sourceSha256": "385ff703cb36cb9375a09abef0d3f55c6549f4eb75af4eaea1588c95f404cfdc",
+      "sha256": "385ff703cb36cb9375a09abef0d3f55c6549f4eb75af4eaea1588c95f404cfdc",
+      "bytes": 3278
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/physical-glass.js",
+      "sourceSha256": "0e7255099b783a6d8272149c9968ae2a133c6060d69f60085b3506b66ed09c0b",
+      "sha256": "0e7255099b783a6d8272149c9968ae2a133c6060d69f60085b3506b66ed09c0b",
+      "bytes": 11879
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/sidebar-glass.js",
+      "sourceSha256": "9c32a7fd60290e03f4df8aea4e374acc87eb4cb4cfe48fdaad8c5ffac086f7e6",
+      "sha256": "9c32a7fd60290e03f4df8aea4e374acc87eb4cb4cfe48fdaad8c5ffac086f7e6",
+      "bytes": 11374
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/chat-glass/sidebar-pointer-glass.css",
+      "sourceSha256": "8b4662cb67d22dc206be4201f34cb179a4d6d196d5a7298078dd0cdf66dc4fb9",
+      "sha256": "8b4662cb67d22dc206be4201f34cb179a4d6d196d5a7298078dd0cdf66dc4fb9",
+      "bytes": 2523
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.6.5.jar",
+      "sourceSha256": "442b289e3a401912daa238280441087cb1f33f38e427d10aac77f693ff644a47",
+      "sha256": "442b289e3a401912daa238280441087cb1f33f38e427d10aac77f693ff644a47",
+      "bytes": 335806
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.7.0.jar",
+      "sourceSha256": "6d46452f967be5ff0f1bcf265253e05c7d770d9784af3e87fe6af143f1f92df7",
+      "sha256": "6d46452f967be5ff0f1bcf265253e05c7d770d9784af3e87fe6af143f1f92df7",
+      "bytes": 362876
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.7.2.jar",
+      "sourceSha256": "206460e3434868fe547509293c1c57bb73e37de0407550829b11d73022a7c2d2",
+      "sha256": "206460e3434868fe547509293c1c57bb73e37de0407550829b11d73022a7c2d2",
+      "bytes": 364047
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.8.0.jar",
+      "sourceSha256": "b4e167982d821073912a3a72917e2cd1daf445d814f54bfc19720efe8cb7d996",
+      "sha256": "b4e167982d821073912a3a72917e2cd1daf445d814f54bfc19720efe8cb7d996",
+      "bytes": 365405
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.8.1.jar",
+      "sourceSha256": "5ddfa156b1449566e157c169fd9562161574a0fe2df628d4e5d62f70a941231e",
+      "sha256": "5ddfa156b1449566e157c169fd9562161574a0fe2df628d4e5d62f70a941231e",
+      "bytes": 370639
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.8.2.jar",
+      "sourceSha256": "a9e8fc99a5d68dbf7efb730078ae744768d07937ea87d7f88950a438cdc834d0",
+      "sha256": "a9e8fc99a5d68dbf7efb730078ae744768d07937ea87d7f88950a438cdc834d0",
+      "bytes": 370750
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/client/boralances-client-1.8.3.jar",
+      "sourceSha256": "f3fc68f66bcbd406280ce16bae51c74708614f49204ba149b880ba2280d0b996",
+      "sha256": "f3fc68f66bcbd406280ce16bae51c74708614f49204ba149b880ba2280d0b996",
+      "bytes": 389459
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-compass-cape.png",
+      "sourceSha256": "66ccd4a75b50f7906a875d2e552b78b1628ff221beab44947f024078fbc4083c",
+      "sha256": "66ccd4a75b50f7906a875d2e552b78b1628ff221beab44947f024078fbc4083c",
+      "bytes": 469
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-crystal-wings.png",
+      "sourceSha256": "600a6c5f806dd38cc0803ba99a228d25151041b527fe44329a480bdac33941de",
+      "sha256": "600a6c5f806dd38cc0803ba99a228d25151041b527fe44329a480bdac33941de",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-dragon-wings.png",
+      "sourceSha256": "8b086d916bf03ca08cae742b7fa2552ec7c80a0ae494ffffd7dad03cf8904cff",
+      "sha256": "8b086d916bf03ca08cae742b7fa2552ec7c80a0ae494ffffd7dad03cf8904cff",
+      "bytes": 219
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-feather-wings.png",
+      "sourceSha256": "a4d2ed1858c085105bddbbbb5517b647b25461e62a6982bd57823a0dd6248920",
+      "sha256": "a4d2ed1858c085105bddbbbb5517b647b25461e62a6982bd57823a0dd6248920",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-lotus-cape.png",
+      "sourceSha256": "0c6d6854b92794025dc0dfb354a01824aee76a069fba3a64879dc09ed40f4b2a",
+      "sha256": "0c6d6854b92794025dc0dfb354a01824aee76a069fba3a64879dc09ed40f4b2a",
+      "bytes": 415
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-moth-wings.png",
+      "sourceSha256": "961ba4ee71d02be66ffdfc368192989bb7e29af768807771f1db12278faba25e",
+      "sha256": "961ba4ee71d02be66ffdfc368192989bb7e29af768807771f1db12278faba25e",
+      "bytes": 244
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-orbit-cape.png",
+      "sourceSha256": "bccc4e834457aab1a87d802f4e615da73608c9e9a6cf5681630e68a08b8046bf",
+      "sha256": "bccc4e834457aab1a87d802f4e615da73608c9e9a6cf5681630e68a08b8046bf",
+      "bytes": 509
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aether-sentinel-cape.png",
+      "sourceSha256": "6cb21d3d2489c52f6cf44b359907aa72cf5d1425eb6c98b4062422adf9f1dc91",
+      "sha256": "6cb21d3d2489c52f6cf44b359907aa72cf5d1425eb6c98b4062422adf9f1dc91",
+      "bytes": 511
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/amethyst-order.png",
+      "sourceSha256": "b1d58644f96c17ad4164e282e604d91baa02a80da15777e87013d6eddb2fafc1",
+      "sha256": "b1d58644f96c17ad4164e282e604d91baa02a80da15777e87013d6eddb2fafc1",
+      "bytes": 501
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/astral-crest.png",
+      "sourceSha256": "0f86b225bdcaa9d44409cfd67b078941c3e3ad6fea23eb22ac817dd2fbc019fa",
+      "sha256": "0f86b225bdcaa9d44409cfd67b078941c3e3ad6fea23eb22ac817dd2fbc019fa",
+      "bytes": 260
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/astral-crown.png",
+      "sourceSha256": "ac70203d93de5c98b45102e9c4a15b1e4417044c1d1c5eadfcf41c60f484b438",
+      "sha256": "ac70203d93de5c98b45102e9c4a15b1e4417044c1d1c5eadfcf41c60f484b438",
+      "bytes": 215
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/astral-pendant.png",
+      "sourceSha256": "cac8ef48ab6c6d9c1a5aaae0bff319a6751f93f4b4ee1dd604653a23f56c802e",
+      "sha256": "cac8ef48ab6c6d9c1a5aaae0bff319a6751f93f4b4ee1dd604653a23f56c802e",
+      "bytes": 151
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/astral-ranger.png",
+      "sourceSha256": "e08a3b553600d9d2048e2d62bd0ccc6804bba47ec25b95bb6b2cbf41e68d01b2",
+      "sha256": "e08a3b553600d9d2048e2d62bd0ccc6804bba47ec25b95bb6b2cbf41e68d01b2",
+      "bytes": 224
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aurora-gown.png",
+      "sourceSha256": "589e16d2bc019de75ad412ff8c3e604f77f99f95c246f6d0f2dc9acfa7140483",
+      "sha256": "589e16d2bc019de75ad412ff8c3e604f77f99f95c246f6d0f2dc9acfa7140483",
+      "bytes": 261
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aurora-headband.png",
+      "sourceSha256": "7a02ef03f789bf8fd23d5424f62b4f337ee5ef175d5b1471bb419ca3d922d314",
+      "sha256": "7a02ef03f789bf8fd23d5424f62b4f337ee5ef175d5b1471bb419ca3d922d314",
+      "bytes": 274
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aurora-veil.png",
+      "sourceSha256": "e3d60d58e4dd28b6976bc7d40fa30749dd1a1f3105122107e37f22a1464812de",
+      "sha256": "e3d60d58e4dd28b6976bc7d40fa30749dd1a1f3105122107e37f22a1464812de",
+      "bytes": 224
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/aurora-wings.png",
+      "sourceSha256": "09594f57a87ebcf8bf37e62c9585269a996141e11808ba1e2b0a35760fcc5e2d",
+      "sha256": "09594f57a87ebcf8bf37e62c9585269a996141e11808ba1e2b0a35760fcc5e2d",
+      "bytes": 173
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-compass-cape.png",
+      "sourceSha256": "6bc275f83a6d081a99a7b8498992d7d054c081362d54fd94f4a5b886e9882dfd",
+      "sha256": "6bc275f83a6d081a99a7b8498992d7d054c081362d54fd94f4a5b886e9882dfd",
+      "bytes": 464
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-crystal-wings.png",
+      "sourceSha256": "eefe6536bcc4f21f5e1fc821b9cf6cfe5794f96e8712372d93d0a904ba9f378f",
+      "sha256": "eefe6536bcc4f21f5e1fc821b9cf6cfe5794f96e8712372d93d0a904ba9f378f",
+      "bytes": 233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-dragon-wings.png",
+      "sourceSha256": "005697f2519cb32e793042ed3f699402fdd933ad8134d321c5bc85374f3a0923",
+      "sha256": "005697f2519cb32e793042ed3f699402fdd933ad8134d321c5bc85374f3a0923",
+      "bytes": 219
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-feather-wings.png",
+      "sourceSha256": "70f7e39068c488e7a923f9c6bc23f0e66c93f96dfe36d2cbf61e54c7f8c0dab9",
+      "sha256": "70f7e39068c488e7a923f9c6bc23f0e66c93f96dfe36d2cbf61e54c7f8c0dab9",
+      "bytes": 233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-lotus-cape.png",
+      "sourceSha256": "6f494e3e7e7487a8a826d98860a5cc33a690e55b06d10682f0d2438d145099cc",
+      "sha256": "6f494e3e7e7487a8a826d98860a5cc33a690e55b06d10682f0d2438d145099cc",
+      "bytes": 410
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-moth-wings.png",
+      "sourceSha256": "681b059ee9c933e79aa84931911e1c8f4f3f4673441d44fcb9c7d7fb459abea9",
+      "sha256": "681b059ee9c933e79aa84931911e1c8f4f3f4673441d44fcb9c7d7fb459abea9",
+      "bytes": 242
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-orbit-cape.png",
+      "sourceSha256": "60283794d14e8e1934ca48a1f77e6b34fc75803bb143e8451e3f706faeb2b9e6",
+      "sha256": "60283794d14e8e1934ca48a1f77e6b34fc75803bb143e8451e3f706faeb2b9e6",
+      "bytes": 500
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/blossom-sentinel-cape.png",
+      "sourceSha256": "2f46ca7707e922d6f633e347553aac2b628628612bad7b5c52ecf5b648f7b9fa",
+      "sha256": "2f46ca7707e922d6f633e347553aac2b628628612bad7b5c52ecf5b648f7b9fa",
+      "bytes": 503
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/boralances-classic.png",
+      "sourceSha256": "2e69a3b0bab4d95a5ba42d163267203f4224ff022d237f91cacb8d04df0cd4d0",
+      "sha256": "2e69a3b0bab4d95a5ba42d163267203f4224ff022d237f91cacb8d04df0cd4d0",
+      "bytes": 208
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/butterfly-wings.png",
+      "sourceSha256": "65f6c1d4278dce6e76040de8851aa77a815be4051b81e661e45ab4157435ca11",
+      "sha256": "65f6c1d4278dce6e76040de8851aa77a815be4051b81e661e45ab4157435ca11",
+      "bytes": 476
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/celestial-wings.png",
+      "sourceSha256": "6aa94631e2568f3619578bfe74305e50465ce6b1ee1d82dd21e1f9b6acd9f31d",
+      "sha256": "6aa94631e2568f3619578bfe74305e50465ce6b1ee1d82dd21e1f9b6acd9f31d",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/cherry-bonnet.png",
+      "sourceSha256": "174297824165b07f4383783b248be62d12d5d6eef494df3d28653342e728456a",
+      "sha256": "174297824165b07f4383783b248be62d12d5d6eef494df3d28653342e728456a",
+      "bytes": 245
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/circuit-runner.png",
+      "sourceSha256": "6b27fa299ac79d1758834d3f2e78b79cdee61869529b13975ff0febb4fd059da",
+      "sha256": "6b27fa299ac79d1758834d3f2e78b79cdee61869529b13975ff0febb4fd059da",
+      "bytes": 505
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/circuit-visor.png",
+      "sourceSha256": "e5304b843d128700465e17cb7a728c3390c3817e619aece8ff5dcfdcf2cc668a",
+      "sha256": "e5304b843d128700465e17cb7a728c3390c3817e619aece8ff5dcfdcf2cc668a",
+      "bytes": 241
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/circuit-wristband.png",
+      "sourceSha256": "be408bb3f9e602b07294958ea8f23213ecb207bc3204b8e197a6109da18742a6",
+      "sha256": "be408bb3f9e602b07294958ea8f23213ecb207bc3204b8e197a6109da18742a6",
+      "bytes": 144
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-compass-cape.png",
+      "sourceSha256": "0b6bb61445867322bbd2f5ed8e9d8aec47160a3491830c76ea0dcbf8ae90a238",
+      "sha256": "0b6bb61445867322bbd2f5ed8e9d8aec47160a3491830c76ea0dcbf8ae90a238",
+      "bytes": 457
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-crystal-wings.png",
+      "sourceSha256": "249399c2eb65885b9b30534fd1527145266d454a54d699e4ee6e4088f8f250b1",
+      "sha256": "249399c2eb65885b9b30534fd1527145266d454a54d699e4ee6e4088f8f250b1",
+      "bytes": 225
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-dragon-wings.png",
+      "sourceSha256": "02a39a04ffef173963c68842a41b61ae3102323836ca7e746c41d1a3a41d6adb",
+      "sha256": "02a39a04ffef173963c68842a41b61ae3102323836ca7e746c41d1a3a41d6adb",
+      "bytes": 211
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-feather-wings.png",
+      "sourceSha256": "5d0596d626e91bbc5efc373b3bdab51745cf0c75519f491e3d3963a6e85e4bec",
+      "sha256": "5d0596d626e91bbc5efc373b3bdab51745cf0c75519f491e3d3963a6e85e4bec",
+      "bytes": 222
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-lotus-cape.png",
+      "sourceSha256": "237c739a8f357389198eb4e5b35c4d063bc788ba0dcfc6c2a97a60e8935a07d1",
+      "sha256": "237c739a8f357389198eb4e5b35c4d063bc788ba0dcfc6c2a97a60e8935a07d1",
+      "bytes": 402
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-moth-wings.png",
+      "sourceSha256": "795304962acabfd38cd9d18f38cf77f212681bd7376624138694139001908a4d",
+      "sha256": "795304962acabfd38cd9d18f38cf77f212681bd7376624138694139001908a4d",
+      "bytes": 230
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-orbit-cape.png",
+      "sourceSha256": "5261a1903ff1af13bf2d05a675a920afcf7d576d95dac08853c1104ffb303ef3",
+      "sha256": "5261a1903ff1af13bf2d05a675a920afcf7d576d95dac08853c1104ffb303ef3",
+      "bytes": 494
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/citadel-sentinel-cape.png",
+      "sourceSha256": "ab33bc1f3b90b00a9f0cc34a0083b0b301417b04d1347ed743f9f0f36e5366e1",
+      "sha256": "ab33bc1f3b90b00a9f0cc34a0083b0b301417b04d1347ed743f9f0f36e5366e1",
+      "bytes": 497
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/copper-pilot.png",
+      "sourceSha256": "38634f7b2c2debb1a5904b33f18075885f927dc32fef2b7a822fface04f29371",
+      "sha256": "38634f7b2c2debb1a5904b33f18075885f927dc32fef2b7a822fface04f29371",
+      "bytes": 284
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/coral-bloom.png",
+      "sourceSha256": "f8a6a190f3d1b296f220a11bd80de616621daabe9ac519b366daf509e645f966",
+      "sha256": "f8a6a190f3d1b296f220a11bd80de616621daabe9ac519b366daf509e645f966",
+      "bytes": 500
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/coral-cuff.png",
+      "sourceSha256": "e7c66c2539c5551f70f63462df19ec167cd5f0bbd4e460d8764238c41794e911",
+      "sha256": "e7c66c2539c5551f70f63462df19ec167cd5f0bbd4e460d8764238c41794e911",
+      "bytes": 152
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/coral-sunhat.png",
+      "sourceSha256": "b1895087dda190c914d59b68b3619a715934f514145f8d3daefbc61d7257baf5",
+      "sha256": "b1895087dda190c914d59b68b3619a715934f514145f8d3daefbc61d7257baf5",
+      "bytes": 218
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/crystal-heart.png",
+      "sourceSha256": "c170942b04b8f3f586f50a42334c9023348638cc5ca1e3c808d85c3bdca12041",
+      "sha256": "c170942b04b8f3f586f50a42334c9023348638cc5ca1e3c808d85c3bdca12041",
+      "bytes": 432
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/cyber-wings.png",
+      "sourceSha256": "3518210aad9f36697ffa01feb08e3bf0893826ad2e8b0eb154b40bede34b3f64",
+      "sha256": "3518210aad9f36697ffa01feb08e3bf0893826ad2e8b0eb154b40bede34b3f64",
+      "bytes": 494
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/deepsea-wings.png",
+      "sourceSha256": "4a4e12d0a996787d7d68617b8a84960ca2f2687038df9e33592bb1a0e2614f6c",
+      "sha256": "4a4e12d0a996787d7d68617b8a84960ca2f2687038df9e33592bb1a0e2614f6c",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/desert-phoenix.png",
+      "sourceSha256": "9203c85f2b7ce4cc21e3068d3e4df8de0d7840bb234e6c6cd8a8b003c2b13322",
+      "sha256": "9203c85f2b7ce4cc21e3068d3e4df8de0d7840bb234e6c6cd8a8b003c2b13322",
+      "bytes": 499
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/desert-wrap.png",
+      "sourceSha256": "2a0e801e3d5f0b349b426fbbd61111c4809603633714252d7fc596b9b34899d2",
+      "sha256": "2a0e801e3d5f0b349b426fbbd61111c4809603633714252d7fc596b9b34899d2",
+      "bytes": 237
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dragon-scale-wings.png",
+      "sourceSha256": "65aa2f1f747f2af483d4a6aa0a90370da2460e7ef01a4d8cf52b54b371a082ec",
+      "sha256": "65aa2f1f747f2af483d4a6aa0a90370da2460e7ef01a4d8cf52b54b371a082ec",
+      "bytes": 442
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-compass-cape.png",
+      "sourceSha256": "380304230e69187772325016e71ff28e540a3711f1fa48da883d8c35d70e74d1",
+      "sha256": "380304230e69187772325016e71ff28e540a3711f1fa48da883d8c35d70e74d1",
+      "bytes": 448
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-crystal-wings.png",
+      "sourceSha256": "76e65392de66ee67fe175a693816715939c3b260642a8f2848ca01f3ca9b50d0",
+      "sha256": "76e65392de66ee67fe175a693816715939c3b260642a8f2848ca01f3ca9b50d0",
+      "bytes": 230
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-dragon-wings.png",
+      "sourceSha256": "42ec07eb5763017c1c09e41228dbb898fffa92911154d310ca0002a4340a1084",
+      "sha256": "42ec07eb5763017c1c09e41228dbb898fffa92911154d310ca0002a4340a1084",
+      "bytes": 217
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-feather-wings.png",
+      "sourceSha256": "1020d069df01a642ae5614eb020a3c2b336aee4dc5082de4796902b54d29bd7e",
+      "sha256": "1020d069df01a642ae5614eb020a3c2b336aee4dc5082de4796902b54d29bd7e",
+      "bytes": 225
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-lotus-cape.png",
+      "sourceSha256": "abeb567bb9511f00ebe68cfa58ce6314ac34e742cd828a850b8b4a6e17abadc0",
+      "sha256": "abeb567bb9511f00ebe68cfa58ce6314ac34e742cd828a850b8b4a6e17abadc0",
+      "bytes": 396
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-moth-wings.png",
+      "sourceSha256": "b317091f1394f8d832793753286003104f7bb82c1123801654e7f6b8ea25b0b2",
+      "sha256": "b317091f1394f8d832793753286003104f7bb82c1123801654e7f6b8ea25b0b2",
+      "bytes": 233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-orbit-cape.png",
+      "sourceSha256": "1cc66ded6cd05d8e688a352305e0f6aedfde15ce7db3fc27ef4bc12e350b6074",
+      "sha256": "1cc66ded6cd05d8e688a352305e0f6aedfde15ce7db3fc27ef4bc12e350b6074",
+      "bytes": 486
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/dusk-sentinel-cape.png",
+      "sourceSha256": "0ee676519f10e851c0ed53f20901bfb40f7535a36fc1d27cb0140e92f01a8c50",
+      "sha256": "0ee676519f10e851c0ed53f20901bfb40f7535a36fc1d27cb0140e92f01a8c50",
+      "bytes": 486
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ember-bracelet.png",
+      "sourceSha256": "cf8acc7e7180e845d7adc0ae9f0c3cac21d7647e2db5b0f75c47e8ec1906465b",
+      "sha256": "cf8acc7e7180e845d7adc0ae9f0c3cac21d7647e2db5b0f75c47e8ec1906465b",
+      "bytes": 144
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ember-cap.png",
+      "sourceSha256": "e6afe0d38564458c6032e091402f3ec6828967956744528533706dd83dba261c",
+      "sha256": "e6afe0d38564458c6032e091402f3ec6828967956744528533706dd83dba261c",
+      "bytes": 200
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ember-crown.png",
+      "sourceSha256": "6bc5177f4ac3c5ef3f771fdfaac17a136caabcd7ae0a59181fc014feef90016a",
+      "sha256": "6bc5177f4ac3c5ef3f771fdfaac17a136caabcd7ae0a59181fc014feef90016a",
+      "bytes": 250
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ember-wings.png",
+      "sourceSha256": "6f7ce3774729b925c3b48bdd6ea8eaca80abd21cd54b17714ebd965fbd27e9e9",
+      "sha256": "6f7ce3774729b925c3b48bdd6ea8eaca80abd21cd54b17714ebd965fbd27e9e9",
+      "bytes": 171
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-air-guitar.png",
+      "sourceSha256": "4a689eea482b73395fae928a556112f3f9470a18a92682b17fd4330b94764df4",
+      "sha256": "4a689eea482b73395fae928a556112f3f9470a18a92682b17fd4330b94764df4",
+      "bytes": 460
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-arm-stretch.png",
+      "sourceSha256": "6a405be570cf32d1db9c40c6829dd0c55538318e19ef9f1f059fdf825f93134b",
+      "sha256": "6a405be570cf32d1db9c40c6829dd0c55538318e19ef9f1f059fdf825f93134b",
+      "bytes": 425
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-captain-salute.png",
+      "sourceSha256": "16f8e42b74d1f96924514e6806a9cfba3b2420c5f2da3915e0fc2aba9ca192a2",
+      "sha256": "16f8e42b74d1f96924514e6806a9cfba3b2420c5f2da3915e0fc2aba9ca192a2",
+      "bytes": 437
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-deep-breath.png",
+      "sourceSha256": "73860db7982889953135ecc175165e6878ba4164142a69aafbe7104d09d3f64e",
+      "sha256": "73860db7982889953135ecc175165e6878ba4164142a69aafbe7104d09d3f64e",
+      "bytes": 416
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-finale.png",
+      "sourceSha256": "faa98d5ba9e65d46b34b9774386c00471df52b067ff8ad82fa181e96e018dd33",
+      "sha256": "faa98d5ba9e65d46b34b9774386c00471df52b067ff8ad82fa181e96e018dd33",
+      "bytes": 413
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-formal-bow.png",
+      "sourceSha256": "4d83c5e707b411abd67d75d208ce23ec715b2ea0b35401dec96b69e14f311b0f",
+      "sha256": "4d83c5e707b411abd67d75d208ce23ec715b2ea0b35401dec96b69e14f311b0f",
+      "bytes": 409
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-groove.png",
+      "sourceSha256": "74105340700ce5b0bd9385e8a2e803473aafebdd3bdc7a4df25e060a372e5d92",
+      "sha256": "74105340700ce5b0bd9385e8a2e803473aafebdd3bdc7a4df25e060a372e5d92",
+      "bytes": 466
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-happy-clap.png",
+      "sourceSha256": "da94c22267f633c2f0121b14e856bd42501722ace9db82df25d97c0e5d172bf0",
+      "sha256": "da94c22267f633c2f0121b14e856bd42501722ace9db82df25d97c0e5d172bf0",
+      "bytes": 458
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-heart-hands.png",
+      "sourceSha256": "6b47e9528ace1b4aeb64fbb539de11cf1da54dde5b3b1945e4ccdd444b4d6694",
+      "sha256": "6b47e9528ace1b4aeb64fbb539de11cf1da54dde5b3b1945e4ccdd444b4d6694",
+      "bytes": 446
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-hello-wave.png",
+      "sourceSha256": "a0739ec77a7c55611b6d4ee377cf14e32c7b1aa9ad771e9e3c33dca59c491768",
+      "sha256": "a0739ec77a7c55611b6d4ee377cf14e32c7b1aa9ad771e9e3c33dca59c491768",
+      "bytes": 423
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-look-around.png",
+      "sourceSha256": "418a849074158dab134121e1774661296d76db6b5156492ad687dbdd60bd56ac",
+      "sha256": "418a849074158dab134121e1774661296d76db6b5156492ad687dbdd60bd56ac",
+      "bytes": 406
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-robot.png",
+      "sourceSha256": "9ed92bfdd1642df5c6719a5a10d69b923ce36cf641a3b65672a54ab1ab5107e1",
+      "sha256": "9ed92bfdd1642df5c6719a5a10d69b923ce36cf641a3b65672a54ab1ab5107e1",
+      "bytes": 426
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-shrug.png",
+      "sourceSha256": "45979f07dafc75d9e967894856d1de605fe7c89d824293458cd89e5ad6abb546",
+      "sha256": "45979f07dafc75d9e967894856d1de605fe7c89d824293458cd89e5ad6abb546",
+      "bytes": 467
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-shuffle.png",
+      "sourceSha256": "ecde83e36ab17db0f9b624f5bb8d6e622ed70522c17bb957f2c27c1a9add789b",
+      "sha256": "ecde83e36ab17db0f9b624f5bb8d6e622ed70522c17bb957f2c27c1a9add789b",
+      "bytes": 422
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-side-step.png",
+      "sourceSha256": "fa1667cff6dcdbe93abd45430678c664cb290d361706719f56fd78f54f762bb5",
+      "sha256": "fa1667cff6dcdbe93abd45430678c664cb290d361706719f56fd78f54f762bb5",
+      "bytes": 442
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-star-pose.png",
+      "sourceSha256": "2849051f0d9114a1d58cf79ea9d9858a2c7b2dec1c742dc04d9ef2078d59fca9",
+      "sha256": "2849051f0d9114a1d58cf79ea9d9858a2c7b2dec1c742dc04d9ef2078d59fca9",
+      "bytes": 445
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-thinking.png",
+      "sourceSha256": "f6946f006cab326e1de3cac7e95277c369f5bce05bb8b38a9d78a5d19889df68",
+      "sha256": "f6946f006cab326e1de3cac7e95277c369f5bce05bb8b38a9d78a5d19889df68",
+      "bytes": 440
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-toe-tap.png",
+      "sourceSha256": "cea045d5c5149dda00d79cd257b42aa8061192a2829332e503c5fb6624a79b87",
+      "sha256": "cea045d5c5149dda00d79cd257b42aa8061192a2829332e503c5fb6624a79b87",
+      "bytes": 419
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-victory-cheer.png",
+      "sourceSha256": "d2f60b776fc6a014033825e9068de1c4e25c6616cfa9a865ca33aafc1b206773",
+      "sha256": "d2f60b776fc6a014033825e9068de1c4e25c6616cfa9a865ca33aafc1b206773",
+      "bytes": 452
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/emote-warm-up.png",
+      "sourceSha256": "578c98899d195252ca0a7a7affb432568fcbc03ac32f9ba13198240bf55e9740",
+      "sha256": "578c98899d195252ca0a7a7affb432568fcbc03ac32f9ba13198240bf55e9740",
+      "bytes": 419
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-compass-cape.png",
+      "sourceSha256": "34bf706805e572677c523e9dcc27d344fd29d99a29a2a29df17b98e992494476",
+      "sha256": "34bf706805e572677c523e9dcc27d344fd29d99a29a2a29df17b98e992494476",
+      "bytes": 460
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-crystal-wings.png",
+      "sourceSha256": "e090c0a0216597c181a66330ff1ee4004a88ec12c5f3bdc96418ed5c5b44f4a2",
+      "sha256": "e090c0a0216597c181a66330ff1ee4004a88ec12c5f3bdc96418ed5c5b44f4a2",
+      "bytes": 232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-dragon-wings.png",
+      "sourceSha256": "5f02a24a09bdc40f13ba0f48dc53687f3344c88eaff6be7e5729192930ff095b",
+      "sha256": "5f02a24a09bdc40f13ba0f48dc53687f3344c88eaff6be7e5729192930ff095b",
+      "bytes": 217
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-feather-wings.png",
+      "sourceSha256": "6800d6e4cf9926dc40910253068e02182bebb7ef71cb459130f818ba570aa9e5",
+      "sha256": "6800d6e4cf9926dc40910253068e02182bebb7ef71cb459130f818ba570aa9e5",
+      "bytes": 233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-lotus-cape.png",
+      "sourceSha256": "42a996e940238f73c81569c8731cb11a9bba246b47fbafff66ad03763b0ead2d",
+      "sha256": "42a996e940238f73c81569c8731cb11a9bba246b47fbafff66ad03763b0ead2d",
+      "bytes": 407
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-moth-wings.png",
+      "sourceSha256": "636e01d7d4d3b9ccc9f788bb08a27ffd0c8057e9b5eeac5828a7ec9b73b3b60d",
+      "sha256": "636e01d7d4d3b9ccc9f788bb08a27ffd0c8057e9b5eeac5828a7ec9b73b3b60d",
+      "bytes": 242
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-orbit-cape.png",
+      "sourceSha256": "42573b457d5030ea3865dfe2b46750c567cae54a7f65a7953a5b988f4bc9f539",
+      "sha256": "42573b457d5030ea3865dfe2b46750c567cae54a7f65a7953a5b988f4bc9f539",
+      "bytes": 500
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/evergreen-sentinel-cape.png",
+      "sourceSha256": "f01046b727a324ac6ad5a515f4aceb61e824c5483089bd302c1dc8b8bc1ecc33",
+      "sha256": "f01046b727a324ac6ad5a515f4aceb61e824c5483089bd302c1dc8b8bc1ecc33",
+      "bytes": 499
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-compass-cape.png",
+      "sourceSha256": "eec4fccba5fa065598982ade572545e2f385a43f92ee48435128d3869e85a096",
+      "sha256": "eec4fccba5fa065598982ade572545e2f385a43f92ee48435128d3869e85a096",
+      "bytes": 472
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-crystal-wings.png",
+      "sourceSha256": "6837c9089cd7cd97169c078e427898b67557bad8d93975e3d12e8d65fe891fd5",
+      "sha256": "6837c9089cd7cd97169c078e427898b67557bad8d93975e3d12e8d65fe891fd5",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-dragon-wings.png",
+      "sourceSha256": "a3f57f7fa63c907fb3f9cc9299ebb5c28d6f00d49aedfc9c9a585a9cfca036e4",
+      "sha256": "a3f57f7fa63c907fb3f9cc9299ebb5c28d6f00d49aedfc9c9a585a9cfca036e4",
+      "bytes": 220
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-feather-wings.png",
+      "sourceSha256": "e74492a5d44a864ddd495e40189d1953d10af863dfe763507e53bbe1497e3f22",
+      "sha256": "e74492a5d44a864ddd495e40189d1953d10af863dfe763507e53bbe1497e3f22",
+      "bytes": 232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-lotus-cape.png",
+      "sourceSha256": "8067e0e97fa3d05c2e7c866e60cc3e29c89bcfab41bc56cbfac7f5388039ea91",
+      "sha256": "8067e0e97fa3d05c2e7c866e60cc3e29c89bcfab41bc56cbfac7f5388039ea91",
+      "bytes": 417
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-moth-wings.png",
+      "sourceSha256": "4fae6e1efb49f607456995cb11e6beb499bd766976825bdd430709f5a61e98cc",
+      "sha256": "4fae6e1efb49f607456995cb11e6beb499bd766976825bdd430709f5a61e98cc",
+      "bytes": 241
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-orbit-cape.png",
+      "sourceSha256": "0d7edb25dd9d2d4aaa2cdc13f389a99b40c248f7f8c406c720df7da3fc4e56e5",
+      "sha256": "0d7edb25dd9d2d4aaa2cdc13f389a99b40c248f7f8c406c720df7da3fc4e56e5",
+      "bytes": 512
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/flare-sentinel-cape.png",
+      "sourceSha256": "019d1e6a7c0549933fc000f6e2d1d7d9245f511574b2d45572b6624d7dce5a76",
+      "sha256": "019d1e6a7c0549933fc000f6e2d1d7d9245f511574b2d45572b6624d7dce5a76",
+      "bytes": 514
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/forest-ranger.png",
+      "sourceSha256": "1dabbb32a665fb97d08e4cbdca0a7740833579dbd56a30dc0d8862779a061751",
+      "sha256": "1dabbb32a665fb97d08e4cbdca0a7740833579dbd56a30dc0d8862779a061751",
+      "bytes": 200
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/forest-spirit.png",
+      "sourceSha256": "40f3ca5b8301b93f230e978798ab0e1a21a8325d5aa5f119f28fced2992fafd3",
+      "sha256": "40f3ca5b8301b93f230e978798ab0e1a21a8325d5aa5f119f28fced2992fafd3",
+      "bytes": 469
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/frost-hood.png",
+      "sourceSha256": "4543021015d90b4dae024f7f2c2a5e65ff073a9b6d1057854c12c5ef069520a2",
+      "sha256": "4543021015d90b4dae024f7f2c2a5e65ff073a9b6d1057854c12c5ef069520a2",
+      "bytes": 201
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/frost-locket.png",
+      "sourceSha256": "4ab88fc54a3b09fbfc00830170beabbdee9bccd662a323678050d774530c00d6",
+      "sha256": "4ab88fc54a3b09fbfc00830170beabbdee9bccd662a323678050d774530c00d6",
+      "bytes": 150
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/frostbite-wings.png",
+      "sourceSha256": "0d9b79f794fd0291845d2410e9cc56fee2f1706a89576dbf9efb1166304922e4",
+      "sha256": "0d9b79f794fd0291845d2410e9cc56fee2f1706a89576dbf9efb1166304922e4",
+      "bytes": 486
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/galaxy-helmet.png",
+      "sourceSha256": "4326819dca7b0be07c444524df9ccb2d3b07daea25db2023b563fefa4440979f",
+      "sha256": "4326819dca7b0be07c444524df9ccb2d3b07daea25db2023b563fefa4440979f",
+      "bytes": 277
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-compass-cape.png",
+      "sourceSha256": "58de081ffdbb13830ee38eb780b157328e985f87e547d1412768fc52bd5ce508",
+      "sha256": "58de081ffdbb13830ee38eb780b157328e985f87e547d1412768fc52bd5ce508",
+      "bytes": 471
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-crystal-wings.png",
+      "sourceSha256": "91cc308d221764e36160b0da2d5fa3b925496f39de9342d8deb5dd690df676aa",
+      "sha256": "91cc308d221764e36160b0da2d5fa3b925496f39de9342d8deb5dd690df676aa",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-dragon-wings.png",
+      "sourceSha256": "d950144c6f4876d3923accca2511948e0188966fd18045694b03472b70119bf8",
+      "sha256": "d950144c6f4876d3923accca2511948e0188966fd18045694b03472b70119bf8",
+      "bytes": 220
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-feather-wings.png",
+      "sourceSha256": "298f4f745017faab3474bf66c21b5930007ec1ec3937b4595da9bc92a2aec2be",
+      "sha256": "298f4f745017faab3474bf66c21b5930007ec1ec3937b4595da9bc92a2aec2be",
+      "bytes": 235
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-lotus-cape.png",
+      "sourceSha256": "cc908d94c43bbf36217ff06390b1b881c20c393c00078bedd7aeecdd5cc3a532",
+      "sha256": "cc908d94c43bbf36217ff06390b1b881c20c393c00078bedd7aeecdd5cc3a532",
+      "bytes": 417
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-moth-wings.png",
+      "sourceSha256": "11d592f7a9ddab21df52b2cfd873589949511a74811519c9d72f42aef20175f9",
+      "sha256": "11d592f7a9ddab21df52b2cfd873589949511a74811519c9d72f42aef20175f9",
+      "bytes": 245
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-orbit-cape.png",
+      "sourceSha256": "4a3ecb014daba8ae44e9b34e2f4ee1eea14006db6fcec327dbdb8e4e5323c1c4",
+      "sha256": "4a3ecb014daba8ae44e9b34e2f4ee1eea14006db6fcec327dbdb8e4e5323c1c4",
+      "bytes": 511
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/gale-sentinel-cape.png",
+      "sourceSha256": "27cf8e66753794b056f8eb23864fc772a3073fbcb9faefbfb10568e2f60ef776",
+      "sha256": "27cf8e66753794b056f8eb23864fc772a3073fbcb9faefbfb10568e2f60ef776",
+      "bytes": 514
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/glacier-crest.png",
+      "sourceSha256": "382c7de9d687227f7ef0e9a1e8a2cf9ced387852421afa2eff59bf1344cca8af",
+      "sha256": "382c7de9d687227f7ef0e9a1e8a2cf9ced387852421afa2eff59bf1344cca8af",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/golden-chain.png",
+      "sourceSha256": "bf84b8fbce648c8dfdbfb23c5e8c25db5b136e9e6adcb8d12bf5f7cce3e05e3f",
+      "sha256": "bf84b8fbce648c8dfdbfb23c5e8c25db5b136e9e6adcb8d12bf5f7cce3e05e3f",
+      "bytes": 138
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/golden-festival-dress.png",
+      "sourceSha256": "07ad444e1a112275efb4d323d54701e89919ce72389866324771d77bd1c4d9eb",
+      "sha256": "07ad444e1a112275efb4d323d54701e89919ce72389866324771d77bd1c4d9eb",
+      "bytes": 257
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/golden-tiara.png",
+      "sourceSha256": "adefa0148eecb71f89a00f2476d487f00b2be1b37801e9ffc387813334ef7d32",
+      "sha256": "adefa0148eecb71f89a00f2476d487f00b2be1b37801e9ffc387813334ef7d32",
+      "bytes": 276
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-compass-cape.png",
+      "sourceSha256": "6f4c89869f0ed9e28fef86f0b401b43f4b824f7ad4aa90fcaa3ff6edb631e072",
+      "sha256": "6f4c89869f0ed9e28fef86f0b401b43f4b824f7ad4aa90fcaa3ff6edb631e072",
+      "bytes": 471
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-crystal-wings.png",
+      "sourceSha256": "beda180c622bae6ccbd9fff377c64b2d4c2a5c7383ab0c098409410e72f42aff",
+      "sha256": "beda180c622bae6ccbd9fff377c64b2d4c2a5c7383ab0c098409410e72f42aff",
+      "bytes": 229
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-dragon-wings.png",
+      "sourceSha256": "06d7d7576a34fde79a9f6dc2290f20978ea3d86c7f9508ef34d119bb5e4f58c2",
+      "sha256": "06d7d7576a34fde79a9f6dc2290f20978ea3d86c7f9508ef34d119bb5e4f58c2",
+      "bytes": 215
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-feather-wings.png",
+      "sourceSha256": "6110ccc68c35627600f2a282e3b2281e980f4ef8cc7db83824904a0d85f9b4b7",
+      "sha256": "6110ccc68c35627600f2a282e3b2281e980f4ef8cc7db83824904a0d85f9b4b7",
+      "bytes": 227
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-lotus-cape.png",
+      "sourceSha256": "62934511f1bc41a3809c5765d6e6cb87c36a76c832731c278361df260830dd56",
+      "sha256": "62934511f1bc41a3809c5765d6e6cb87c36a76c832731c278361df260830dd56",
+      "bytes": 413
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-moth-wings.png",
+      "sourceSha256": "6c078087b3e1820301ef09ceb704e287d21321424785fa4ef349b15aa3c3481e",
+      "sha256": "6c078087b3e1820301ef09ceb704e287d21321424785fa4ef349b15aa3c3481e",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-orbit-cape.png",
+      "sourceSha256": "0ce6ea6a75f063a0f3707cbc33fa7a2baa3a6c0a878d2583f1c094d9cb905033",
+      "sha256": "0ce6ea6a75f063a0f3707cbc33fa7a2baa3a6c0a878d2583f1c094d9cb905033",
+      "bytes": 505
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/harbor-sentinel-cape.png",
+      "sourceSha256": "be0b8e526aedb246d6cb23a0a4a30037e2044681e0b9e59c23bdac13c0296153",
+      "sha256": "be0b8e526aedb246d6cb23a0a4a30037e2044681e0b9e59c23bdac13c0296153",
+      "bytes": 504
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/inferno-sigil.png",
+      "sourceSha256": "09012dba9aaf3b6fba601b2f8bd9e0aa51461389ef25db73377a22bdecb21c77",
+      "sha256": "09012dba9aaf3b6fba601b2f8bd9e0aa51461389ef25db73377a22bdecb21c77",
+      "bytes": 479
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-compass-cape.png",
+      "sourceSha256": "2a5bec80789fd98af336e405f35f5f7b98dab83e6f2a6f50d8876c6edb3b5b0e",
+      "sha256": "2a5bec80789fd98af336e405f35f5f7b98dab83e6f2a6f50d8876c6edb3b5b0e",
+      "bytes": 458
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-crystal-wings.png",
+      "sourceSha256": "6afa5d29c50daa60397e05696a87c9e3178d649d0add777f7ddcd8a236bd8932",
+      "sha256": "6afa5d29c50daa60397e05696a87c9e3178d649d0add777f7ddcd8a236bd8932",
+      "bytes": 232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-dragon-wings.png",
+      "sourceSha256": "a1de57d43617f59c77036b4ca35ed40af7908dbbe4b11cc5ea9c4a777019f266",
+      "sha256": "a1de57d43617f59c77036b4ca35ed40af7908dbbe4b11cc5ea9c4a777019f266",
+      "bytes": 218
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-feather-wings.png",
+      "sourceSha256": "b68107214cf92f8ce73d933dab27158957b5e51281534a59fd46784a491fecb2",
+      "sha256": "b68107214cf92f8ce73d933dab27158957b5e51281534a59fd46784a491fecb2",
+      "bytes": 227
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-lotus-cape.png",
+      "sourceSha256": "bdf28c7104b5f233eadd2a3136ac86d83c7cae022f99e788ee28be32f2e8499e",
+      "sha256": "bdf28c7104b5f233eadd2a3136ac86d83c7cae022f99e788ee28be32f2e8499e",
+      "bytes": 406
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-moth-wings.png",
+      "sourceSha256": "7091de23c810260f05f86a24e775ee938e9f182145f775945102b6755f881696",
+      "sha256": "7091de23c810260f05f86a24e775ee938e9f182145f775945102b6755f881696",
+      "bytes": 235
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-orbit-cape.png",
+      "sourceSha256": "b735de74a55164053486983e12c4fcd10a753e45853a941a2803466899ecc189",
+      "sha256": "b735de74a55164053486983e12c4fcd10a753e45853a941a2803466899ecc189",
+      "bytes": 501
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ion-sentinel-cape.png",
+      "sourceSha256": "a58b7ef51616db5d7879219f4f9da699cb19675acc51c0043f0d4573461edb7e",
+      "sha256": "a58b7ef51616db5d7879219f4f9da699cb19675acc51c0043f0d4573461edb7e",
+      "bytes": 504
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jade-amulet.png",
+      "sourceSha256": "e78d4321ac045c8cfe37b3efc2cbb7376af8ce6aee76284c22b4ab7b539e88d2",
+      "sha256": "e78d4321ac045c8cfe37b3efc2cbb7376af8ce6aee76284c22b4ab7b539e88d2",
+      "bytes": 149
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jade-helm.png",
+      "sourceSha256": "72141e752e41a1a0ff5714920b9a7bda8915091a7cfe8ee238344ed20047d517",
+      "sha256": "72141e752e41a1a0ff5714920b9a7bda8915091a7cfe8ee238344ed20047d517",
+      "bytes": 220
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jade-wings.png",
+      "sourceSha256": "90419ba85aba31e054c7eb8dfe7c84ffb0bf78e0c93d9788c19f331abefeb3ab",
+      "sha256": "90419ba85aba31e054c7eb8dfe7c84ffb0bf78e0c93d9788c19f331abefeb3ab",
+      "bytes": 470
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-compass-cape.png",
+      "sourceSha256": "fc9531497c2ba0b57d35b169305ef93aab96139a83602b39625ebe2c3e093369",
+      "sha256": "fc9531497c2ba0b57d35b169305ef93aab96139a83602b39625ebe2c3e093369",
+      "bytes": 473
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-crystal-wings.png",
+      "sourceSha256": "cea7dc9d90ceef32c63bf175db6637f85239f73c90e650ba1b4af24decff4d42",
+      "sha256": "cea7dc9d90ceef32c63bf175db6637f85239f73c90e650ba1b4af24decff4d42",
+      "bytes": 233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-dragon-wings.png",
+      "sourceSha256": "cfc4bbdb1faf923a194bf6b9c6d2259acafa4cf28faa4c0fd0f4209240b83de9",
+      "sha256": "cfc4bbdb1faf923a194bf6b9c6d2259acafa4cf28faa4c0fd0f4209240b83de9",
+      "bytes": 219
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-feather-wings.png",
+      "sourceSha256": "cab50c0aa41b0dfd7daa40d20bdfa1eee4a58b88556e38b5cfd081b9f000246e",
+      "sha256": "cab50c0aa41b0dfd7daa40d20bdfa1eee4a58b88556e38b5cfd081b9f000246e",
+      "bytes": 234
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-lotus-cape.png",
+      "sourceSha256": "e99c73a928a38a21c9560ace38e43a2397abd9c83a7079e3720e5cfb11abdabd",
+      "sha256": "e99c73a928a38a21c9560ace38e43a2397abd9c83a7079e3720e5cfb11abdabd",
+      "bytes": 418
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-moth-wings.png",
+      "sourceSha256": "ca5263b9b2b37a0016553b41f0b25d722510ff862fc7409ad55a5fafecaeaa56",
+      "sha256": "ca5263b9b2b37a0016553b41f0b25d722510ff862fc7409ad55a5fafecaeaa56",
+      "bytes": 245
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-orbit-cape.png",
+      "sourceSha256": "3842d9010b30d83d684a258ee7c925bb639cfcaef5d392e0edaeb22994f525c4",
+      "sha256": "3842d9010b30d83d684a258ee7c925bb639cfcaef5d392e0edaeb22994f525c4",
+      "bytes": 509
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/jewel-sentinel-cape.png",
+      "sourceSha256": "e2e9726091c69f5124f59e0e243094805b5eb66488e42ffa7a90b29d975e91a0",
+      "sha256": "e2e9726091c69f5124f59e0e243094805b5eb66488e42ffa7a90b29d975e91a0",
+      "bytes": 511
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/lunar-eclipse.png",
+      "sourceSha256": "a2b3f0d3bcf6bed93df1307d6f857d342665cde26845bc889be65f8be838952a",
+      "sha256": "a2b3f0d3bcf6bed93df1307d6f857d342665cde26845bc889be65f8be838952a",
+      "bytes": 465
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/midnight-star-dress.png",
+      "sourceSha256": "936e952d2e7fb6ed4ec384a9cbf534cf11b4afea546463c8cd06e7b97621723a",
+      "sha256": "936e952d2e7fb6ed4ec384a9cbf534cf11b4afea546463c8cd06e7b97621723a",
+      "bytes": 357
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/mint-sailor.png",
+      "sourceSha256": "4ca30b35c95c449b2de4ebe1a4de88d7e957c475f56188d7a6cb7f8b52b9afa6",
+      "sha256": "4ca30b35c95c449b2de4ebe1a4de88d7e957c475f56188d7a6cb7f8b52b9afa6",
+      "bytes": 198
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/molten-forge.png",
+      "sourceSha256": "4978992b962507d12ca19533078c641d27db7a9033f7baaede642ab2ac79a704",
+      "sha256": "4978992b962507d12ca19533078c641d27db7a9033f7baaede642ab2ac79a704",
+      "bytes": 450
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/moonlit-beanie.png",
+      "sourceSha256": "0db688ca239c4b2348835ab738fff040666ab0302779a0e1b42648ea2c2fa800",
+      "sha256": "0db688ca239c4b2348835ab738fff040666ab0302779a0e1b42648ea2c2fa800",
+      "bytes": 245
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/moss-temple.png",
+      "sourceSha256": "4e169927925e75f9e4317a89a3656c406e696e63a99cdc9c8fe377ec244598a5",
+      "sha256": "4e169927925e75f9e4317a89a3656c406e696e63a99cdc9c8fe377ec244598a5",
+      "bytes": 422
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/nebula-wings.png",
+      "sourceSha256": "9f4403278b5d1845928147e489f9d8e890e9ffba998d583a02b044ae175d869b",
+      "sha256": "9f4403278b5d1845928147e489f9d8e890e9ffba998d583a02b044ae175d869b",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/neon-headphones.png",
+      "sourceSha256": "ae9b571fc6686530159792789d622a1c0353ba7144a8f48a8f121bbf59a4ac00",
+      "sha256": "ae9b571fc6686530159792789d622a1c0353ba7144a8f48a8f121bbf59a4ac00",
+      "bytes": 249
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-brooch.png",
+      "sourceSha256": "b7c6a241fe8ec4987476db0bee3767c17cd8f8ba21aa38e680f8b2b19b4a528d",
+      "sha256": "b7c6a241fe8ec4987476db0bee3767c17cd8f8ba21aa38e680f8b2b19b4a528d",
+      "bytes": 135
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-bucket.png",
+      "sourceSha256": "efa6ad56936064773381d39f1c3a23a55c50bc3cdc2bff8a5c8ce12c4a372072",
+      "sha256": "efa6ad56936064773381d39f1c3a23a55c50bc3cdc2bff8a5c8ce12c4a372072",
+      "bytes": 242
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-pulse.png",
+      "sourceSha256": "d0494f6018d9cdfe32b9ebffc73817595540ad096d0d58072eb5b61c2003ff3c",
+      "sha256": "d0494f6018d9cdfe32b9ebffc73817595540ad096d0d58072eb5b61c2003ff3c",
+      "bytes": 275
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-sentinel.png",
+      "sourceSha256": "caedb262d64684c9ac3e6113516f4dc585ce98da50aafbf53e8fb10728684a60",
+      "sha256": "caedb262d64684c9ac3e6113516f4dc585ce98da50aafbf53e8fb10728684a60",
+      "bytes": 224
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-silk-dress.png",
+      "sourceSha256": "36004c2de02ffacd1b03f728516228aeb55e234897b57468c77b281b617793a9",
+      "sha256": "36004c2de02ffacd1b03f728516228aeb55e234897b57468c77b281b617793a9",
+      "bytes": 264
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/ocean-wings.png",
+      "sourceSha256": "69cb51ed539b5f4b50d7fa6e3c73d30f9cdeb305980d79b115f67f6e9357fed4",
+      "sha256": "69cb51ed539b5f4b50d7fa6e3c73d30f9cdeb305980d79b115f67f6e9357fed4",
+      "bytes": 171
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/opal-headdress.png",
+      "sourceSha256": "6a6334700835c87eb30ae4137c217f74310c8778e87ac2c42c1c938269a07609",
+      "sha256": "6a6334700835c87eb30ae4137c217f74310c8778e87ac2c42c1c938269a07609",
+      "bytes": 222
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/opal-wings.png",
+      "sourceSha256": "40c3624b88ac6457782f8521e4cbc055477a8e3d214ed2a03d9abc2c880b0756",
+      "sha256": "40c3624b88ac6457782f8521e4cbc055477a8e3d214ed2a03d9abc2c880b0756",
+      "bytes": 546
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/pastbound-relic.png",
+      "sourceSha256": "7521af23b182c644ad171c2b6d36818203bf8b3232d857f6f55109872382748e",
+      "sha256": "7521af23b182c644ad171c2b6d36818203bf8b3232d857f6f55109872382748e",
+      "bytes": 256
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/phoenix-wings.png",
+      "sourceSha256": "c5bca1df23d2d11b034f82e1cbc33d4142b42b9d094ef2f9cf745400625229af",
+      "sha256": "c5bca1df23d2d11b034f82e1cbc33d4142b42b9d094ef2f9cf745400625229af",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/prism-crown.png",
+      "sourceSha256": "ad5d36d5d3e48f225579d8beb182e35f63ea4d5db8c0226d78ae5bab734a9118",
+      "sha256": "ad5d36d5d3e48f225579d8beb182e35f63ea4d5db8c0226d78ae5bab734a9118",
+      "bytes": 243
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/prismatic-trail.png",
+      "sourceSha256": "dc59201bff2345c33921644fd286713e3bf7a68e6a1ce876652476d9f5f70421",
+      "sha256": "dc59201bff2345c33921644fd286713e3bf7a68e6a1ce876652476d9f5f70421",
+      "bytes": 553
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/raven-cowl.png",
+      "sourceSha256": "c5bcea05319d16918248bb74913cbf1c42c9fdda373c8587f212a43589b3ed0b",
+      "sha256": "c5bcea05319d16918248bb74913cbf1c42c9fdda373c8587f212a43589b3ed0b",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/raven-wings.png",
+      "sourceSha256": "fee4e06149a71ee59b06b57796721650833af095c5aae660decaac69f9609d5c",
+      "sha256": "fee4e06149a71ee59b06b57796721650833af095c5aae660decaac69f9609d5c",
+      "bytes": 488
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/rose-beret.png",
+      "sourceSha256": "7e999addba8762139c8c412ad40f3b9bc89586cdd11b6e17edf080ca27e0575f",
+      "sha256": "7e999addba8762139c8c412ad40f3b9bc89586cdd11b6e17edf080ca27e0575f",
+      "bytes": 243
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/rose-garden-dress.png",
+      "sourceSha256": "9bb8aeb36ca4ea3165a352317efe89aa267a012ac76fbcb1cd1d56f081a305e1",
+      "sha256": "9bb8aeb36ca4ea3165a352317efe89aa267a012ac76fbcb1cd1d56f081a305e1",
+      "bytes": 263
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/rose-knight.png",
+      "sourceSha256": "3969d7ebc9de1f52a28edc80f275127012b189bc2557a6acdaf65b98799d4bc1",
+      "sha256": "3969d7ebc9de1f52a28edc80f275127012b189bc2557a6acdaf65b98799d4bc1",
+      "bytes": 504
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/rose-necklace.png",
+      "sourceSha256": "ee5c3bfd9eadb2e771881bfa854da8db95dabc87823792f6e170ac38468132d8",
+      "sha256": "ee5c3bfd9eadb2e771881bfa854da8db95dabc87823792f6e170ac38468132d8",
+      "bytes": 139
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/royal-banner.png",
+      "sourceSha256": "cab2a6f48c02dc1ac7e001fd5300be52e1403fd9a454258df6fcef7d0a1e2de2",
+      "sha256": "cab2a6f48c02dc1ac7e001fd5300be52e1403fd9a454258df6fcef7d0a1e2de2",
+      "bytes": 486
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/sakura-ribbon.png",
+      "sourceSha256": "73f1d522f9aee235b16d96fd8ffb63e3263f907c2902523415ce902ad060f562",
+      "sha256": "73f1d522f9aee235b16d96fd8ffb63e3263f907c2902523415ce902ad060f562",
+      "bytes": 196
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/sakura-wings.png",
+      "sourceSha256": "71fc7b35beeea193c223b7e6cccd4aee8c080a4b1be4d0142b0a096644cea2e4",
+      "sha256": "71fc7b35beeea193c223b7e6cccd4aee8c080a4b1be4d0142b0a096644cea2e4",
+      "bytes": 484
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/sandstorm.png",
+      "sourceSha256": "dec42dadf47290e6f5376edc7de20c5f3a0263a9851ceab3c0c8ffc4a5140f28",
+      "sha256": "dec42dadf47290e6f5376edc7de20c5f3a0263a9851ceab3c0c8ffc4a5140f28",
+      "bytes": 494
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/scarlet-wings.png",
+      "sourceSha256": "8753c3a06137a5f80837066a43c08318440f561413044693a858916184fd9156",
+      "sha256": "8753c3a06137a5f80837066a43c08318440f561413044693a858916184fd9156",
+      "bytes": 467
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/solar-herald.png",
+      "sourceSha256": "5b235db1e5f66f149ac8a8f4945f9f1d82d2fb3bef674be3420756cf0dc5bb77",
+      "sha256": "5b235db1e5f66f149ac8a8f4945f9f1d82d2fb3bef674be3420756cf0dc5bb77",
+      "bytes": 484
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/starlight-weave.png",
+      "sourceSha256": "e8346ea55d536031c0405b1cda5430210b563f3cda8985a8cd1389097d5cc1a8",
+      "sha256": "e8346ea55d536031c0405b1cda5430210b563f3cda8985a8cd1389097d5cc1a8",
+      "bytes": 471
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/storm-goggles.png",
+      "sourceSha256": "e3aade90af1d62c8aeff2436a7c277a92f2736741ac7d0c91dfa4409529719ae",
+      "sha256": "e3aade90af1d62c8aeff2436a7c277a92f2736741ac7d0c91dfa4409529719ae",
+      "bytes": 287
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/storm-strider.png",
+      "sourceSha256": "604d18913703e26e1fa23177c58314fef540f3848abfd46039b96bdd461e4a84",
+      "sha256": "604d18913703e26e1fa23177c58314fef540f3848abfd46039b96bdd461e4a84",
+      "bytes": 517
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/studio-starter.png",
+      "sourceSha256": "b58f7fcbfd35ff047f8bcd905aa603f3551bab74b1eae72d302d48cf4b4a5a6e",
+      "sha256": "b58f7fcbfd35ff047f8bcd905aa603f3551bab74b1eae72d302d48cf4b4a5a6e",
+      "bytes": 226
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/sunbeam-wings.png",
+      "sourceSha256": "ebd2b388fa2ff19e1ec5ee6c595351718493e010b82f715a85e06aacfcee0b16",
+      "sha256": "ebd2b388fa2ff19e1ec5ee6c595351718493e010b82f715a85e06aacfcee0b16",
+      "bytes": 508
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/sunset-trilby.png",
+      "sourceSha256": "e2b02e4b8d04123977706b042be572a6af9588c4d7bf6fd41911541da91a0d6f",
+      "sha256": "e2b02e4b8d04123977706b042be572a6af9588c4d7bf6fd41911541da91a0d6f",
+      "bytes": 256
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/thunderbird-wings.png",
+      "sourceSha256": "319e31ea4ac7697f5de20b4f93fcf009577b3152a051ee32ee3e363f57002453",
+      "sha256": "319e31ea4ac7697f5de20b4f93fcf009577b3152a051ee32ee3e363f57002453",
+      "bytes": 494
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/tidal-guardian.png",
+      "sourceSha256": "430f1444b65b1b51619505cef7505a05b831b4ee41ce420fbb01e1553d774e5c",
+      "sha256": "430f1444b65b1b51619505cef7505a05b831b4ee41ce420fbb01e1553d774e5c",
+      "bytes": 497
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/violet-bandana.png",
+      "sourceSha256": "4cd9917428b3f83fd06c172d940fd0b27361b331bb2c8891cfae4b4766a5adc8",
+      "sha256": "4cd9917428b3f83fd06c172d940fd0b27361b331bb2c8891cfae4b4766a5adc8",
+      "bytes": 216
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/violet-shoulder-pin.png",
+      "sourceSha256": "4b0f9763bdf9c2495c3f6605363112d056efb844ef20850c88526ee1c96096e0",
+      "sha256": "4b0f9763bdf9c2495c3f6605363112d056efb844ef20850c88526ee1c96096e0",
+      "bytes": 142
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/cosmetics/void-walker.png",
+      "sourceSha256": "f51ddfdbd026457e7ea2cfdaba9a6af5cd788e9ac21c0d9ba91461200f76f676",
+      "sha256": "f51ddfdbd026457e7ea2cfdaba9a6af5cd788e9ac21c0d9ba91461200f76f676",
+      "bytes": 469
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-air-guitar.json",
+      "sourceSha256": "83ecb3bd4312e77df150ad63c801e14c9d4f802574c3a97414b2b938df6420ff",
+      "sha256": "83ecb3bd4312e77df150ad63c801e14c9d4f802574c3a97414b2b938df6420ff",
+      "bytes": 2138
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-arm-stretch.json",
+      "sourceSha256": "ccbe04037465d349bc9607cb425c927915cb6e1a8ef4099ccc5030dccdfc091f",
+      "sha256": "ccbe04037465d349bc9607cb425c927915cb6e1a8ef4099ccc5030dccdfc091f",
+      "bytes": 2335
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-captain-salute.json",
+      "sourceSha256": "07962ee22edf1ef60dd725577fdbbf43e91f699b265dd75fb229ef9268adeb1c",
+      "sha256": "07962ee22edf1ef60dd725577fdbbf43e91f699b265dd75fb229ef9268adeb1c",
+      "bytes": 2233
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-deep-breath.json",
+      "sourceSha256": "2e0b0f0ea343170d5062112a4620212e9f32f4002526e57adeecc17105ca4736",
+      "sha256": "2e0b0f0ea343170d5062112a4620212e9f32f4002526e57adeecc17105ca4736",
+      "bytes": 2327
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-finale.json",
+      "sourceSha256": "06d4dcb5953892ae0f17f3c404424129df5e3c52339f135bd4dad4649e2b0cba",
+      "sha256": "06d4dcb5953892ae0f17f3c404424129df5e3c52339f135bd4dad4649e2b0cba",
+      "bytes": 2673
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-formal-bow.json",
+      "sourceSha256": "9f1970504e0efde0c424f3235709129b6eb0dec3378d2354a524133e539a803a",
+      "sha256": "9f1970504e0efde0c424f3235709129b6eb0dec3378d2354a524133e539a803a",
+      "bytes": 2413
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-groove.json",
+      "sourceSha256": "00f7b647c946a0192b48e56a75421f5fb88ddb7b0f766eee8db0f8612d32e833",
+      "sha256": "00f7b647c946a0192b48e56a75421f5fb88ddb7b0f766eee8db0f8612d32e833",
+      "bytes": 2356
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-happy-clap.json",
+      "sourceSha256": "22b52af28648791f7fdea3e6e88e1a59182911f5ee047c6c00c4dab6dfc64e7c",
+      "sha256": "22b52af28648791f7fdea3e6e88e1a59182911f5ee047c6c00c4dab6dfc64e7c",
+      "bytes": 3501
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-heart-hands.json",
+      "sourceSha256": "56fd19144300aad531e78b5cfdbc89cb7a522441a372a5ed6fcb2359aea63c9e",
+      "sha256": "56fd19144300aad531e78b5cfdbc89cb7a522441a372a5ed6fcb2359aea63c9e",
+      "bytes": 2343
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-hello-wave.json",
+      "sourceSha256": "0cedc07540bd1076ffb85abf5d0a94b9d37e2f6c8e77632a9e87cecfcb15cf94",
+      "sha256": "0cedc07540bd1076ffb85abf5d0a94b9d37e2f6c8e77632a9e87cecfcb15cf94",
+      "bytes": 3213
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-look-around.json",
+      "sourceSha256": "2bed5225e368dfa8e3d5aa1969fe72e6bf89905a9647951cc263999b5eb27140",
+      "sha256": "2bed5225e368dfa8e3d5aa1969fe72e6bf89905a9647951cc263999b5eb27140",
+      "bytes": 2377
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-robot.json",
+      "sourceSha256": "6201037731cf9be8b54237d656ce71732834382621298048fe0bce2e6a36c166",
+      "sha256": "6201037731cf9be8b54237d656ce71732834382621298048fe0bce2e6a36c166",
+      "bytes": 2540
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-shrug.json",
+      "sourceSha256": "6704eecedec7f9a26460bd8586bce1376bbb68f153b138a1d799170e753f98be",
+      "sha256": "6704eecedec7f9a26460bd8586bce1376bbb68f153b138a1d799170e753f98be",
+      "bytes": 2455
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-shuffle.json",
+      "sourceSha256": "21d9fa0475bdb2d0e7e7821b57c4ccfffca16b46cf818ee2de1637dc6b73f8db",
+      "sha256": "21d9fa0475bdb2d0e7e7821b57c4ccfffca16b46cf818ee2de1637dc6b73f8db",
+      "bytes": 2654
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-side-step.json",
+      "sourceSha256": "eef7793ebef5ba2684cbb80115cd53244d742cb3d325b5df7761f58b849db23a",
+      "sha256": "eef7793ebef5ba2684cbb80115cd53244d742cb3d325b5df7761f58b849db23a",
+      "bytes": 2701
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-star-pose.json",
+      "sourceSha256": "b9647bda3c4858c763b9d9d1adc99e0ef602ec6c37e4fe79660b324f596e7d7c",
+      "sha256": "b9647bda3c4858c763b9d9d1adc99e0ef602ec6c37e4fe79660b324f596e7d7c",
+      "bytes": 2611
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-thinking.json",
+      "sourceSha256": "f82d74e3dd340a6f968e85b1ebbb09cd6072ec98323a5b162408309119c0b7e0",
+      "sha256": "f82d74e3dd340a6f968e85b1ebbb09cd6072ec98323a5b162408309119c0b7e0",
+      "bytes": 2332
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-toe-tap.json",
+      "sourceSha256": "e97135b9ebd95de747ed1b90e9dd05fc78c2caa60aca0f1918d830ec1023a2fb",
+      "sha256": "e97135b9ebd95de747ed1b90e9dd05fc78c2caa60aca0f1918d830ec1023a2fb",
+      "bytes": 2018
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-victory-cheer.json",
+      "sourceSha256": "3b48c678e0cdba21b55b56a6c4269f59fd7b01c8cf31169a3cd29f03816443b5",
+      "sha256": "3b48c678e0cdba21b55b56a6c4269f59fd7b01c8cf31169a3cd29f03816443b5",
+      "bytes": 2570
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/emotes/emote-warm-up.json",
+      "sourceSha256": "485ef7136ddaf9c38696f21b212c0846887d211b72a7c363d68f9075552ce64d",
+      "sha256": "485ef7136ddaf9c38696f21b212c0846887d211b72a7c363d68f9075552ce64d",
+      "bytes": 2498
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/launcher.ico",
+      "sourceSha256": "47c9222fe7023ee663967f21d634dfac36a8eac99374d2414e3a727dcee08f72",
+      "sha256": "47c9222fe7023ee663967f21d634dfac36a8eac99374d2414e3a727dcee08f72",
+      "bytes": 1718
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/launcher.png",
+      "sourceSha256": "97dcd7fc065f1191e45e921ccc6881223b96eb63fc3664929aa1515949ee09c1",
+      "sha256": "97dcd7fc065f1191e45e921ccc6881223b96eb63fc3664929aa1515949ee09c1",
+      "bytes": 1696
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-scenes/lantern-valley.png",
+      "sourceSha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "sha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "bytes": 2252573
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-scenes/wordmark.png",
+      "sourceSha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "sha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "bytes": 4232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/background.png",
+      "sourceSha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "sha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "bytes": 2252573
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/button-hover.png",
+      "sourceSha256": "6409e70039ecb616a3feb8747bea5ed2f8de5afe357f2e8c901454f8b356e115",
+      "sha256": "6409e70039ecb616a3feb8747bea5ed2f8de5afe357f2e8c901454f8b356e115",
+      "bytes": 175
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/button-inactive.png",
+      "sourceSha256": "1efc95cb1977bef20bfb47556778ffc7548fdb6f0a1d30644f00cb2cf1a75e00",
+      "sha256": "1efc95cb1977bef20bfb47556778ffc7548fdb6f0a1d30644f00cb2cf1a75e00",
+      "bytes": 178
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/button-normal.png",
+      "sourceSha256": "12c2ec8fcc790d72962c85751bb8238c975fb903972dd55167094dcadab208f7",
+      "sha256": "12c2ec8fcc790d72962c85751bb8238c975fb903972dd55167094dcadab208f7",
+      "bytes": 179
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/icon16.png",
+      "sourceSha256": "025188c2d90512bb879361cdeba0d3b0338ceeeafb5132fb18adebff9a3e11a9",
+      "sha256": "025188c2d90512bb879361cdeba0d3b0338ceeeafb5132fb18adebff9a3e11a9",
+      "bytes": 99
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/icon32.png",
+      "sourceSha256": "ab77f9fb94e43904c837128ce7885dc88b375e7cb8dbfa21443801da14c79451",
+      "sha256": "ab77f9fb94e43904c837128ce7885dc88b375e7cb8dbfa21443801da14c79451",
+      "bytes": 129
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/mark.png",
+      "sourceSha256": "2993315f3e0d318ba3a0d6d39e2b38582f8daae7440efe31b16d785ecb08d4af",
+      "sha256": "2993315f3e0d318ba3a0d6d39e2b38582f8daae7440efe31b16d785ecb08d4af",
+      "bytes": 546
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/menu-panel.png",
+      "sourceSha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "sha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "bytes": 274
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/aurora/wordmark.png",
+      "sourceSha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "sha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "bytes": 4232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/background.png",
+      "sourceSha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "sha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "bytes": 2252573
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/button-hover.png",
+      "sourceSha256": "3d4d816547b157c2c9f00fc9d7c708e583e9b9b5e3ee4b90b2afd9c856f563a3",
+      "sha256": "3d4d816547b157c2c9f00fc9d7c708e583e9b9b5e3ee4b90b2afd9c856f563a3",
+      "bytes": 182
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/button-inactive.png",
+      "sourceSha256": "8cdbd1efe452b936c0939e0cd6b5677cfe33e898d203551ce745648328c46113",
+      "sha256": "8cdbd1efe452b936c0939e0cd6b5677cfe33e898d203551ce745648328c46113",
+      "bytes": 182
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/button-normal.png",
+      "sourceSha256": "b488e60c84d72fa3d71a03f7efd0708f54cb71a3d1976f1b5359202aeb2dde7e",
+      "sha256": "b488e60c84d72fa3d71a03f7efd0708f54cb71a3d1976f1b5359202aeb2dde7e",
+      "bytes": 179
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/icon16.png",
+      "sourceSha256": "75903e7b0c52ae034c1b7b7d26af724cac566e959403fe5bc713f2689a4ea7d3",
+      "sha256": "75903e7b0c52ae034c1b7b7d26af724cac566e959403fe5bc713f2689a4ea7d3",
+      "bytes": 99
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/icon32.png",
+      "sourceSha256": "3fd382de0456c251af3773704b0d08b71d0df2632e7e6e454a55640216e0aea3",
+      "sha256": "3fd382de0456c251af3773704b0d08b71d0df2632e7e6e454a55640216e0aea3",
+      "bytes": 129
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/mark.png",
+      "sourceSha256": "85d167f19e2fafef8dd0e1216e86c0f385b4b1d873057406e3f3b06934e70661",
+      "sha256": "85d167f19e2fafef8dd0e1216e86c0f385b4b1d873057406e3f3b06934e70661",
+      "bytes": 548
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/menu-panel.png",
+      "sourceSha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "sha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "bytes": 274
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/ember/wordmark.png",
+      "sourceSha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "sha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "bytes": 4232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/background.png",
+      "sourceSha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "sha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "bytes": 2252573
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/button-hover.png",
+      "sourceSha256": "621f1f71f9245cd88d56cd2080ee8f50a3d5e39ba4f107e50458ae6b77bdf295",
+      "sha256": "621f1f71f9245cd88d56cd2080ee8f50a3d5e39ba4f107e50458ae6b77bdf295",
+      "bytes": 183
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/button-inactive.png",
+      "sourceSha256": "14bb34dd6396259ee6dd1429fec8c6177fe7e4a9b3c9597fe9ab38e8812a32fa",
+      "sha256": "14bb34dd6396259ee6dd1429fec8c6177fe7e4a9b3c9597fe9ab38e8812a32fa",
+      "bytes": 183
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/button-normal.png",
+      "sourceSha256": "60036217242aef1c33b2f9f6c8836c81d9a4acfce4cb649e820763c493a03ca3",
+      "sha256": "60036217242aef1c33b2f9f6c8836c81d9a4acfce4cb649e820763c493a03ca3",
+      "bytes": 183
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/icon16.png",
+      "sourceSha256": "49f479d30429837010cdd09c97d17c6d92728d1543492b7cb85f9eda987ca039",
+      "sha256": "49f479d30429837010cdd09c97d17c6d92728d1543492b7cb85f9eda987ca039",
+      "bytes": 99
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/icon32.png",
+      "sourceSha256": "f336454fdcf1653da8cf13b5dc80d33f631422859fd8bdda82d5e24101ad30d5",
+      "sha256": "f336454fdcf1653da8cf13b5dc80d33f631422859fd8bdda82d5e24101ad30d5",
+      "bytes": 129
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/mark.png",
+      "sourceSha256": "6bdf1b935fae24582237343df3b88dd44fd82f6ba97a0c025bfd5b526591687c",
+      "sha256": "6bdf1b935fae24582237343df3b88dd44fd82f6ba97a0c025bfd5b526591687c",
+      "bytes": 547
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/menu-panel.png",
+      "sourceSha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "sha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "bytes": 274
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/glacier/wordmark.png",
+      "sourceSha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "sha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "bytes": 4232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/legacy-hashes.json",
+      "sourceSha256": "032cbab3fd6c7eae662ad6807fc35a6476483a304f594c6716cbedb17897650a",
+      "sha256": "032cbab3fd6c7eae662ad6807fc35a6476483a304f594c6716cbedb17897650a",
+      "bytes": 8531
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/background.png",
+      "sourceSha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "sha256": "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28",
+      "bytes": 2252573
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/button-hover.png",
+      "sourceSha256": "8fc7b28e11b070ded31ef130b2843965dfecaae2f88992f8ce360d269c2a7940",
+      "sha256": "8fc7b28e11b070ded31ef130b2843965dfecaae2f88992f8ce360d269c2a7940",
+      "bytes": 180
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/button-inactive.png",
+      "sourceSha256": "ff9573ea73eb7aac0c96dabcafd5a4941a8608a8fa052f5967113a57268ebd45",
+      "sha256": "ff9573ea73eb7aac0c96dabcafd5a4941a8608a8fa052f5967113a57268ebd45",
+      "bytes": 183
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/button-normal.png",
+      "sourceSha256": "b1bc0d09ac9972dc9c2a7db1f8510ef4a724770b36270094ce5bdbcd93726b7e",
+      "sha256": "b1bc0d09ac9972dc9c2a7db1f8510ef4a724770b36270094ce5bdbcd93726b7e",
+      "bytes": 179
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/icon16.png",
+      "sourceSha256": "74b394ecd88a9ab57dc3a41ba2c8d67db8d4e996e29ce4a34abc0d9893d1e839",
+      "sha256": "74b394ecd88a9ab57dc3a41ba2c8d67db8d4e996e29ce4a34abc0d9893d1e839",
+      "bytes": 99
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/icon32.png",
+      "sourceSha256": "04f13daea3ef7c8394661aedb45a4c44cabfdb6f19a06b0b482a2b88612656d8",
+      "sha256": "04f13daea3ef7c8394661aedb45a4c44cabfdb6f19a06b0b482a2b88612656d8",
+      "bytes": 129
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/mark.png",
+      "sourceSha256": "0440ee2abed5f59b68f4f55d57d22cf8e858b3d8c1eb9a36de088658be45bb04",
+      "sha256": "0440ee2abed5f59b68f4f55d57d22cf8e858b3d8c1eb9a36de088658be45bb04",
+      "bytes": 548
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/menu-panel.png",
+      "sourceSha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "sha256": "8c15530f5bb354725e11c475f515b7e8c210459456d5c8ea7f8caf3559dcdc2f",
+      "bytes": 274
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/menu-themes/verdant/wordmark.png",
+      "sourceSha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "sha256": "7fe589fe9ba3354bdf4991423cb333046e3fa3cb1fb7821866c607a0481d7748",
+      "bytes": 4232
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/1.20.1.json",
+      "sourceSha256": "37f3aba149a869b6b6b33e17667ea86b022e5bd31106ecdbd8d5df66e0009745",
+      "sha256": "37f3aba149a869b6b6b33e17667ea86b022e5bd31106ecdbd8d5df66e0009745",
+      "bytes": 7839
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/1.21.1.json",
+      "sourceSha256": "4726391f6c1f6a75279ee0bf3fa1fce5c9ab39bc478125a8de7a3107b4f9fffe",
+      "sha256": "4726391f6c1f6a75279ee0bf3fa1fce5c9ab39bc478125a8de7a3107b4f9fffe",
+      "bytes": 7546
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/1.21.11.json",
+      "sourceSha256": "1d05f15d4e140ca69ccb2d0042b2e92d5e248297f31ee833592857a57e9d84b9",
+      "sha256": "1d05f15d4e140ca69ccb2d0042b2e92d5e248297f31ee833592857a57e9d84b9",
+      "bytes": 7503
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/26.3.json",
+      "sourceSha256": "d1aacae5cdcb83ce3588527a2b50f66e9b9aa483fa168afd79919aa1fc77ffe4",
+      "sha256": "d1aacae5cdcb83ce3588527a2b50f66e9b9aa483fa168afd79919aa1fc77ffe4",
+      "bytes": 7421
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/Boralances-1.20.1-Optimization-Extras.mrpack",
+      "sourceSha256": "debf73b7b6cb17beb6c98d41902b6dee00c8782b37bb3fbdfeb71480636daf5a",
+      "sha256": "debf73b7b6cb17beb6c98d41902b6dee00c8782b37bb3fbdfeb71480636daf5a",
+      "bytes": 2666225
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/Boralances-1.21.1-Optimization-Extras.mrpack",
+      "sourceSha256": "b0bd4c5d4f0583b8e8ff5076082359aeb4109d7bd8ff4401017e3509098ba816",
+      "sha256": "b0bd4c5d4f0583b8e8ff5076082359aeb4109d7bd8ff4401017e3509098ba816",
+      "bytes": 2666198
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/Boralances-1.21.11-Optimization-Extras.mrpack",
+      "sourceSha256": "115d06e186d71b9511628a21e5bbba448811ff4bc704e3b4ec7208ced8a3ad0d",
+      "sha256": "115d06e186d71b9511628a21e5bbba448811ff4bc704e3b4ec7208ced8a3ad0d",
+      "bytes": 2665705
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/presets/Boralances-26.3-Optimization-Extras.mrpack",
+      "sourceSha256": "ecbdecef3f319db16204e5f63bdab0d6fed42fc23ce2037e8fdffc73273ce589",
+      "sha256": "ecbdecef3f319db16204e5f63bdab0d6fed42fc23ce2037e8fdffc73273ce589",
+      "bytes": 2665334
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/server/boralances-playit-agent.jar",
+      "sourceSha256": "3db7f5ef5a00bc6401aa1944e3beb771c910165d6eac9d7f16c9fd473364653d",
+      "sha256": "3db7f5ef5a00bc6401aa1944e3beb771c910165d6eac9d7f16c9fd473364653d",
+      "bytes": 2076347
+    },
+    {
+      "path": "vendor/boralances-launcher/assets/server/boralances-server.jar",
+      "sourceSha256": "6cb7821a585a8061b29fd393e09610a83c81797bdfc4b42a4599faa237f4445f",
+      "sha256": "6cb7821a585a8061b29fd393e09610a83c81797bdfc4b42a4599faa237f4445f",
+      "bytes": 6933
+    },
+    {
+      "path": "vendor/boralances-launcher/LICENSE",
+      "sourceSha256": "722932b7381165446245432d9c02be26e26d61d79a0e139ee09be7879fe1e064",
+      "sha256": "722932b7381165446245432d9c02be26e26d61d79a0e139ee09be7879fe1e064",
+      "bytes": 1067
+    },
+    {
+      "path": "vendor/boralances-launcher/README.md",
+      "sourceSha256": "7795441254c01d859e5aea1a113a171ccdb7933dcd672ac70ae622d9b89d11ad",
+      "sha256": "7795441254c01d859e5aea1a113a171ccdb7933dcd672ac70ae622d9b89d11ad",
+      "bytes": 43689
+    },
+    {
+      "path": "vendor/boralances-launcher/requirements.txt",
+      "sourceSha256": "2579da839a9a6b7537acbbfeb0ff53ac2d21fb929b7678f5a264ec2df022a858",
+      "sha256": "2579da839a9a6b7537acbbfeb0ff53ac2d21fb929b7678f5a264ec2df022a858",
+      "bytes": 48
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/adm-zip.js",
+      "sourceSha256": "dc6a2239b69829b7d20aeefc9f5540aa69564d0cac476e442afeb030ae64ca07",
+      "sha256": "dc6a2239b69829b7d20aeefc9f5540aa69564d0cac476e442afeb030ae64ca07",
+      "bytes": 38259
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/headers/entryHeader.js",
+      "sourceSha256": "b6fc4b17ceab96c07d6c14464b95204b1a130d32d845b348a18eefd5633763b1",
+      "sha256": "b6fc4b17ceab96c07d6c14464b95204b1a130d32d845b348a18eefd5633763b1",
+      "bytes": 12066
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/headers/index.js",
+      "sourceSha256": "536e4b5bf009a3d9f6eccfbbc4157cb6de663d889e0826ea5f6e5fa17aaeb8bf",
+      "sha256": "536e4b5bf009a3d9f6eccfbbc4157cb6de663d889e0826ea5f6e5fa17aaeb8bf",
+      "bytes": 94
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/headers/mainHeader.js",
+      "sourceSha256": "28dd1a0db451bc94d8f3234e57d8192ba17154118f841c398e0de35acea286ee",
+      "sha256": "28dd1a0db451bc94d8f3234e57d8192ba17154118f841c398e0de35acea286ee",
+      "bytes": 4445
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/LICENSE",
+      "sourceSha256": "6bb5b2d4c07d793ca928daa63a8899c6914fafb5ac3aa04ec10cae07f3d57dca",
+      "sha256": "6bb5b2d4c07d793ca928daa63a8899c6914fafb5ac3aa04ec10cae07f3d57dca",
+      "bytes": 1106
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/methods/deflater.js",
+      "sourceSha256": "6dc41b2460594cfa5136b797653c166b2f7403820a40f2fca17cca35a5de1b5f",
+      "sha256": "6dc41b2460594cfa5136b797653c166b2f7403820a40f2fca17cca35a5de1b5f",
+      "bytes": 1021
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/methods/index.js",
+      "sourceSha256": "d67714f1a04be942f90be77069af3ff4214aa8ee84b26edeff3a87eb0d8e2dc0",
+      "sha256": "d67714f1a04be942f90be77069af3ff4214aa8ee84b26edeff3a87eb0d8e2dc0",
+      "bytes": 128
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/methods/inflater.js",
+      "sourceSha256": "c5e4531a11385050d77a5069487b0be8e85c8e44fe6b214d68def321e74528ce",
+      "sha256": "c5e4531a11385050d77a5069487b0be8e85c8e44fe6b214d68def321e74528ce",
+      "bytes": 1162
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/methods/zipcrypto.js",
+      "sourceSha256": "23365c7eda0ea098385dc7ec649517fc110ce2764d2e707c37bf6b528604e25a",
+      "sha256": "23365c7eda0ea098385dc7ec649517fc110ce2764d2e707c37bf6b528604e25a",
+      "bytes": 5806
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/package.json",
+      "sourceSha256": "2de3ef9fc3bad6955f503dc641da2db24626760ce1004fe6929cc5e64737ad35",
+      "sha256": "2de3ef9fc3bad6955f503dc641da2db24626760ce1004fe6929cc5e64737ad35",
+      "bytes": 1288
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/README.md",
+      "sourceSha256": "1aa164b27b6e129f9a3c061621031aefbabebf1c7cbacba47e03f91582fb15ea",
+      "sha256": "1aa164b27b6e129f9a3c061621031aefbabebf1c7cbacba47e03f91582fb15ea",
+      "bytes": 2797
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/constants.js",
+      "sourceSha256": "208e943a2e5faad056047f3c7991cce3cde637d8e272a564f2546210ebdf2069",
+      "sha256": "208e943a2e5faad056047f3c7991cce3cde637d8e272a564f2546210ebdf2069",
+      "bytes": 6374
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/decoder.js",
+      "sourceSha256": "73a0ebb00c4dce2124f07acf0b34374cb03a4384cccd1cd6f58aee27c35953d9",
+      "sha256": "73a0ebb00c4dce2124f07acf0b34374cb03a4384cccd1cd6f58aee27c35953d9",
+      "bytes": 130
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/errors.js",
+      "sourceSha256": "d2d243647737c795c2db8aeba2e1f3841d5f76370b521d436cf465322dd4aab7",
+      "sha256": "d2d243647737c795c2db8aeba2e1f3841d5f76370b521d436cf465322dd4aab7",
+      "bytes": 2868
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/fattr.js",
+      "sourceSha256": "31c93eb386a2bfbf19ad92a6bf20d510a8f1e7e90cc71d33dd888f89da12362d",
+      "sha256": "31c93eb386a2bfbf19ad92a6bf20d510a8f1e7e90cc71d33dd888f89da12362d",
+      "bytes": 1892
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/index.js",
+      "sourceSha256": "dc5b230ed853947ea55c0bf69f0e525fbeffefff09aa3da296d541bb8898314e",
+      "sha256": "dc5b230ed853947ea55c0bf69f0e525fbeffefff09aa3da296d541bb8898314e",
+      "bytes": 226
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/util/utils.js",
+      "sourceSha256": "a8983582ad5dfa163303d22acd0b0ab3312059a121fb1b377ad41f4a58ed955b",
+      "sha256": "a8983582ad5dfa163303d22acd0b0ab3312059a121fb1b377ad41f4a58ed955b",
+      "bytes": 10416
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/zipEntry.js",
+      "sourceSha256": "35295fdfb2d8e5316db897f2e8ed61ed5eee8a68044774aba56b118a9a959daf",
+      "sha256": "35295fdfb2d8e5316db897f2e8ed61ed5eee8a68044774aba56b118a9a959daf",
+      "bytes": 15614
+    },
+    {
+      "path": "vendor/boralances-launcher/node_modules/adm-zip/zipFile.js",
+      "sourceSha256": "f95d3d6687e5ed959559943380e3bcf61f3e8849286d740afa45dedb28ffa16d",
+      "sha256": "f95d3d6687e5ed959559943380e3bcf61f3e8849286d740afa45dedb28ffa16d",
+      "bytes": 15795
+    },
+    {
+      "path": "apps/browser/boralances_browser/web/reference-optics.js",
+      "sourceSha256": "1cf10c57f6ba2e43e034b7a2732ae36b730e4de3d6c8cc7da231ce2edba8d740",
+      "sha256": "1cf10c57f6ba2e43e034b7a2732ae36b730e4de3d6c8cc7da231ce2edba8d740",
+      "bytes": 9931
+    },
+    {
+      "path": "apps/browser/boralances_browser/web/google-glass.css",
+      "sourceSha256": "6c219e18b1870eefe1bc77eed7cb207dd094a21556881ac0a944de255e0c9c9f",
+      "sha256": "6c219e18b1870eefe1bc77eed7cb207dd094a21556881ac0a944de255e0c9c9f",
+      "bytes": 4235
+    },
+    {
+      "path": "apps/browser/boralances_browser/web/google-glass.js",
+      "sourceSha256": "a671222e8804dd0f648223bc80e7cb859536bdee1b964115b01f83421b192b1a",
+      "sha256": "a671222e8804dd0f648223bc80e7cb859536bdee1b964115b01f83421b192b1a",
+      "bytes": 3279
+    },
+    {
+      "path": "integrations/android/BoralancesJarvis-android16.apk",
+      "sourceSha256": "a0514194c5e9ef39c5cd7db2ab519768f085316cc131bfcbb9d375e80fcd2728",
+      "sha256": "a0514194c5e9ef39c5cd7db2ab519768f085316cc131bfcbb9d375e80fcd2728",
+      "bytes": 41523
+    }
+  ]
+}

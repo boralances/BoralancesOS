@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "versions": [
+    "1.8.0",
+    "1.8.1",
+    "1.8.2"
+  ],
+  "files": {
+    "config/drippyloadingscreen/options.txt": [
+      "1e43029a0ba9965711fe1e7f2542abdc414a33d8cacf7a95f04155c919c2e322"
+    ],
+    "config/fancymenu/assets/boralances/aurora/background.png": [
+      "904439e4841f49f821ed5e232f94667cd010c90f814045299649109dfec5609e",
+      "165ca2433e1d5003ce64bd8f1e97ce5507df58feab8e546cc174842b6e7c5c97",
+      "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28"
+    ],
+    "config/fancymenu/assets/boralances/aurora/button-hover.png": [
+      "cefd4b6ad3b6c1ceff8a05f1e27f765949997132eb4eeee5edc21efc1fd179e9",
+      "8a5c53429b380cdb9c8f768259de742afc3927e0d10591d91b6587790db6585a",
+      "6409e70039ecb616a3feb8747bea5ed2f8de5afe357f2e8c901454f8b356e115"
+    ],
+    "config/fancymenu/assets/boralances/aurora/button-inactive.png": [
+      "f66e387405024a4979b2c9b161f098aeccace23a5736a1eecdc2e7945b51d72e",
+      "1c0a3aa44e4b4ffcb81875d3f5c7b500bd09e67ecd7c7ef234ae86ce69c845ca",
+      "1efc95cb1977bef20bfb47556778ffc7548fdb6f0a1d30644f00cb2cf1a75e00"
+    ],
+    "config/fancymenu/assets/boralances/aurora/button-normal.png": [
+      "b9e8098ba2da1cb2ea3586bc42cb68aed551f36f8418d6c1ce617b8a9498d67b",
+      "9f0c2ef6d7086742ed19de3873937f17e9391edd4c2647839f07411cd46b6ff7",
+      "12c2ec8fcc790d72962c85751bb8238c975fb903972dd55167094dcadab208f7"
+    ],
+    "config/fancymenu/assets/boralances/aurora/icon16.png": [
+      "025188c2d90512bb879361cdeba0d3b0338ceeeafb5132fb18adebff9a3e11a9"
+    ],
+    "config/fancymenu/assets/boralances/aurora/icon32.png": [
+      "ab77f9fb94e43904c837128ce7885dc88b375e7cb8dbfa21443801da14c79451"
+    ],
+    "config/fancymenu/customizablemenus.txt": [
+      "fd61e69f1b9e071d73a07b04abdeb49c497aa56a21f2fe2939286084157903be",
+      "2658aad25d4409681593d72d577d41d82766b25c1aecc0b435c2a33b7a1b5a15"
+    ],
+    "config/fancymenu/customization/boralances-loading.txt": [
+      "1ef158cd2c67848c0a685cc4521691451c0afbb8f6ae84db78bf45d89eb22505",
+      "d3195eb211bde01398f6f383485abbfbce683c273b48e70926d867ce26b0c25e",
+      "efa86231c5c13f7e6c65e27fb3e5cd2365c246ebcee5a0566ffd1a472386f1f3",
+      "7c4754c19ddbaff1298a8450b582199266560ad8b53052452ed8b210c7c0a2dd"
+    ],
+    "config/fancymenu/customization/boralances-title.txt": [
+      "5df593b74aef1357cf85861f9936daa5361823f412a4cd1da8a4519b42e20d5e",
+      "58bdb5952dacaf0e851d0ee15bbf6e98d0aa61d041a3e43e8cae2bcd8c1087f7",
+      "da6a306c1e33e041b4b72cd6c1d39033205c5a35a995c1379e3c719a8cf0a526",
+      "cf5c9af47d6b25584c7b022c87bf1cf637ebb031b5e4738b8e29885fafa24417",
+      "5117ce3fb87a8ff4939b66eea4b74a991fd260c91fb02c8b16c33dfdf7bd92b0",
+      "e89b90269d1d5e385092c3bcf3c1bd70800ae49951464034e95b9bf4a3acae3f",
+      "921dd2402fb7f62471ee4c39501566c1cc1a32ce59647bc06fe6a3555713a87e",
+      "daac684a824adaff825d4f273aa3f73aa3e3c014b44f3699ffc6bc7be1dd5b64",
+      "2fd7bdbd31df2da15ef75b0821ee4eb94349e792a35786324712f40e1590e786",
+      "52eabe81c09ac452c59053c80eefab4fab8c4948ea3978812f0cc7294484d472",
+      "37c91daef0394e59ca86bdba880996ed6afaf98836998104b9c0aebfc3c9c701",
+      "aebbc9771b710f9eaa47ff30eeb98ef863e8218b3a9790e3687ed7d4999de036"
+    ],
+    "config/fancymenu/options.txt": [
+      "c6bb4b847e386b7ca8d8f1caf304499495b1575dce92b81b1ec54cd3ce5de3da",
+      "f966df5a84d77cbe1f54e47ca6bc681f1dfdf68e15efbba0fe71fb218b530436",
+      "ae41739520bd60e872484793dbc962dbda069a87eedcff576b686a17c6d460cf",
+      "53f600683354485d2e9faddad1141a79184a76a13bd9dac29b26fd2fc3e93f04"
+    ],
+    "config/fancymenu/assets/boralances/glacier/background.png": [
+      "6b343b5451f72bf0d169d610ea71c4773784e15314ff06813583362714fc13fe",
+      "8548be353d3dc41e0342071cc5e34d119f31725a7fc48b1814ceedbe4bbe0704",
+      "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28"
+    ],
+    "config/fancymenu/assets/boralances/glacier/button-hover.png": [
+      "80942469de763de2760cdeb9c403c26e3f0251c779f7cfcbb0363068835e4e24",
+      "ac2ab2c19252a6e310cd2943d0fb23eacf93ae05ff3c85158e1a4b7b389667c7",
+      "621f1f71f9245cd88d56cd2080ee8f50a3d5e39ba4f107e50458ae6b77bdf295"
+    ],
+    "config/fancymenu/assets/boralances/glacier/button-inactive.png": [
+      "45ffb6a0020942e0052a388e921d39b496b50b6a37bf6a93535b40a277123f64",
+      "7ecbaf19759c0b3080dec90a067080fac0f0e0f99841b5a496c0db296bab73a0",
+      "14bb34dd6396259ee6dd1429fec8c6177fe7e4a9b3c9597fe9ab38e8812a32fa"
+    ],
+    "config/fancymenu/assets/boralances/glacier/button-normal.png": [
+      "0ae695ab7c8ff8beed10befaf63ae1d44142ebf0c3b5a48eca097f2b36548c67",
+      "f1216c0b16a1f6adbe1d3351c40cec5e58c227ca7c690c9a6c256a35f67a541d",
+      "60036217242aef1c33b2f9f6c8836c81d9a4acfce4cb649e820763c493a03ca3"
+    ],
+    "config/fancymenu/assets/boralances/glacier/icon16.png": [
+      "49f479d30429837010cdd09c97d17c6d92728d1543492b7cb85f9eda987ca039"
+    ],
+    "config/fancymenu/assets/boralances/glacier/icon32.png": [
+      "f336454fdcf1653da8cf13b5dc80d33f631422859fd8bdda82d5e24101ad30d5"
+    ],
+    "config/fancymenu/assets/boralances/verdant/background.png": [
+      "a7b7cb4e3dc150332d90770b8d2b3c3ac5c8a79000cb57293be76416f1427ecd",
+      "f5b783def230c53cc2a710d6b537c9f5f762d1cf6df93a7b3defb8dd4fca2aac",
+      "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28"
+    ],
+    "config/fancymenu/assets/boralances/verdant/button-hover.png": [
+      "678ab7a0f312059b2f1111dbfb05fc7c751da97f616dddb5712542afb69b033d",
+      "15fbf608b3a503de6153bda3559c77b5c2c9552642e1186df90da953718b2c82",
+      "8fc7b28e11b070ded31ef130b2843965dfecaae2f88992f8ce360d269c2a7940"
+    ],
+    "config/fancymenu/assets/boralances/verdant/button-inactive.png": [
+      "7e4b7cf4c9ecca27336b0d3e7f37312ef744625c9b68fd2aeac83c46ec598327",
+      "ca69c9727e1ab925aae780f59967f434cd9dc19eaa9db1322e24ae01bb8989a8",
+      "ff9573ea73eb7aac0c96dabcafd5a4941a8608a8fa052f5967113a57268ebd45"
+    ],
+    "config/fancymenu/assets/boralances/verdant/button-normal.png": [
+      "306ec18700e5b9c287c72e8cbdd7affcc0ce4be38e14c1dda5f806ac4691d7ee",
+      "17cde742ee0e84cdc24d69eb98dcd6167d54e397962806e0fa3c8618bbe30c61",
+      "b1bc0d09ac9972dc9c2a7db1f8510ef4a724770b36270094ce5bdbcd93726b7e"
+    ],
+    "config/fancymenu/assets/boralances/verdant/icon16.png": [
+      "74b394ecd88a9ab57dc3a41ba2c8d67db8d4e996e29ce4a34abc0d9893d1e839"
+    ],
+    "config/fancymenu/assets/boralances/verdant/icon32.png": [
+      "04f13daea3ef7c8394661aedb45a4c44cabfdb6f19a06b0b482a2b88612656d8"
+    ],
+    "config/fancymenu/assets/boralances/ember/background.png": [
+      "1553f58c9aa27231996157bcb0e952992f7755fdb39df8c5e2e53823d59657c8",
+      "49f1d4c66732e7184a1e5639be4b2167b5a27632ee1de3f2988ef54f1c3ae162",
+      "96ddd966f974ee10e6991ece0bb6bd662a46d656b7a8379ec0b7b9bcee89bf28"
+    ],
+    "config/fancymenu/assets/boralances/ember/button-hover.png": [
+      "2410411e5c515477f5523d745593c27d5d41f3929f20f34a412c4889149cb8fd",
+      "daab7198a1e558759c951461cc0e387e88bcd37f9fd002685e1a0096a50bc6ae",
+      "3d4d816547b157c2c9f00fc9d7c708e583e9b9b5e3ee4b90b2afd9c856f563a3"
+    ],
+    "config/fancymenu/assets/boralances/ember/button-inactive.png": [
+      "765675a10241d78025eb2117412bca26f706e11d2f71b47a808d3be6a3b160f7",
+      "6b3ad885d01e9c0d49df74009d6ed93e500e17b4777d2d1c5c5b6f88a3fe3bff",
+      "8cdbd1efe452b936c0939e0cd6b5677cfe33e898d203551ce745648328c46113"
+    ],
+    "config/fancymenu/assets/boralances/ember/button-normal.png": [
+      "aaa9cd31980372fa4654f1b7d3755d608195136809e3776cd6ed69acf0852f89",
+      "8e2beee2dc99bc8a801cf50ff46a56fbeefbebed470d98c7bd0af1325a914c18",
+      "b488e60c84d72fa3d71a03f7efd0708f54cb71a3d1976f1b5359202aeb2dde7e"
+    ],
+    "config/fancymenu/assets/boralances/ember/icon16.png": [
+      "75903e7b0c52ae034c1b7b7d26af724cac566e959403fe5bc713f2689a4ea7d3"
+    ],
+    "config/fancymenu/assets/boralances/ember/icon32.png": [
+      "3fd382de0456c251af3773704b0d08b71d0df2632e7e6e454a55640216e0aea3"
+    ],
+    "config/fancymenu/assets/boralances/aurora/mark.png": [
+      "2993315f3e0d318ba3a0d6d39e2b38582f8daae7440efe31b16d785ecb08d4af"
+    ],
+    "config/fancymenu/assets/boralances/glacier/mark.png": [
+      "6bdf1b935fae24582237343df3b88dd44fd82f6ba97a0c025bfd5b526591687c"
+    ],
+    "config/fancymenu/assets/boralances/verdant/mark.png": [
+      "0440ee2abed5f59b68f4f55d57d22cf8e858b3d8c1eb9a36de088658be45bb04"
+    ],
+    "config/fancymenu/assets/boralances/ember/mark.png": [
+      "85d167f19e2fafef8dd0e1216e86c0f385b4b1d873057406e3f3b06934e70661"
+    ]
+  }
+}

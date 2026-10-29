@@ -1,0 +1,27 @@
+* { font-family: Inter, "JetBrainsMono Nerd Font", sans-serif; font-size: 13px; border: none; min-height: 0; }
+window#waybar { background: linear-gradient(rgba(37,40,49,0.98),rgba(24,28,37,0.98)); color: #f2f4fa; border-radius: 0;
+  border-bottom: 1px solid rgba(226,236,255,0.18); }
+#custom-brand { font-weight: 700; padding-left: 16px; color: #cfddff; }
+#workspaces button { color: #9aa8c6; padding: 0 8px; margin: 5px 1px; border-radius: 7px; }
+#workspaces button.active { background: rgba(154,185,255,0.20); color: #ffffff; }
+#workspaces button:hover { background: rgba(255,255,255,0.12); }
+#window { color: #f1f4fa; font-weight:700; padding:0 9px; }
+#clock { font-weight: 500; padding-right: 16px; }
+#custom-spaces { color:#bdc9dd; font-size:11px; }
+#custom-search { font-size:21px; }
+#custom-profile { color: #a4e7d7; }
+#battery.critical { color: #ffb1b8; }
+#tray { padding-right: 14px; }
+tooltip { background: #182035; color: #eef2ff; border: 1px solid #46516b; border-radius: 10px; }
+#image{padding-left:14px} #custom-brand{padding-left:0} #custom-control{font-size:19px;padding-right:0}
+#custom-brand {font-size:0;padding:0;}
+window#waybar.empty #custom-brand {font-size:13px;padding:0 8px;font-weight:700;color:#f1f4fa;}
+#custom-files,#custom-go,#custom-help {padding:0 10px;color:#e6e9f1;}
+#custom-files:hover,#custom-go:hover,#custom-help:hover {background:rgba(255,255,255,0.10);border-radius:7px;}
+#network,#pulseaudio,#battery,#custom-control {font-family:"JetBrainsMono Nerd Font";font-size:19px;min-width:24px;padding:0 7px;}
+#clock{font-weight:600;padding-left:12px;}
+#tray{padding:0 6px;}
+#custom-island {background:#090c12;color:#dce7f8;border:1px solid rgba(212,228,255,0.13);border-radius:17px;padding:2px 18px;margin:3px 0;font-size:11px;min-width:112px;transition:background 180ms ease;}
+#custom-island.media {background:#101722;color:#d7e8ff;min-width:190px;}
+#custom-island.gaming {background:#10281e;color:#b1ebcb;}
+#custom-island:hover {background:#26354e;border-color:#8daed0;}

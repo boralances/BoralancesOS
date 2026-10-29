@@ -1,0 +1,11 @@
+result*
+out/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+test-output/
+*.iso
+*.img
+*.vdi
+*.raw

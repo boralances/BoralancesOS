@@ -1,0 +1,69 @@
+Window.SetBackgroundTopColor(0.028, 0.040, 0.070);
+Window.SetBackgroundBottomColor(0.028, 0.040, 0.070);
+logo_image = Image("logo.png");
+logo = Sprite(logo_image);
+track_image = Image("track.png");
+track = Sprite(track_image);
+fill_image = Image("fill.png");
+fill = Sprite(fill_image);
+message = Sprite();
+prompt = Sprite();
+wordmark_image = Image.Text("BoralancesOS", 0.94, 0.96, 1.0);
+wordmark = Sprite(wordmark_image);
+progress_value = 0;
+
+fun layout() {
+  logo.SetX(Window.GetWidth() / 2 - logo_image.GetWidth() / 2);
+  logo.SetY(Window.GetHeight() / 2 - 105);
+  track.SetX(Window.GetWidth() / 2 - 100);
+  track.SetY(Window.GetHeight() / 2 + 80);
+  fill.SetX(Window.GetWidth() / 2 - 100);
+  fill.SetY(Window.GetHeight() / 2 + 80);
+  wordmark.SetX(Window.GetWidth() / 2 - wordmark_image.GetWidth() / 2);
+  wordmark.SetY(Window.GetHeight() / 2 + 25);
+}
+
+fun progress_callback(duration, progress) {
+  if (progress > progress_value) progress_value = progress;
+  width = progress_value * 200;
+  if (width < 1) width = 1;
+  if (width > 200) width = 200;
+  fill.SetImage(fill_image.Scale(width, 4));
+  layout();
+}
+
+fun display_message(text) {
+  image = Image.Text(text, 0.73, 0.79, 0.88);
+  message.SetImage(image);
+  message.SetOpacity(1);
+  message.SetX(Window.GetWidth() / 2 - image.GetWidth() / 2);
+  message.SetY(Window.GetHeight() / 2 + 112);
+}
+
+fun password_callback(text, bullets) {
+  display_message(text);
+  value = "";
+  for (index = 0; index < bullets; index++) value += "*";
+  image = Image.Text(value, 0.94, 0.96, 1.0);
+  prompt.SetImage(image);
+  prompt.SetOpacity(1);
+  prompt.SetX(Window.GetWidth() / 2 - image.GetWidth() / 2);
+  prompt.SetY(Window.GetHeight() / 2 + 145);
+}
+
+fun question_callback(text, entry) {
+  display_message(text);
+  image = Image.Text(entry, 0.94, 0.96, 1.0);
+  prompt.SetImage(image);
+  prompt.SetOpacity(1);
+  prompt.SetX(Window.GetWidth() / 2 - image.GetWidth() / 2);
+  prompt.SetY(Window.GetHeight() / 2 + 145);
+}
+
+fun normal_callback() { prompt.SetOpacity(0); message.SetOpacity(0); }
+Plymouth.SetBootProgressFunction(progress_callback);
+Plymouth.SetMessageFunction(display_message);
+Plymouth.SetDisplayPasswordFunction(password_callback);
+Plymouth.SetDisplayQuestionFunction(question_callback);
+Plymouth.SetDisplayNormalFunction(normal_callback);
+layout();

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "boralances-browser"
+version = "0.1.0"
+description = "Native Linux BoralancesBrowser"
+requires-python = ">=3.11"
+dependencies = ["PySide6>=6.8,<7"]
+[project.scripts]
+boralances-browser = "boralances_browser.main:main"
+[tool.setuptools.package-data]
+boralances_browser = ["web/*"]

@@ -1,0 +1,184 @@
+{
+  "version": 2,
+  "name": "Happy Clap",
+  "author": "Boralances Studios",
+  "description": "A quick round of applause.",
+  "uuid": "01ed05d2-3c47-44f5-a902-e339776cdbc0",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 52,
+    "stopTick": 60,
+    "isLoop": false,
+    "returnTick": 0,
+    "degrees": true,
+    "easeBeforeKeyframe": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -40,
+          "yaw": -5
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 40,
+          "yaw": 5
+        }
+      },
+      {
+        "tick": 14,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -8,
+          "yaw": -25
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 8,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 20,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -40,
+          "yaw": -5
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 40,
+          "yaw": 5
+        }
+      },
+      {
+        "tick": 26,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -8,
+          "yaw": -25
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 8,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 32,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -40,
+          "yaw": -5
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 40,
+          "yaw": 5
+        }
+      },
+      {
+        "tick": 38,
+        "easing": "easeInOutSine",
+        "rightArm": {
+          "pitch": -80,
+          "roll": -8,
+          "yaw": -25
+        },
+        "leftArm": {
+          "pitch": -80,
+          "roll": 8,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "easeInOutSine",
+        "head": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "torso": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0,
+          "bend": 0,
+          "y": 0
+        },
+        "rightLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "leftLeg": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

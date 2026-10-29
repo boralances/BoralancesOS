@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "applications": [
+    {"id":"browser","name":"BoralancesBrowser","command":"boralances-browser","integration":"native QtWebEngine port","source":"BoralancesAnimations/Browser","status":"Linux GUI validation pending","features":["tabs","private windows","bookmarks","downloads","find","liquid glass start page"]},
+    {"id":"launcher","name":"Boralances Launcher","command":"boralances-launcher","integration":"original Electron source, Linux runtime patches","source":"BoralancesLauncher","status":"Linux gameplay validation pending","features":["Minecraft instances","Fabric/Quilt/Forge/NeoForge","client mods","cosmetics","chat","native Java version selection"]},
+    {"id":"jarvis","name":"JARVIS","command":"boralances-jarvis","integration":"native Linux companion subset","source":"BoralancesAnimations/Jarvis","status":"implemented subset; GUI validation pending","features":["typed local commands","notes","timers","phone mirroring","media controls"],"gaps":["Gemini","voice wake/claps","Windows remote-control protocol","WhatsApp drafts"]},
+    {"id":"glass","name":"Glass Connect","command":"boralances-glass-connect","integration":"native Linux display controls","source":"BoralancesAnimations/src","status":"implemented subset; hardware validation pending","features":["monitor inspection","display settings","glass preview"],"gaps":["automatic HDMI intro","Windows taskbar branding"]},
+    {"id":"suite","name":"Boralances Suite","integration":"unified desktop application entries","source":"BoralancesAnimations/Suite","status":"replaced by native app integration"},
+    {"id":"chat","name":"Boralances Chat","command":"boralances-browser https://boralances.boranil400.workers.dev/chat","integration":"hosted website plus original launcher embedded chat","status":"online service; sign in separately"},
+    {"id":"minecraft-client","name":"Boralances Client","integration":"bundled launcher client JAR and assets","source":"BoralancesLauncher/assets/client","status":"bundled; supported game versions defined upstream"},
+    {"id":"android-companion","name":"JARVIS Android Companion","integration":"optional APK artifact","source":"BoralancesAnimations/Jarvis","status":"Android app; Windows PC protocol is not ported"}
+  ]
+}

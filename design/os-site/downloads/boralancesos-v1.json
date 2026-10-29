@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "releaseTag": "boralancesos-v1",
-  "published": false,
+  "releaseTag": "BoralancesOSV1",
+  "published": true,
   "artifacts": [
     {
       "id": "iso",
@@ -14,1987 +14,1987 @@
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0001",
           "bytes": 23000000,
           "sha256": "e300015c516997564b79d4cd4229715c7befd3c108494926bb21e03020538e12",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0001"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0001"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0002",
           "bytes": 23000000,
           "sha256": "441db4dac1c2d412ac889e41c2a75cababe542ed3d41b4d67bbd29ead17bbbb3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0002"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0002"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0003",
           "bytes": 23000000,
           "sha256": "ac6e5c903c30de4bd99312f775d6dcc88ad08b4c5deac3d1b11ba61fa38357e5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0003"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0003"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0004",
           "bytes": 23000000,
           "sha256": "ac07fe345832c4ff7609abe5a6b4cbaf086aa329f7b6734bd0760ce007a1cea6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0004"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0004"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0005",
           "bytes": 23000000,
           "sha256": "6d578369a2f0b697e9e8e9df8fcbd3e9fc1eb340ce646b08c7e345ae3f4328e6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0005"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0005"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0006",
           "bytes": 23000000,
           "sha256": "0b5deaeb9636e4b5fa7e9ae39bf8cb72790b64f744d919a2951434f64a0a733a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0006"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0006"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0007",
           "bytes": 23000000,
           "sha256": "b837540f6a324698b7d35caaa69daf962a435e5a3cdb376ea66afd1eeee59101",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0007"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0007"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0008",
           "bytes": 23000000,
           "sha256": "9dc466733fd97def458bd2d16d12091338aebf0750d097f9d1342b3299cd7b1a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0008"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0008"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0009",
           "bytes": 23000000,
           "sha256": "e018401c809317dd0d2d3f49f9613a135f15b90ceec53023cdc49338f612f143",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0009"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0009"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0010",
           "bytes": 23000000,
           "sha256": "eedd366cf87d005da7d88086da43d9664bcd52f2b5359d9f92598f2511e2e36f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0010"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0010"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0011",
           "bytes": 23000000,
           "sha256": "8b425539d9c72eacc1bd6d5e8db239f500a287e030e2cb50a7851307339e5036",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0011"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0011"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0012",
           "bytes": 23000000,
           "sha256": "6b9942ebec96065f465370c9041c8d836e6272374d0b940ef1d4f0e1dbe0114f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0012"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0012"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0013",
           "bytes": 23000000,
           "sha256": "7dcdccbe009edcab2853329a5db4285ad74c69a5f7d64effc2f752cce5bf0e3a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0013"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0013"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0014",
           "bytes": 23000000,
           "sha256": "babe02da9eb77976ef4efc88f726517ec264fa6d5353f4e4838492c2e257ed64",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0014"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0014"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0015",
           "bytes": 23000000,
           "sha256": "4b7d2f861bb03887084fecbbfa015ccca6c0d2fe1541a542d2aa7dcf2d39ef13",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0015"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0015"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0016",
           "bytes": 23000000,
           "sha256": "91c7a8b385a0f148ce069d6ab6d39857b093cde86236f3342137ac8b52440a98",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0016"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0016"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0017",
           "bytes": 23000000,
           "sha256": "f64a0b4d9dfd29501fd3d8a9a1ef6c11e080f13faa3f215fed1acc0321c7c195",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0017"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0017"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0018",
           "bytes": 23000000,
           "sha256": "af6f47f35103b30a7765cb0070e9d5f86b56a890f16e7aa70092bc5ddbe0b430",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0018"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0018"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0019",
           "bytes": 23000000,
           "sha256": "ac1229947c076d43782e05f8b70f5f44a3b59874cb112d45af80cf8d3c24d6f5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0019"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0019"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0020",
           "bytes": 23000000,
           "sha256": "c023b801aa46ff66aa59f5fb49e8d94019867695e6fe0ece0dfbd0a0304c85eb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0020"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0020"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0021",
           "bytes": 23000000,
           "sha256": "04a8f18f9ac4970901ce98dd00bfef0209299da7560e5c3533158799512906b9",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0021"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0021"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0022",
           "bytes": 23000000,
           "sha256": "072f0b64e4a264bd3001bf84728ab39261ce354cd6217da769b57185046b4e98",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0022"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0022"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0023",
           "bytes": 23000000,
           "sha256": "25d22872526637734a5357eae0b418204325b70b503c56eda969ba4c23dc0eaa",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0023"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0023"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0024",
           "bytes": 23000000,
           "sha256": "00de3a715b981b5361636e26af6d5a1d01340dc9cf865789dae2dd6056fdf1bf",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0024"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0024"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0025",
           "bytes": 23000000,
           "sha256": "4751e510b74af6557a79e530107b54128d6d8d9b331c500dd9f91bce5c90f710",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0025"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0025"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0026",
           "bytes": 23000000,
           "sha256": "bd8b1c2fa5485262bb6b3eed5c3ee88c0639050ad1182f72fa69ba9e600d0a26",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0026"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0026"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0027",
           "bytes": 23000000,
           "sha256": "c12d7fcd747777c29642a0bf2ef29ee6519d806e52eec08343b5fad21ff6cb78",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0027"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0027"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0028",
           "bytes": 23000000,
           "sha256": "550f6123d3a2b6aef3732a93668ab3718fe4184c90d1d0ba5d49702a5471f731",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0028"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0028"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0029",
           "bytes": 23000000,
           "sha256": "d936ecacca4a8a4e481b1537090fd86494dc849985da4145ce5ab562097f8816",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0029"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0029"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0030",
           "bytes": 23000000,
           "sha256": "fbb3edda29e906cb71c9aa2589e7144be187ea2b661ff598493715799b638363",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0030"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0030"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0031",
           "bytes": 23000000,
           "sha256": "8493c556864cf3ddaecc48c8a9f59dd16da7049865647329cad23f012f196e8a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0031"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0031"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0032",
           "bytes": 23000000,
           "sha256": "1babaa862dff9768ca7d5c41b6512a851d49584d6b5885761adbf86a39955637",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0032"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0032"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0033",
           "bytes": 23000000,
           "sha256": "71c5e7e114baec6547056ba41b3bc68628439a33be8f3de1af91368e34df184b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0033"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0033"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0034",
           "bytes": 23000000,
           "sha256": "bda25b7e71f215dfff1ecb4b2c6cd085b190767bbd6dcffc06e8fb08348036f2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0034"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0034"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0035",
           "bytes": 23000000,
           "sha256": "74066788771872b7db11bb262881a3cfe518575dba3e42a6f8fc3a4a12c79dac",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0035"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0035"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0036",
           "bytes": 23000000,
           "sha256": "f7c0e36b9c7ad23d66b9625a2ba71f75223df225d1946d3bd1620cb86b88e3ca",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0036"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0036"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0037",
           "bytes": 23000000,
           "sha256": "07893be7dfc3d9863825f895dca3c099f3ced50f081aedc3c30baa9bca7129f2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0037"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0037"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0038",
           "bytes": 23000000,
           "sha256": "845f7b772c25f1007175ad41c6411e27baaf894dc3dd0aea7ea56800d4c70c7b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0038"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0038"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0039",
           "bytes": 23000000,
           "sha256": "69d042bfc3ade12c5f17703335066106edd25bf7e6e579ff19f1f07200ae33f8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0039"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0039"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0040",
           "bytes": 23000000,
           "sha256": "e10c49f4b8f95e1edfe1f65d47b4764c7449015767eff0a76c81b88f3bfc180c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0040"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0040"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0041",
           "bytes": 23000000,
           "sha256": "56f9a5142413a2d2b355bdde471d96bb5a69e16f82fe487ccc16bdb1fc2ac988",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0041"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0041"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0042",
           "bytes": 23000000,
           "sha256": "650c8ac1a0f11923e2ec3e64099d7cbf045115002d09f41c1fea46d1cb116e04",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0042"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0042"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0043",
           "bytes": 23000000,
           "sha256": "0a1a8b960dffbdf6a9535c1cc84053003666ed1761801a99c554a7c132776ae3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0043"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0043"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0044",
           "bytes": 23000000,
           "sha256": "a3771286cbbc88df8ad2076e5dac99350ee7806d26467626d3b7226300f2b67c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0044"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0044"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0045",
           "bytes": 23000000,
           "sha256": "9b15966b0cb1f9be5c13bd7856786ebbf2b104adae37788933f4ea49b776b761",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0045"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0045"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0046",
           "bytes": 23000000,
           "sha256": "ad0109c9418065b9489264425bf0eeefff61976e0859746c6de554e3b094262a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0046"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0046"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0047",
           "bytes": 23000000,
           "sha256": "176491d3e0a59a54c0762290c9cb53f9f53280cad6b716eb9c2dab3820541b1a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0047"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0047"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0048",
           "bytes": 23000000,
           "sha256": "183473f63305c0b8ae30448784124d7bff93ee0eab315377a1d39915dfd088e5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0048"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0048"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0049",
           "bytes": 23000000,
           "sha256": "0861806aacacc0a87dfe07227c1a72647e81cfdafe4c401c882eb3612eb5cfcb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0049"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0049"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0050",
           "bytes": 23000000,
           "sha256": "411d6402b6cf6ee178d709a2c751ce51b47840e7bd1f0ece074c371645f4354c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0050"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0050"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0051",
           "bytes": 23000000,
           "sha256": "10f7595dd568cf3b888a4299890eb5b701deb3e6604a8cc4ab2f6879780e3d42",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0051"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0051"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0052",
           "bytes": 23000000,
           "sha256": "b4c3290d7ec3dc7d388aeb7adbe8dae5aa428ae1f6abc55f5546d7d8a6a8b2f5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0052"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0052"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0053",
           "bytes": 23000000,
           "sha256": "9f368de0d971a8596d5d6b4a120fe24d20cbf681565643e2bf5c268f64d263e5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0053"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0053"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0054",
           "bytes": 23000000,
           "sha256": "3628bd3038749d9d7c748e5dc26a4430e74c2dbcf8756fe8119d3cf533f0ebfb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0054"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0054"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0055",
           "bytes": 23000000,
           "sha256": "b1062a55566f1f90cf228625cd2f1acc14c74ce589b04b4ec235a7037297ddf4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0055"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0055"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0056",
           "bytes": 23000000,
           "sha256": "570f622437a8efdcc6f01824bf2fdea2847be630032d5bccc6aa93864f787ae8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0056"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0056"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0057",
           "bytes": 23000000,
           "sha256": "ac223e868fbad27d31ec0ae69289b07d65950f39274ccb0de4131e332e8f952a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0057"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0057"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0058",
           "bytes": 23000000,
           "sha256": "aa78d32568f59c1658934e901803b76f98db01b88e4bcea30956ede660b74400",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0058"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0058"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0059",
           "bytes": 23000000,
           "sha256": "7bc6f7defcf02b3040b0bc4e289a3a9ad7470abc609183bc6c0b563b7f44f621",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0059"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0059"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0060",
           "bytes": 23000000,
           "sha256": "6cdaf844fd5e6701c161639b8bf799c8cdfb07e69550912fb1526b041227a213",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0060"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0060"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0061",
           "bytes": 23000000,
           "sha256": "3fb86cd46ffa4c908dd586b4327a695d7d5e3bc335a4b1683262ae0780162966",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0061"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0061"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0062",
           "bytes": 23000000,
           "sha256": "a492bc39d6b5db57d6be16c865f31fbb301799a3f3dfcbb79f54a3d6a99cab57",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0062"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0062"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0063",
           "bytes": 23000000,
           "sha256": "d0143a6328110811eea31727700fdfcf3f3989153852318a597264f7b5fc2aa4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0063"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0063"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0064",
           "bytes": 23000000,
           "sha256": "ce91ff4767db6a675aa74f64bf9114808293e74ef40ef754b6231287e5d97063",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0064"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0064"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0065",
           "bytes": 23000000,
           "sha256": "0fd84c5b28c74ad50550900b6e402f62d4590ffb97c2d8d73e70e656d65c6f61",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0065"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0065"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0066",
           "bytes": 23000000,
           "sha256": "d46b957f4fb27a9d70e987c4f511d8640288bc9e6d5f68c3ec38bd9b92690a41",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0066"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0066"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0067",
           "bytes": 23000000,
           "sha256": "aa6993ca70c38ce911f662eee03585ab0fbfec98d70d3f97426661e675c2e5ae",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0067"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0067"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0068",
           "bytes": 23000000,
           "sha256": "9643600e9adef2fb960bafd6c70d0c109fcf497e429eb6d2a5f4d70f158f77e4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0068"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0068"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0069",
           "bytes": 23000000,
           "sha256": "b8a8de8597fad4d165ee838b81b02688261c6139a02a0a40037230df570b09c0",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0069"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0069"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0070",
           "bytes": 23000000,
           "sha256": "8ebd43d3c8240185bd489a88bfcf87ec7b052cde409da79c7a4fa75e22a3c543",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0070"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0070"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0071",
           "bytes": 23000000,
           "sha256": "3a986cc0309f3aec019524cd29a78544a7cd788b9215423ceb7b40d504b057c6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0071"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0071"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0072",
           "bytes": 23000000,
           "sha256": "ba7784dbad9ad392ae665a907b8a7cec9aa792d923e1ac41a05e696dd24183f1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0072"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0072"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0073",
           "bytes": 23000000,
           "sha256": "700ea2efcc93f447f5b59d54e27f6037c6dc54c65a8b2cf6d19e01cf1cd76b9a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0073"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0073"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0074",
           "bytes": 23000000,
           "sha256": "e74f0307a3b71403287d2b628f807c3259adc96e34cf2ed6a80a08838761dadd",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0074"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0074"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0075",
           "bytes": 23000000,
           "sha256": "3c6a9a6726c63026b1837bca8d7a831b4d9f76c79cbc0ed6c925f22f9150d634",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0075"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0075"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0076",
           "bytes": 23000000,
           "sha256": "9f021cbffd5cae89cba082f5a2b9ddb0f1327a070d922be34889fb6806af7f3b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0076"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0076"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0077",
           "bytes": 23000000,
           "sha256": "5a6764485567ad273222b10bca1d415f3984ebe9ba780bb27580fcdb2fc88977",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0077"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0077"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0078",
           "bytes": 23000000,
           "sha256": "0c592696265bd16043b773194ab1fabfad2dc4bffa671c33a37aedc5d019aef3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0078"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0078"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0079",
           "bytes": 23000000,
           "sha256": "607cd1911c5be3828bd485f4f873193897d70000032550bef83ded083cdc677a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0079"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0079"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0080",
           "bytes": 23000000,
           "sha256": "4f3b5610f08e34a0fcfe938cb180159dc67204ff99133ef655c5a1d1cd036600",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0080"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0080"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0081",
           "bytes": 23000000,
           "sha256": "8fda4572a5bbf6ce33a531dfeeaca33dea68354f084fdac2a8a38814b782e95e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0081"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0081"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0082",
           "bytes": 23000000,
           "sha256": "560300104954325ea821460903578c9957bceef5e940a4566d7931ad787c5283",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0082"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0082"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0083",
           "bytes": 23000000,
           "sha256": "3cb1ac3df79593786c8c402bf71e1c2bf8109a8ed7c7287dcce3fc5ad5e83acb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0083"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0083"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0084",
           "bytes": 23000000,
           "sha256": "6a56f28c66d7c765bab7fb18bcc8874808b2f02f587ea53237bd4d5dd11cfcfb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0084"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0084"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0085",
           "bytes": 23000000,
           "sha256": "00d56f531ef8ee9b414f3c65a5c1c7ae5c1bb3fdb9e923baacc82f14e6444677",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0085"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0085"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0086",
           "bytes": 23000000,
           "sha256": "cd1be516a9415d68a4a49540ae10e153a827d77e024acfed3a3d0f6e835953e3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0086"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0086"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0087",
           "bytes": 23000000,
           "sha256": "33e5865e0833e0d1c79d04cd6dc4508f44ef641a7bbd661ee1e18f7f45ccd43b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0087"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0087"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0088",
           "bytes": 23000000,
           "sha256": "f5c5351c460b76d6ae35f3f2159118531db00794af797d9fc2ef2b7da7364ad3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0088"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0088"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0089",
           "bytes": 23000000,
           "sha256": "2b3d610c540f0bd06351c5317c1aa504de119093f56e377469b3451de6248cd4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0089"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0089"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0090",
           "bytes": 23000000,
           "sha256": "57ac8bc22bd9f76acff2399fea91f5fc06afc6cbd0d3d0059f2ceb4eaf49a179",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0090"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0090"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0091",
           "bytes": 23000000,
           "sha256": "a28528304ae92a25e8be516fd2a06d4186750d9d5758e5975688cf1236fed326",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0091"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0091"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0092",
           "bytes": 23000000,
           "sha256": "756b59330f43feb5987592a15dbd10bf69cce03c0981e29ad4e55c3874c546ec",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0092"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0092"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0093",
           "bytes": 23000000,
           "sha256": "b6836b7bcc7262f1707365b80c8af5b59e4ab55079726647211b89cda3f0eeac",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0093"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0093"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0094",
           "bytes": 23000000,
           "sha256": "fc4cc9cbc244be6abc3a09e1ad58735ff2f61310e120f7386cff951fa9a4fb85",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0094"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0094"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0095",
           "bytes": 23000000,
           "sha256": "58d375b867588a22f37e358d9f5d0e74c4ba8e1458eacaf7a58ae27e36e767fb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0095"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0095"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0096",
           "bytes": 23000000,
           "sha256": "da93e9b4196cb3c1a11d1f53d31df6c3d6b532dd255b712d7eec30ac12315ef3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0096"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0096"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0097",
           "bytes": 23000000,
           "sha256": "0c69a192ca848241dd56ce6280e8f802e78a1272a44c63b664d296d1385eb597",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0097"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0097"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0098",
           "bytes": 23000000,
           "sha256": "50dad9c65c0931bfdad2ba91bffed8775cb25bc0af5bbd5c77099c58eb268656",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0098"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0098"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0099",
           "bytes": 23000000,
           "sha256": "530b72d006638b05b57996c580cc5de9e99fac89b7657d684668eaeb2bb57f91",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0099"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0099"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0100",
           "bytes": 23000000,
           "sha256": "a9dab809fce18bd286dd7f387dceedbb235190641ae1371bf9df1c6d70228e9f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0100"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0100"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0101",
           "bytes": 23000000,
           "sha256": "456e205e40979a90aeff33da17218bc7bbd54033d54a0830fe0bac8335d587bb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0101"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0101"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0102",
           "bytes": 23000000,
           "sha256": "5b10e01e30f4aea03b74d156e105d6dda9e7d678b130ea1eb2eb23e0b2b021f0",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0102"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0102"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0103",
           "bytes": 23000000,
           "sha256": "2610cc926b844bd9fafd6ebbdda24bb2ac8e5fab579f77b881f9712a1a63bc18",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0103"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0103"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0104",
           "bytes": 23000000,
           "sha256": "fc912b6bb0fe5111715aeae519992d97a4e7a8feea897b0cba1a20fbe062e82e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0104"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0104"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0105",
           "bytes": 23000000,
           "sha256": "2c7aa0b9bf878677dd0459e94aed6115ff16581399c8198ad31e1b86fbadfda7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0105"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0105"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0106",
           "bytes": 23000000,
           "sha256": "550fb35d0b685054b037175035b49e78b350a9ec769800e7aa5d100a3a36ce3f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0106"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0106"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0107",
           "bytes": 23000000,
           "sha256": "4320d5fb9f39e531ee71ced9a5313d0c5cdafd4880fa696347574fe5e792d37d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0107"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0107"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0108",
           "bytes": 23000000,
           "sha256": "7b2884999082f8c778d2b0b23ab472c1074f493c622db9004ad75f766a1d5163",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0108"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0108"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0109",
           "bytes": 23000000,
           "sha256": "874b78d7571497b5a844c643ad116ee7253b86705b517a0b29b5577be31c254a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0109"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0109"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0110",
           "bytes": 23000000,
           "sha256": "6228ba5e23af62dc192c77cb7d2925e6b218edb8f7081cf400fb8b24d4a3bbb5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0110"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0110"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0111",
           "bytes": 23000000,
           "sha256": "913b837eced4d89988416db38beeb8c4b9ca8995acaeda07bc23cd5576c6a8ff",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0111"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0111"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0112",
           "bytes": 23000000,
           "sha256": "4295300c0ad20c98c7596c38ff9c8da077cdd33a0805f7856927ae037c31fe25",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0112"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0112"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0113",
           "bytes": 23000000,
           "sha256": "1b12bc20b0710addf7cf8dbd43b54eff7bf4bee1b9c8d4f3fbc411231be6a3c9",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0113"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0113"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0114",
           "bytes": 23000000,
           "sha256": "2e13777762b6aaf248e950d914f540bba696a7e10e33e805346c2621ba6c52ad",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0114"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0114"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0115",
           "bytes": 23000000,
           "sha256": "62c7a5b932e4e99dcfb396443e6ef058e6987b68936890827ff8209a75c92285",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0115"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0115"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0116",
           "bytes": 23000000,
           "sha256": "c902a43471687c9aa5163b451da800a882d2e4c2eab58d2776472f188e1ae26a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0116"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0116"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0117",
           "bytes": 23000000,
           "sha256": "00ab9469c3b3c73cdaed8ee0524aaba8fb9f25c8923286cc8e5986789b76d32a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0117"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0117"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0118",
           "bytes": 23000000,
           "sha256": "0fcd0b6682f40eddb119b220447c26c30441325bbfc2e0a82542e37ca87b8305",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0118"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0118"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0119",
           "bytes": 23000000,
           "sha256": "0ee0d5f747cd0aaaabb7e58826aaeef13a45d078949ac587c8c1c5eee0a08c67",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0119"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0119"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0120",
           "bytes": 23000000,
           "sha256": "293b1dfa45a609078dadd6c7be96676413478d57cb07f4125cc264d2741ce74f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0120"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0120"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0121",
           "bytes": 23000000,
           "sha256": "576d10f6f3c741e52385618e21202a011e174e9d0208d0ecfb1757d9be730a2a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0121"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0121"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0122",
           "bytes": 23000000,
           "sha256": "09cf6acef5dd241ffc08706be4a8670435eefeb8b6a5bdf5587224d92660fca6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0122"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0122"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0123",
           "bytes": 23000000,
           "sha256": "ad59928b14e09f8e944fbf324cb9d98d0a1eb8383db51f7c35aa30550101ab8c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0123"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0123"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0124",
           "bytes": 23000000,
           "sha256": "c601d0f0ac18b4af032b9bc73c70e3a2adbb01ab9a774f6f0be0510e08a51943",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0124"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0124"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0125",
           "bytes": 23000000,
           "sha256": "0a3998ff1291512aa3c2143f9944626285d9bb05d540d64a83fe4190f8943461",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0125"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0125"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0126",
           "bytes": 23000000,
           "sha256": "ade5332035129a31cb4de13775c42811fe1a4aeffda4c8617e651567dabcef00",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0126"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0126"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0127",
           "bytes": 23000000,
           "sha256": "cc79f8e58ab62fc59a3fd21e6fe1d29cd07e5410d42fa71e64567d89cebd71bd",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0127"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0127"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0128",
           "bytes": 23000000,
           "sha256": "5fa73d656c1b68041ad8d3a7cb9c44b8d0158bec61680cfff936bd37053f1308",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0128"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0128"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0129",
           "bytes": 23000000,
           "sha256": "8e659d6fe26ea04150bdfee4f93e252880855657baa7cf98a7426cf1aaa6c82e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0129"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0129"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0130",
           "bytes": 23000000,
           "sha256": "4f309a980e3a335cc339a1996c52e06267bb1ffba4136ae07eb628d56c14b733",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0130"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0130"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0131",
           "bytes": 23000000,
           "sha256": "f9945d315d96f45ea25992acaeadc3ffbedff5d4e3583d8845533a0fb84450ec",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0131"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0131"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0132",
           "bytes": 23000000,
           "sha256": "0c005071e1e1ca0cb1bee2d3f3205c3eab04f0d72725c163ba28ba1bc71afc50",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0132"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0132"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0133",
           "bytes": 23000000,
           "sha256": "9af4f0336bebb984cb8f9997618e75bafc0798b8a6ee3c1f9e99d5bc7f080505",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0133"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0133"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0134",
           "bytes": 23000000,
           "sha256": "556286cb5b3558700973266fd17d6a534b49ccd86206fd7a0d9fdb334d8e286f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0134"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0134"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0135",
           "bytes": 23000000,
           "sha256": "24fee160179a959c64f7e3a3bf7dfd10098d709ed61d97c0f28577e06334790d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0135"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0135"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0136",
           "bytes": 23000000,
           "sha256": "310e244dca8101f8bd8fdaa9208e35cce5fb77cf9003f77c0c2d46420c843107",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0136"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0136"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0137",
           "bytes": 23000000,
           "sha256": "30d5458fa9d76d7955bb224e417598f8f2063295ab280e3d490e81fbf4a86e5b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0137"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0137"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0138",
           "bytes": 23000000,
           "sha256": "af531b985f17d6ced0964c43600394f27e456a1efa3314bea28e929c51b7dc56",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0138"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0138"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0139",
           "bytes": 23000000,
           "sha256": "a3c039f2b29461908ddeff5cdf370144acff57115d0d813d51ba0d1a6df2bedf",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0139"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0139"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0140",
           "bytes": 23000000,
           "sha256": "4de633e60d42372aeb794f37de33d2348b3657ae5a01707b5194f41200bd6f34",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0140"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0140"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0141",
           "bytes": 23000000,
           "sha256": "9e35fe8f3acd2a7952993c91d5743b07d7ff574c21e38c1439df51b25a4148e2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0141"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0141"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0142",
           "bytes": 23000000,
           "sha256": "4320b1bc48c8c544d8f9516d36ce86b507a8e1e417cf21ecd3c6993eb641013d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0142"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0142"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0143",
           "bytes": 23000000,
           "sha256": "04a7fa8a2de756746eff619efb5b79b9ba7abe2ce62aac8cbd97ae3f9b8ef055",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0143"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0143"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0144",
           "bytes": 23000000,
           "sha256": "d5e137cbb20bb71590a3ccb3a1fd9c7e4cb05857aa5fcdeedcfe2d08e82dfad1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0144"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0144"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0145",
           "bytes": 23000000,
           "sha256": "786f2dd4636aa7770062785311b4978569ff5162816fa236bcce4d584701fc7e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0145"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0145"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0146",
           "bytes": 23000000,
           "sha256": "10522e878552c6068d9db941ffab64bed7ddf1c7a4f0b3871dcb0ac94ad72c09",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0146"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0146"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0147",
           "bytes": 23000000,
           "sha256": "abbbb395f7a4fd046db0d4911f7187fac07de3cb354ff5df6915c4678ff723ea",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0147"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0147"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0148",
           "bytes": 23000000,
           "sha256": "95a806df097ea41c3c7eed28092e55483010faf4f2d4eeb931aa87cb6be2fd6a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0148"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0148"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0149",
           "bytes": 23000000,
           "sha256": "18a641ec20dd72a98769385da615454ec24bd9aa18023d99a1f91171d637442f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0149"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0149"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0150",
           "bytes": 23000000,
           "sha256": "dfefc2d01e0274176a6d95f0fd42862597b6ba6db2e7f282c55bd21ad78082bd",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0150"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0150"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0151",
           "bytes": 23000000,
           "sha256": "3e2d2c42ef774e6e33c0dea17ae9c72e496d232c836c10fb8e44a9f4326cefd8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0151"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0151"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0152",
           "bytes": 23000000,
           "sha256": "89a338de8e3f3901849e7ba7adec039c1cefb4b4a3f557da6611da765d70a61a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0152"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0152"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0153",
           "bytes": 23000000,
           "sha256": "d44162e411d14a0c8195b73659bfd530336fa6319b2a94f46c6d57bdd09b5a17",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0153"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0153"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0154",
           "bytes": 23000000,
           "sha256": "019ca218858f1219a5ed544c2b9a7b6ddb9d9eaa6a8b4d24380d6766d8341ede",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0154"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0154"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0155",
           "bytes": 23000000,
           "sha256": "1ff6d187e880e4e80252136a68ca71c64cb323807ac54a0edfab8ff1156bf286",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0155"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0155"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0156",
           "bytes": 23000000,
           "sha256": "b867908d1e3017a979b63062661a714bd6e44f338dad6f1db6cd26a05baa263c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0156"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0156"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0157",
           "bytes": 23000000,
           "sha256": "20df6c21f7af0f52598555469027fc8f260e0b5c6f08b2388f03a01fc2b5bbe3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0157"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0157"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0158",
           "bytes": 23000000,
           "sha256": "dcd9cb169ffc0b4cf657b19b4dcf825830e1670a635531861bcc6537137e68eb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0158"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0158"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0159",
           "bytes": 23000000,
           "sha256": "df58d0242c39207ce9268995b575c9071ab73f6154b302f2efba18a2a7fa0084",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0159"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0159"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0160",
           "bytes": 23000000,
           "sha256": "7f45e03733e1808012da5752ce40b260ccda7f016d8ce5951de4edd50e60dd6e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0160"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0160"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0161",
           "bytes": 23000000,
           "sha256": "41e239a7e1b2fb7d42426c5b94a8ce63182c369784265aebe8c427e829e5dfec",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0161"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0161"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0162",
           "bytes": 23000000,
           "sha256": "51b0165700d6023f2b276feeb74a8d3ffd010d91db59268f6684e1958cc6485a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0162"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0162"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0163",
           "bytes": 23000000,
           "sha256": "b8cadc95f2431946899c45740101710a9db95827618c44db99fa33f29b07ed07",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0163"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0163"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0164",
           "bytes": 23000000,
           "sha256": "6f6c6afd080f361fb949c929f4fdbbb127aadd13143fe8cf26241eaaa7653a5d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0164"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0164"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0165",
           "bytes": 23000000,
           "sha256": "90d22d1c83c86761dfb3c6d8189002cc2d5c15d5f04e2ba06006ae0206887372",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0165"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0165"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0166",
           "bytes": 23000000,
           "sha256": "e68418f73745d07a0332378ecc2290b08762f0b1509f7fcf19c8750bb9438814",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0166"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0166"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0167",
           "bytes": 23000000,
           "sha256": "84be1baaff13ff64636bf5214c9f1a21057670f6b9966cc81f633d05478bcb79",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0167"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0167"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0168",
           "bytes": 23000000,
           "sha256": "d7c17a002380b1ddeedbbd032eb87856d08dd1cd71761ed9b82e40f6b213cee0",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0168"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0168"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0169",
           "bytes": 23000000,
           "sha256": "2c6efe7acb414c3819c25bd36491e06acf9ba85ab5cc0b7a4ef115c7c5eceb8f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0169"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0169"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0170",
           "bytes": 23000000,
           "sha256": "4b140e4fb8c7376db5c32ce4295b693def88cdafa713801f9b7554798cb11591",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0170"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0170"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0171",
           "bytes": 23000000,
           "sha256": "2686a1e99c44e0dc69521659af1952066eae5008acf2b272870516da56f688e7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0171"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0171"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0172",
           "bytes": 23000000,
           "sha256": "508857ed3e806013338cef85f3186f8afce7e1d2d6022f66b1463098ebc0f896",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0172"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0172"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0173",
           "bytes": 23000000,
           "sha256": "9321d934a51b0706361786e3cebdd669f3eb0df763ca2eaccc8aadc15659abf1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0173"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0173"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0174",
           "bytes": 23000000,
           "sha256": "010ca86180274a22cd7f7dd86855c313afce866bd269c44872ac37f0280c25c9",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0174"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0174"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0175",
           "bytes": 23000000,
           "sha256": "e7abf421cee82cb628e721dca921da1ff5550073792b1df08de74233d1e9c962",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0175"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0175"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0176",
           "bytes": 23000000,
           "sha256": "cedab8430085e03f7feac0ae91623e7ccd365fe9ebaaf0fcbe8aabccf6ab1201",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0176"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0176"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0177",
           "bytes": 23000000,
           "sha256": "aa0198f2ac19fd8f4af68df67ef77a668fed3a22c3019ee0ba819f4428ef46a7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0177"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0177"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0178",
           "bytes": 23000000,
           "sha256": "27d86f6bdb89d54e7af4f5db712d307a3b2a67bfb22750a4422541674153a525",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0178"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0178"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0179",
           "bytes": 23000000,
           "sha256": "022e526e02cd493ecc9889f8df32fa574ad8e02786d607338c52bc0249d67cb7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0179"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0179"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0180",
           "bytes": 23000000,
           "sha256": "2df94255825e49c54e0045b1691d9ef1e36551b4ba6069b9843f4f9ddcfd2d9f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0180"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0180"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0181",
           "bytes": 23000000,
           "sha256": "2182756b2cf81c790755bdf3197692e4ff11c8d65d7daf363cc65c47906966b1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0181"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0181"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0182",
           "bytes": 23000000,
           "sha256": "1e85dd15b12a4c064d160e8210fb5ec39cba0da704d958b0f92496a7290443a3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0182"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0182"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0183",
           "bytes": 23000000,
           "sha256": "813c1b9e742933a079afeb57a52b557697de0ca03b633ac5801b8e243bd6bc37",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0183"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0183"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0184",
           "bytes": 23000000,
           "sha256": "c2a1eb1eac27cb4de7a17faaeb19c49737220f2c312f041c5e20c1eeb4c1117c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0184"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0184"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0185",
           "bytes": 23000000,
           "sha256": "fbd5f6ce6a374a055ceb61f0d791887583cc6cfcbc84c1fbbc728f36600ca31b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0185"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0185"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0186",
           "bytes": 23000000,
           "sha256": "09aa7036ee1603dea0790ff6af063204de8b8a56c905425abffc0ad5956715b8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0186"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0186"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0187",
           "bytes": 23000000,
           "sha256": "d2a9b739b638f587116b23192e0ceacf254ed081b03b0bc5aeab2e0bce9e10b9",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0187"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0187"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0188",
           "bytes": 23000000,
           "sha256": "6f543e6f49ddf364203ba86060a8361706f85a572d1dcd5b1460242bcb48225a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0188"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0188"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0189",
           "bytes": 23000000,
           "sha256": "06481ee6b2c643c893b878c95014624da4c6f9c0ebb4936d54341391a0970c4c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0189"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0189"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0190",
           "bytes": 23000000,
           "sha256": "98b072f13384cf021612feadd94adcad0437267d5b2742d9c5afc1daf6e2e2bf",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0190"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0190"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0191",
           "bytes": 23000000,
           "sha256": "8a71f99bb79a8c9452de7e203db359406e70a7d62c83f361468af878406f20ac",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0191"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0191"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0192",
           "bytes": 23000000,
           "sha256": "9c52e82610562ca95d1f8bfc481fb82db88ad1f92325d63d38e908aea3769840",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0192"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0192"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0193",
           "bytes": 23000000,
           "sha256": "4bbcb490f1ec940f55ddb723554d8bab632a3d83e8fd1e58af8ae01ef2c2e049",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0193"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0193"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0194",
           "bytes": 23000000,
           "sha256": "bf72c54fdae93131a767ab1c7989314e72d94020cb7de2009c94bcf4e4c40fca",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0194"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0194"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0195",
           "bytes": 23000000,
           "sha256": "02ece910ac89f2a54fa0095d1396d93c346853852ab12f69c1f40acf8e20ee5a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0195"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0195"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0196",
           "bytes": 23000000,
           "sha256": "d779b48ef08aa4f7efd8e98752dee478c7086a6b63330f063ec41e96ab9a8d5e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0196"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0196"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0197",
           "bytes": 23000000,
           "sha256": "c2c9e0f95c8ef6300c2671b27cfdde6e7f13d5adf2cd528995f9e20a47691439",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0197"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0197"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0198",
           "bytes": 23000000,
           "sha256": "8430d04730b58dfc83385c7fa79425e161f08ce4e20e7860237000857676e58b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0198"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0198"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0199",
           "bytes": 23000000,
           "sha256": "2424f138e2deb9e01bb20dce721a8876e8775652328cad63b972a89cb075e990",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0199"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0199"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0200",
           "bytes": 23000000,
           "sha256": "01df9d53acd53d1be3df52fdec2f8a184326dd66ca6080383d306e479bc98285",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0200"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0200"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0201",
           "bytes": 23000000,
           "sha256": "d16332cb3fa976dc8f13eb615f7a86dd447278569e4c7cd47c441ce54d1cd9a1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0201"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0201"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0202",
           "bytes": 23000000,
           "sha256": "bac3944e1ea1217e87fe30d3d71192d33d4a8da060f0337809576befe9aea18a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0202"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0202"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0203",
           "bytes": 23000000,
           "sha256": "eeeee70bb57bfa74af71ad890fc18409d0f714dd5f2eecd79f6d9302651bec50",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0203"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0203"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0204",
           "bytes": 23000000,
           "sha256": "0524899d802d3409c0f3604aaa56b371d2988f2cee3f633a7d6d76e90b52f6a4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0204"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0204"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0205",
           "bytes": 23000000,
           "sha256": "d6433e44a9b7dc6089eadf48906eb78141b106700d24c9c36da4fc6320023aca",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0205"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0205"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0206",
           "bytes": 23000000,
           "sha256": "f079bc49bc7c1a4af49222086f63a7e9ea8ae2f4597eb8b0b3a9bccccbd68912",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0206"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0206"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0207",
           "bytes": 23000000,
           "sha256": "68d78cd222a470fd3bc909c8353242b3338033ae11e79aa1c96f03517cde733c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0207"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0207"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0208",
           "bytes": 23000000,
           "sha256": "4053a84bdd0c8324ce2c766aa68709cdaada474edada29fb8d147b8a61d01fc7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0208"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0208"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0209",
           "bytes": 23000000,
           "sha256": "f4f6521a6667dda6519a12894ec18847efb80b83350f0f05661218d68e1bbf3d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0209"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0209"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0210",
           "bytes": 23000000,
           "sha256": "23fa9e2d0c203b8ac086ba4d39ecb070d6ec060f545ee2ad4cdaed0da74e2c4a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0210"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0210"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0211",
           "bytes": 23000000,
           "sha256": "2ad93bebaee0dfb64a487696612fbfbbeb37762d6e5c1e961796c38613ee0348",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0211"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0211"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0212",
           "bytes": 23000000,
           "sha256": "3c1f859d0c0a6cd6158e669d1c7988b53dd47a16b1c06909621d33759da1307b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0212"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0212"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0213",
           "bytes": 23000000,
           "sha256": "21e0503de4945ce228b285ccb2656d9f6368b136ffd1dfb7481ad8d03de4e10f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0213"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0213"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0214",
           "bytes": 23000000,
           "sha256": "dc9901a64e4b45dd0e3c6c805f31d5d13415923777c62eb6d6334fbf723172d7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0214"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0214"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0215",
           "bytes": 23000000,
           "sha256": "1212c52583f6aaae3e45fa6d7364e21ce283c41ed69cec81768fc359b601be27",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0215"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0215"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0216",
           "bytes": 23000000,
           "sha256": "812b26b59b732687019dc3682379c9b33111233b6433b519d9bd4bfa16e78e51",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0216"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0216"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0217",
           "bytes": 23000000,
           "sha256": "483350951476d53e9f992de9ee4b1e0de956148321903bf7111b27cba8c26ddb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0217"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0217"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0218",
           "bytes": 23000000,
           "sha256": "6ce58dc75ec5a827903bff47b610a664d8b28b7a2aa1c207d1a252146075d521",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0218"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0218"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0219",
           "bytes": 23000000,
           "sha256": "b2fdd93adbc99feeca2f7cab788fe397edf549700e124c1314cd5901ab023e0d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0219"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0219"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0220",
           "bytes": 23000000,
           "sha256": "924aa0025124b3a9f5fb754588383dfccc703e6b9e8a6f4b1f3d187fb9413718",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0220"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0220"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0221",
           "bytes": 23000000,
           "sha256": "fb4f3b3a2fdbfdf7735f3c63cbfacb5521e1cb0e992a817075ab50a90f92439e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0221"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0221"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0222",
           "bytes": 23000000,
           "sha256": "4e06d033c345372d0b318a18ad410e73ba93085ab53cf3e5f1dfe9559e50e64d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0222"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0222"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0223",
           "bytes": 23000000,
           "sha256": "0380737aea656c26088cbda3bc1ad03fa60c24ae105a2b3a6feca763b678676f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0223"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0223"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0224",
           "bytes": 23000000,
           "sha256": "8bcc6161ab136fb28255d675176bf4d7270fcca4369307d544c6ac99b412757a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0224"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0224"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0225",
           "bytes": 23000000,
           "sha256": "5e3487ec691842d6c4ed0749815a9c0122a042b18783598f57fb0d0ee183cf9a",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0225"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0225"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0226",
           "bytes": 23000000,
           "sha256": "cab1f26911418418d9b90dcdf240f3223f39fb083c8ef7dfd71482ad89bc4b75",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0226"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0226"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0227",
           "bytes": 23000000,
           "sha256": "7d85cea1d352aa95659e7dc5ccd568f87c93af20c8275ee880d9ae7180165b14",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0227"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0227"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0228",
           "bytes": 23000000,
           "sha256": "0b6b8017823ead9f26ec12bfdfccf2a8a36285ff0fabb19ab37aa7b634b8dd85",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0228"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0228"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0229",
           "bytes": 23000000,
           "sha256": "c3b1264b0ee071714edaed518fb17f73403a7cc441f812bf83a19a56081274ec",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0229"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0229"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0230",
           "bytes": 23000000,
           "sha256": "b77bfe4b227048e5e36cc493f0bf239086dc1db26d1dc1ee63646215c7e70430",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0230"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0230"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0231",
           "bytes": 23000000,
           "sha256": "5130b01dc9df4843b60978a6095230938244bc652737576202239b8bddc36c23",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0231"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0231"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0232",
           "bytes": 23000000,
           "sha256": "73ef330f050ef0fcaac3c5101f6b48ff4e5051ec02085f5a5c4045dc15ae3698",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0232"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0232"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0233",
           "bytes": 23000000,
           "sha256": "9cef9f31e240f4a912c08b59e65c196916b7d1792aae9defcced224d37ff2e3f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0233"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0233"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0234",
           "bytes": 23000000,
           "sha256": "0533bfb6637c2df67fad3eea1b05ce8c75bdc449e050df34fa954432a1b12f04",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0234"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0234"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0235",
           "bytes": 23000000,
           "sha256": "c0452c834d200b9e7beddacbaa6e4baf7551a33d6872abcaf7fe0a7cf12f20d4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0235"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0235"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0236",
           "bytes": 23000000,
           "sha256": "64589f56e2b4d338aad141b4d8d22924ee40b544a88d7e318bab4f64ea43b273",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0236"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0236"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0237",
           "bytes": 23000000,
           "sha256": "053ca5275d62ef4b943c9e4c5f0ee901561327d992f8a93c8bbf26f874824d06",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0237"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0237"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0238",
           "bytes": 23000000,
           "sha256": "2b34d686c56f42f5113526a3e5bd957bb6b2259fedf67585843a352bd9f21944",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0238"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0238"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0239",
           "bytes": 23000000,
           "sha256": "b882f427181fbfd9f048fdff4b008298a2066538bede6f899875338f377e89f0",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0239"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0239"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0240",
           "bytes": 23000000,
           "sha256": "5128908abf898e8b8d4f21510b8d7083ae78f843a0c2b2b2c452ebf49f32a45b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0240"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0240"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0241",
           "bytes": 23000000,
           "sha256": "d640c97d57e70f40bab5aa3212f1579900d824bcce8e34b67810673869c2fb6f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0241"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0241"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0242",
           "bytes": 23000000,
           "sha256": "fa89d2f15278433043e3e7c6999f71896a542e28fe57185e08b9bcc6fb798073",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0242"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0242"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0243",
           "bytes": 23000000,
           "sha256": "c1a68936076d3d52297d59f514168ddc6a7f9ab027e9aa5bbc18228243cc3b25",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0243"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0243"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0244",
           "bytes": 23000000,
           "sha256": "c6e1d25219e6104288699befd018f8ac0584fda88458ad6cc6f7ecab64b34766",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0244"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0244"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0245",
           "bytes": 23000000,
           "sha256": "aff116aaa697bf90a4b2187331c4406c8fb2f8c3d8ac9d150533359463cf94e6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0245"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0245"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0246",
           "bytes": 23000000,
           "sha256": "d76849bf946dfc111dea9fc24d5153b7880c496b2a8080f0ce370988e73ba453",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0246"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0246"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0247",
           "bytes": 23000000,
           "sha256": "0c0f188a09d8aecf54a8558ae86b171d11373b1fab8cb57a3567b1bbfdb97ad5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0247"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0247"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0248",
           "bytes": 23000000,
           "sha256": "b95c335e64229f981d87bd1b29f08ccd8ea670b2dc6d68f7c26c7213cf4a6ada",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0248"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0248"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0249",
           "bytes": 23000000,
           "sha256": "ec3b37942175de42185584ae5c117a618f1579a27d9df7c2e480622fe8e4e89e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0249"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0249"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0250",
           "bytes": 23000000,
           "sha256": "c751ae4164dabcdc6a080a1a089815dc9b735f8ff7c02c0b7a067c74147f06b4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0250"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0250"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0251",
           "bytes": 23000000,
           "sha256": "b1be2c711782af729eb9206699cdcc0f73cc01ebd614af7f54b61f72198ef4fb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0251"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0251"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0252",
           "bytes": 23000000,
           "sha256": "0da945d7850089a0d388a4c70f2c71ecc97913c366ac13481c0d192430b60401",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0252"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0252"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0253",
           "bytes": 23000000,
           "sha256": "4fa2f897310e45f073d6a99b63df78f3f562f98a80a6e9d0228c5136ffb6c4b6",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0253"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0253"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0254",
           "bytes": 23000000,
           "sha256": "8504cdf9de2c785379d3230717d90f2e89d4b68a5f3e177fb80fabc5d6632cda",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0254"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0254"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0255",
           "bytes": 23000000,
           "sha256": "7c0f4cb9bedb2507e25d16ea06ab538401be76ee83dec14fabc2828a2249055d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0255"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0255"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0256",
           "bytes": 23000000,
           "sha256": "730f10460bedd7b0eb58b6230865161ab5d42dd4fdaf5a459a3568dd63303577",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0256"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0256"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0257",
           "bytes": 23000000,
           "sha256": "061212586875a93ecd01e14e70ff170306c7d947b6dfc3b44e3ee781ed980c28",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0257"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0257"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0258",
           "bytes": 23000000,
           "sha256": "a0ffffc4929e127206224af11a85c58e6617524fd0f5ed5182b08dd84c7ec243",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0258"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0258"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0259",
           "bytes": 23000000,
           "sha256": "d0b27b422887883c2a812f3037c525656a9fc85a0ff144edfbdc65b7129ddb0e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0259"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0259"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0260",
           "bytes": 23000000,
           "sha256": "8bc014a86dafd2b8839412717979a508cbf7172ac80acf8115e6bdebfa25cbcf",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0260"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0260"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0261",
           "bytes": 23000000,
           "sha256": "e365d433661a6a5cffeb4f249001b76cb18ea287a8b25b46ea001844531b0f89",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0261"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0261"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0262",
           "bytes": 23000000,
           "sha256": "09896b92a84c605bb6b3f024be739327d54439898d687648ae4c59e2bd98a655",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0262"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0262"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0263",
           "bytes": 23000000,
           "sha256": "d4bd1902837e861d840951e8f7b6d6efcd0ab1d0661f3088a44247176598b04c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0263"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0263"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0264",
           "bytes": 23000000,
           "sha256": "f755dd23bada886cb9eeaaf404f36209556513b195c499e6f784806cae6756e5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0264"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0264"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0265",
           "bytes": 23000000,
           "sha256": "888189147ad935cf2abebcef8a6cac61e8741dc90e6f42f461717d2d916aab70",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0265"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0265"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0266",
           "bytes": 23000000,
           "sha256": "b58b96c6c9f48fa87c4c9c07e4e021f94de916b60e41a60a002681fedebf8ed4",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0266"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0266"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0267",
           "bytes": 23000000,
           "sha256": "5217f1c380556fbb3e138f5bf1b8c78b681de3be4fe00dfba8d4bbe9c24dfd67",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0267"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0267"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0268",
           "bytes": 23000000,
           "sha256": "48a5c361fe9e07245b7fa3157bb10f5e43692ae4f8ce606d07da7bea056f173f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0268"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0268"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0269",
           "bytes": 23000000,
           "sha256": "51afb96cb81061c84cf4b0d2b5041495bec4bcbeea7af812e2ccd6031e569028",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0269"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0269"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0270",
           "bytes": 23000000,
           "sha256": "33e01940de461dabf734eb2b26f00d06c22cc8ea6d2b9881ac65497d0daa8319",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0270"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0270"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0271",
           "bytes": 23000000,
           "sha256": "ab3b2b3f35dcfe6c7d0c3be81c7f3bef737a088eff7b8da442a5bf5d214595ee",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0271"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0271"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0272",
           "bytes": 23000000,
           "sha256": "247d284db96135a9ffec539dbf1b301a004253db8953cbc5f8f5a9e9924955d8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0272"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0272"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0273",
           "bytes": 23000000,
           "sha256": "a3e7e3189f75949ca8aee5ce959f8c5b82b2340f3e5244ec6b6448dc987fece1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0273"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0273"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0274",
           "bytes": 23000000,
           "sha256": "a4a965dfcdf968d5a305b8a6702222fc7e4e0c34c6d18f75f83e728c7fb25ca3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0274"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0274"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0275",
           "bytes": 23000000,
           "sha256": "2d68b7a8d7ddf8ec7f6f6d8e4f3f010e51b3479ec530009938722c1f692de67c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0275"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0275"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0276",
           "bytes": 23000000,
           "sha256": "9a552af0863c3febc6bb34f61af3bbdb3e761afa2e78c97973d3450c3b2313e8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0276"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0276"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0277",
           "bytes": 23000000,
           "sha256": "8b8681ff5063ce22beffb41b79d2cf4a162c9391d881301844db7ab44db7ec70",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0277"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0277"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0278",
           "bytes": 23000000,
           "sha256": "66e9218d1d71b4d2bfb9541baff1f35671de1bd3b157ff6acc9fe364d291b27d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0278"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0278"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0279",
           "bytes": 23000000,
           "sha256": "ab83b644fc00c621e70dffa2d68038eac4dc2a58354e802ffc5dac062443da36",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0279"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0279"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0280",
           "bytes": 23000000,
           "sha256": "95f7cae21a3bd257d6fc27cfc873b3e37e0ae14a1ad9b445c7470db462a597f7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0280"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0280"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0281",
           "bytes": 23000000,
           "sha256": "caf151ee39a706523428d032c90733d4c55896bf2a0c5d7e09352491da85a9a2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0281"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0281"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0282",
           "bytes": 23000000,
           "sha256": "3aec120923e4707f65e480b4701787943865c572bbbc57334edfeef6c939d21d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0282"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0282"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0283",
           "bytes": 23000000,
           "sha256": "b17f8590f8943a926afc8ccdbf5a735f4462da8f356d9c8ee65d027d831bba3d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0283"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0283"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0284",
           "bytes": 23000000,
           "sha256": "b8500b081cbff32b79676148f4b8edcf4dbf4ee5269842e2b88f4e7d1eaf5d88",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0284"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0284"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0285",
           "bytes": 23000000,
           "sha256": "494c68ab53bbd16ce9260e863b941b3ebd236b4ec7e3b21919bd6fb7185b4c09",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0285"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0285"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0286",
           "bytes": 23000000,
           "sha256": "ed8d338a936fc28a333da979db2e5d32274fcefc9f748f901c4a8eaf244941ce",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0286"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0286"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0287",
           "bytes": 23000000,
           "sha256": "9940f02beafac9540546470f4b1c1c36b7eeb5497a9e912b2c68937d2c2e21c7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0287"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0287"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0288",
           "bytes": 23000000,
           "sha256": "e1f2c11cc5fe94158f9854dec6e67fba364a3572f5c0204f7ba391fd2acc5c24",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0288"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0288"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0289",
           "bytes": 23000000,
           "sha256": "8571ccf871070db2f63231942579c04639a298a9598f7335cb59ed2b08fe68eb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0289"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0289"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0290",
           "bytes": 23000000,
           "sha256": "ce502534f0ff06967ccd2ca4722b5fdf3e7ab2f7d9a312cc09c1a068ec2ed225",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0290"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0290"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0291",
           "bytes": 23000000,
           "sha256": "34126cac1fc3128548c3c71d5afdb4701a4dc47a127fcb89d601b3e0fc0a28d7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0291"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0291"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0292",
           "bytes": 23000000,
           "sha256": "ff1098268fdeba587a9c2ed88e45805a21af1d191af06ec83a15405da8234271",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0292"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0292"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0293",
           "bytes": 23000000,
           "sha256": "d9f1c1b3f7f2e36a90b2186b847961ffdbbbac074ce086c64e6bf1ecb8649312",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0293"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0293"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0294",
           "bytes": 23000000,
           "sha256": "02db267c7825b0175cef7c011980e0b5eed92a388f0c35f0d6534fa7ad211a0e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0294"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0294"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0295",
           "bytes": 23000000,
           "sha256": "1ccc8e1981c01a8a092d8a4cbd3dcc9f526325e1cdafb5151d2a552893a46653",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0295"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0295"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0296",
           "bytes": 23000000,
           "sha256": "d92a99f4bfd74ed47a1bb4f9525f037015cfa00c1fbca28a8a69d66c755997a3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0296"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0296"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0297",
           "bytes": 23000000,
           "sha256": "ee226e63d1c9970e3959a5e335a5444b740035ec6fe027bbc966cfec05400219",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0297"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0297"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0298",
           "bytes": 23000000,
           "sha256": "3318e0c75acc48c39c130ceea39c70131d6267c309420d8d775b6658739300cb",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0298"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0298"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0299",
           "bytes": 23000000,
           "sha256": "280d7f6cb57f02c8a078886ccf880f82f46e70c98f52ba6c1b6e67bcaf4f1c7e",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0299"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0299"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0300",
           "bytes": 23000000,
           "sha256": "05b1e8bd2d7ef33179f8247f1cae1c6ed5cc2746dc4fa388af9b525504200e71",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0300"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0300"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0301",
           "bytes": 23000000,
           "sha256": "c2ed4c899f9481ea3950b5dcda3846b88763f3b7c727bc2d74ed693893f0536f",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0301"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0301"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0302",
           "bytes": 23000000,
           "sha256": "9a950540c28e9141c7898ec1c93d964c5d8b5c3c80d00b975fbefa229017bd90",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0302"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0302"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0303",
           "bytes": 23000000,
           "sha256": "28ff86f21631fb2bb9b8cf3aa53e02431194ad598d7ab3aae37447ff2d621fd3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0303"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0303"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0304",
           "bytes": 23000000,
           "sha256": "4cb64b1b7ba8445c05281a323b715166adf32e4d0a0519ed4ec08ef73622f2a2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0304"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0304"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0305",
           "bytes": 23000000,
           "sha256": "f6c737455d397d4268097ff0daad280ee056854f5cf36e22e1216d2f06be5b67",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0305"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0305"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0306",
           "bytes": 23000000,
           "sha256": "2d20f0073bbf7a1c23244898a0e62b6e311b75332ce4b3e74e11d7080fe6772b",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0306"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0306"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0307",
           "bytes": 23000000,
           "sha256": "426817b67bba5b369d47dca9e7d6c6392cc9cdaa95663ff127e7d188afb68cf1",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0307"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0307"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0308",
           "bytes": 23000000,
           "sha256": "11115650164e99d6849df134265d4d76ead1512788121c70eab052425de585c8",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0308"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0308"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0309",
           "bytes": 23000000,
           "sha256": "0b4097208079df261e1a23a73a48680ba8b3afac8c5feac884f8d2449fac64d3",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0309"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0309"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0310",
           "bytes": 23000000,
           "sha256": "458c9b117114496d9e5bd0155fb9ebf11b542fdff1857f593b0dff2c5d79d308",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0310"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0310"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0311",
           "bytes": 23000000,
           "sha256": "108c6207ef14f2becc04b449dfda21e872fde673d638ce23304b8fc86f1d4f90",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0311"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0311"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0312",
           "bytes": 23000000,
           "sha256": "b8a0f1c22c9e9bc5b32c304d99f4073d3e43b77143e67e3d8da5da7d63c98956",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0312"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0312"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0313",
           "bytes": 23000000,
           "sha256": "4953b84a8bef6714d5c0b0a2533f0c2a463ba5edb98276be7142468093072eb5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0313"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0313"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0314",
           "bytes": 23000000,
           "sha256": "0bfd37e30a847d18379c6bf9ae5987a4a150643d89b3f165669a697426863756",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0314"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0314"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0315",
           "bytes": 23000000,
           "sha256": "9a2546b065df91bb721b0afcbe15e87931237cc8b8b00773efcace7e7d086a17",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0315"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0315"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0316",
           "bytes": 23000000,
           "sha256": "83613baa01fccbe818e5cb729b22a814cdd983e7cf24e7f511f11dc8503be833",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0316"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0316"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0317",
           "bytes": 23000000,
           "sha256": "7e3d2e2a120190c64e941befa0f35ff8c3bfc060c9051f3a9ef449fc1e56db55",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0317"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0317"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0318",
           "bytes": 23000000,
           "sha256": "bafd60780df42f55833ced7cf9d159bb6e662ae09f18827f79cf06901657e5c7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0318"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0318"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0319",
           "bytes": 23000000,
           "sha256": "9b4e9594f1bcdd71b9c1248ec95cfabd5c83d5e39b6f8a82158b03e469bd7659",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0319"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0319"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0320",
           "bytes": 23000000,
           "sha256": "291549a5c9db3a364eeb35d4e2a5c1764dc11dbebacdf2048dbfae724aa3f31d",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0320"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0320"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0321",
           "bytes": 23000000,
           "sha256": "26b743aad9f122551672a246d91013a0f5274665b990c21888f8ef74bcf16894",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0321"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0321"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0322",
           "bytes": 23000000,
           "sha256": "926352018c9479d5db2183d9bd52e51fb8e211c7f6b3931eb272ebb99f9364c7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0322"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0322"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0323",
           "bytes": 23000000,
           "sha256": "af57f6030c0c083d7ad75da6cd7a7a483a5f8b5b294d53ebb8423a0a3921a167",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0323"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0323"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0324",
           "bytes": 23000000,
           "sha256": "fd28497986ad09d84216630d6dc01164e07debbf03a20c45f53acab7fbd12f33",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0324"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0324"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0325",
           "bytes": 23000000,
           "sha256": "50e84508b4b3e56578fedc27e140445ef68836d2c4b2aeec7976f90af6a6fd14",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0325"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0325"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0326",
           "bytes": 23000000,
           "sha256": "5c2743e12c53d4af7c052b61534b058c03f8587ca5d6f2a42e7e0fc9ee47560c",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0326"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0326"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0327",
           "bytes": 23000000,
           "sha256": "a0681864e150eac12dfa7145210994b516c6ff59249c27075169350fc42f22a5",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0327"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0327"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0328",
           "bytes": 23000000,
           "sha256": "4868e6887be487035972d27a0dc0fcdabb8b0b3f62fb93285d6df6ff9526fcd2",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0328"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0328"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0329",
           "bytes": 23000000,
           "sha256": "5f27ef45fa083de28eda001d5a723bc04ad937175348dbb6b4f06c9f89bd9fa7",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0329"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0329"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0330",
           "bytes": 23000000,
           "sha256": "4be51ed5cc8ae7d7b7da96f58f54fd5806e89849b5dc3cb40af42abc01497613",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0330"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0330"
         },
         {
           "name": "BoralancesOS-V1-Live-Installer-x86_64.iso.part0331",
           "bytes": 13126272,
           "sha256": "a79245e25c661aca5ad4ae4db1546340ddbc1ecfe4f3f6fb85afcf48e477dc54",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0331"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-Live-Installer-x86_64.iso.part0331"
         }
       ]
     },
@@ -2010,7 +2010,7 @@
           "name": "BoralancesOS-V1-VirtualBox-Kit.zip",
           "bytes": 5371,
           "sha256": "78bd2129e512d1c19e9712bbb7d010f9bf2f8b4bd43019de553b3f7cf0fea472",
-          "url": "https://github.com/boralances/BoralancesOS/releases/download/boralancesos-v1/BoralancesOS-V1-VirtualBox-Kit.zip"
+          "url": "https://github.com/boralances/BoralancesOS/releases/download/BoralancesOSV1/BoralancesOS-V1-VirtualBox-Kit.zip"
         }
       ]
     }

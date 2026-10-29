@@ -13,13 +13,16 @@ case "$target" in
   installer-iso|live-iso|persistent-iso|usb-image|virtualbox-image|browser|launcher) targets=("$target") ;;
   *) echo 'Usage: bash scripts/build.sh [installer-iso|live-iso|persistent-iso|usb-image|virtualbox-image|browser|launcher|all]' >&2; exit 2 ;;
 esac
-nix flake check --no-build --no-update-lock-file
-mkdir -p out
-cp flake.lock out/flake.lock
+# CI validates configurations separately. Free evaluation memory before building.
+# Keep release output separate from personal VM disks under out/VirtualBox.
+build_output="out/build/$target"
+mkdir -p "$build_output"
+cp flake.lock "$build_output/flake.lock"
 for item in "${targets[@]}"; do
-  nix build --no-update-lock-file ".#$item" --out-link "result-$item" --print-build-logs
-  mkdir -p "out/$item"
-  cp -aL -- "result-$item/." "out/$item/"
+  derivation=$(nix eval --raw --no-update-lock-file ".#packages.x86_64-linux.$item.drvPath")
+  nix build "$derivation^out" --out-link "result-$item" --print-build-logs --max-jobs 1 --cores 2
+  mkdir -p "$build_output/$item"
+  cp -aL -- "result-$item/." "$build_output/$item/"
 done
-find out -type f ! -name SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > out/SHA256SUMS
-echo 'Build artifacts and SHA256SUMS are in out/.'
+find "$build_output" -type f ! -name SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > "$build_output/SHA256SUMS"
+echo "Build artifacts and SHA256SUMS are in $build_output/."

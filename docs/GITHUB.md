@@ -18,7 +18,8 @@ use Node.js 24; self-hosted runners must be version 2.327.1 or newer.
 
 Full images are built only through **Actions → Validate and build BoralancesOS →
 Run workflow**, using a trusted Linux x86_64 runner with the `nix-builder` label,
-Nix flakes enabled, at least 8 GiB RAM and ample free disk space (60 GiB recommended). This is not
+Nix flakes enabled, at least 8 GiB RAM and ample free disk space (60 GiB recommended
+for one image; building every format needs more). This is not
 an ordinary GitHub-hosted 14 GiB image-build job. Do not run untrusted fork PR
 code on that runner. Commit the reviewed flake.lock; CI does not generate it.
 
@@ -36,6 +37,10 @@ configuration, passwords and account files out of Git. Store downloadable
 images as release assets, not source commits. The website downloader supports
 SHA-256-verified image parts below 25 MB. A public repository alone does not
 publish or create an installation image.
+
+CI uploads only `out/build/<target>/`, never the whole `out` directory containing
+personal VirtualBox disks. Image evaluation and compression run in separate
+processes to avoid retaining the evaluator's memory during the build.
 
 Prepare small release assets after exporting and boot-testing the ISO:
 

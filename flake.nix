@@ -28,7 +28,7 @@
       inherit pkgs lib format;
       config = configuration.config;
       name = "boralancesos-${name}";
-      baseName = "BoralancesOS-${name}-0.1-x86_64";
+      baseName = "BoralancesOS-${name}-V1-x86_64";
       diskSize = "auto";
       additionalSpace = "6G";
       bootSize = "1024M";

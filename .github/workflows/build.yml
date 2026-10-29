@@ -74,6 +74,6 @@ jobs:
       - uses: actions/upload-artifact@v6
         with:
           name: BoralancesOS-${{ inputs.target }}
-          path: out/
+          path: out/build/${{ inputs.target }}/
           compression-level: 0
           retention-days: 7

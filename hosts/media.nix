@@ -1,9 +1,17 @@
-{ lib, pkgs, modulesPath, source, ... }: {
+{ config, lib, pkgs, modulesPath, source, ... }: {
   imports = [ (modulesPath + "/installer/cd-dvd/installation-cd-minimal.nix") ];
   boot.loader.systemd-boot.enable = lib.mkForce false;
   boot.loader.timeout = lib.mkForce 8;
   boot.initrd.systemd.enable = lib.mkForce false;
   boot.zfs.forceImportRoot = false;
+  # Match the installed Oracle guest's tested kernel. Native specialisations
+  # explicitly select the newer kernel below.
+  boralances.kernel = lib.mkDefault "lts";
+  documentation.nixos.enable = lib.mkForce false;
+  assertions = [{
+    assertion = !config.boralances.virtualbox.enable || config.boralances.kernel == "lts";
+    message = "The VirtualBox compatibility media profile must use the tested LTS kernel.";
+  }];
   isoImage = {
     makeEfiBootable = true;
     makeUsbBootable = true;
